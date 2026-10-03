@@ -1,0 +1,35 @@
+{
+  "reviewedAt": "2026-10-03T20:46:50.941989+00:00",
+  "appliesToRender": "35349652cd4ac18d500ca5cecccb2248ad3ee3d2a44d5b3378446fbbeb2e95d2",
+  "reviewDeliverySha256": "2d4a591c39bac45f7e9a4fb47bcb9d95a35ee98cfce18d7877245a71dca32643",
+  "status": "encoded technical and sampled visual checks complete; human editorial and listening review pending",
+  "data": "Frozen-input builder rechecked historical declines, annual totals, 2025 district/category reconciliation and monthly peak. No data changes.",
+  "code": "TypeScript passed; source CI37152126845 succeeded at f332cab.",
+  "visual": {
+    "method": "2-second timeline sampling across all chapters; all nine historical and six map annotations sampled at entrance, hold and exit in 640px landscape sheets. Full-size critical seam, readout and credits frames inspected. Join frames inspected.",
+    "limitations": "Sampled visual inspection, not continuous frame-by-frame human playback or a physical-phone test.",
+    "corrections": [
+      "Cards connect to exact named bars, separate from subtitles.",
+      "Measurement boundary yields to historical callout card.",
+      "Monthly live readout is bounded within plot and separated from moving dot.",
+      "Chart panel isolates axes from basemap road labels.",
+      "Closing total explicitly names source archive."
+    ]
+  },
+  "decode": "Complete final delivered file decoded without errors; 9900 video frames, 330 seconds, 1920x1080.",
+  "audio": {
+    "meanVolumeDb": -19.1,
+    "maxVolumeDb": -1.9,
+    "clipping": false,
+    "method": "Full audio decode and volume analysis; original continuous audio retained across video join.",
+    "listening": "Not performed by agent; human listening review pending."
+  },
+  "story": "Retains agreed citywide historical arc followed by recent police-district differences. Context markers do not establish causes; counts are not personal risk. Editorial acceptance pending.",
+  "humanApproval": null,
+  "published": false,
+  "packaging": {
+    "title": "Boston Crime: 40 Years of Change, Mapped",
+    "thumbnailSha256": "561730d2b1e978db240761066eef556d179d0ab80725d33c4266ade2dbd00185",
+    "selection": "Producer-selected map and verified number; no empirical performance claim."
+  }
+}

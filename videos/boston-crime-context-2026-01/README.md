@@ -113,3 +113,29 @@ Reusable checks from this iteration: inspect the measurement boundary with an
 active historical card, inspect the final monthly readout near the right edge,
 and inspect chart axes over the actual basemap. These checks found defects in
 the full encode that an earlier isolated annotation preview did not reveal.
+
+## Review v4: behind the chart
+
+At58.5seconds, the timeline pauses in1996. A30-second silent illustrated
+interlude flips behind the chart to explain Operation Ceasefire's narrower
+youth-firearm focus, joint meetings, enforcement and outreach referrals. It
+returns to the exact frozen frame before the data resumes. The complete film
+is360seconds. These are original conceptual illustrations, not archival images
+or mapped incidents. `interlude-sources.json` records the DOJ/OJJDP evidence and
+explicit limits; no treatment-effect estimate is claimed.
+
+Two cultural chart markers orient the timeline: the public Web announcement
+in1991 (CERN) and the first YouTube upload in2005 (YouTube). They provide calendar
+context, not explanations of crime. Historical event cards and data findings
+retain separate labels and non-overlapping windows.
+
+The reusable insertion wrapper freezes every existing data layer together,
+then shifts the remainder by the inserted duration. It does not accelerate or
+skip data. The existing soundtrack is stretched330→360seconds without changing
+pitch; there is no narration. Build as above and render the current config to
+`out/review-v4.mp4`. Preserve earlier render locks and rejected cuts.
+
+Verification includes the actual encoded flip, four illustration scenes, all
+annotation entrance/hold/exit samples, and a pixel comparison of frozen frame1755
+and resumed frame2655. Human review must assess whether the new storytelling
+works; technical checks cannot settle that judgment.

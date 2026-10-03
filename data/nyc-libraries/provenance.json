@@ -1,0 +1,25 @@
+{
+  "version": "FacDB 26v1 (June 2026)",
+  "retrievedAt": "2026-10-03T18:08:49.341603+00:00",
+  "publisher": "NYC Department of City Planning",
+  "sourceUrl": "https://data.cityofnewyork.us/resource/ji82-xba5.json?$where=upper(facsubgrp)%20like%20%27%25LIBRAR%25%27%20OR%20upper(factype)%20like%20%27%25LIBRAR%25%27&$limit=5000&$order=uid",
+  "rawSha256": "643779fd1e535ddbff18955d790c31369f157c71e8e3e71493c2267ef2b223c1",
+  "sourceRecordCount": 254,
+  "license": "No SPDX license asserted by API metadata. NYC Open Data source terms apply; retain source attribution and limitations.",
+  "documentation": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/facilities_readme.pdf",
+  "measure": "Public-library source records. Map markers combine only five documented library/learning-center pairs. Neither statistic certifies current open branches, accessibility or capacity.",
+  "excludedTypes": [
+    "ACADEMIC LIBRARIES",
+    "SPECIAL LIBRARIES",
+    "NYCHA COMMUNITY CENTER - LIBRARY"
+  ],
+  "geography": "New York City five boroughs; coordinates preserved from FacDB, no invented locations.",
+  "boroughBoundaries": {
+    "sourceUrl": "https://data.cityofnewyork.us/resource/gthc-hcne.geojson?$limit=5&$order=borocode",
+    "version": "26b",
+    "retrievedAt": "2026-10-03T18:22:19.640461+00:00",
+    "sha256": "9c90ce27269252c5ea44d264689b294d0fc8e1828687386a711bf90d9c64c65c",
+    "bytes": 3167672,
+    "description": "DCP borough boundaries, water excluded; WGS84 GeoJSON. Boundary version is independent of facility snapshot."
+  }
+}

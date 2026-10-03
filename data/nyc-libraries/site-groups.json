@@ -1,0 +1,67 @@
+[
+  {
+    "id": "bedford",
+    "name": "Bedford Library",
+    "anchorId": "b643f9b12afe956b928b4bca162dc75f",
+    "members": [
+      "51782162f92f276e5b1f0ccb098206c9",
+      "b643f9b12afe956b928b4bca162dc75f"
+    ],
+    "evidence": [
+      "https://www.bklynlibrary.org/adult-learning/learning-centers"
+    ],
+    "reason": "Library and learning-center records share a valid building ID. Official BPL directory identifies this learning center within the named library. Coordinates alone are not used to infer grouping."
+  },
+  {
+    "id": "central",
+    "name": "Central Library",
+    "anchorId": "970671df21b4eae2be004394fb1ae6a3",
+    "members": [
+      "970671df21b4eae2be004394fb1ae6a3",
+      "e6da6cf4063e2e4a10770100c1cca62a"
+    ],
+    "evidence": [
+      "https://www.bklynlibrary.org/adult-learning/learning-centers"
+    ],
+    "reason": "Library and learning-center records share a valid building ID. Official BPL directory identifies this learning center within the named library. Coordinates alone are not used to infer grouping."
+  },
+  {
+    "id": "new-lots",
+    "name": "New Lots Library",
+    "anchorId": "a019a82fc37d567c3be212bdf4dc1ee7",
+    "members": [
+      "8d0bd764a53202a46d6f459f07ced99f",
+      "a019a82fc37d567c3be212bdf4dc1ee7"
+    ],
+    "evidence": [
+      "https://www.bklynlibrary.org/adult-learning/learning-centers"
+    ],
+    "reason": "Library and learning-center records share a valid building ID. Official BPL directory identifies this learning center within the named library. Coordinates alone are not used to infer grouping."
+  },
+  {
+    "id": "flatbush",
+    "name": "Flatbush Library",
+    "anchorId": "281ed1b58917038a2ca8afb34eee5097",
+    "members": [
+      "1b5f19ba9293b1171b520d2ce197f0fb",
+      "281ed1b58917038a2ca8afb34eee5097"
+    ],
+    "evidence": [
+      "https://www.bklynlibrary.org/adult-learning/learning-centers"
+    ],
+    "reason": "Library and learning-center records share a valid building ID. Official BPL directory identifies this learning center within the named library. Coordinates alone are not used to infer grouping."
+  },
+  {
+    "id": "eastern-parkway",
+    "name": "Eastern Parkway Library",
+    "anchorId": "649854be7f563a9f724df0a963fbc23e",
+    "members": [
+      "62637f3f67fddb6d57c92413e94dbf3b",
+      "649854be7f563a9f724df0a963fbc23e"
+    ],
+    "evidence": [
+      "https://www.bklynlibrary.org/adult-learning/learning-centers"
+    ],
+    "reason": "Library and learning-center records share a valid building ID. Official BPL directory identifies this learning center within the named library. Coordinates alone are not used to infer grouping."
+  }
+]

@@ -1,13 +1,15 @@
 # Boston: the long arc and the local pattern
 
-**Current phase: Observe. Story agreement pending. Production stopped.**
+**Current phase: Plan/Execute. Boston story confirmed; full revision requested.**
 
-The prior outline below is retained material, not an agreed production plan.
-Discuss its useful question, narrative and payoff with Hadi before further
-production. Apply the [OPEVC workflow](../../context/OPEVC-WORKFLOW.md); Boston
-is the only active video until he approves the exact finished artifact.
+The agreed story is how recorded crime evolved over decades in Boston and how
+patterns differ across its neighborhoods. Continue the same story and submit the
+full revised video for review. Apply the [OPEVC workflow](../../context/OPEVC-WORKFLOW.md).
+Boston remains the only active video until exact-artifact approval. Police district
+counts must be labeled as districts, not represented as neighborhood boundaries;
+citywide historical series do not establish historical neighborhood trends.
 
-## Prior outline for discussion
+## Established outline for revision
 
 Viewer question: How did Boston’s recorded crime change, and where did recent reports accumulate?
 

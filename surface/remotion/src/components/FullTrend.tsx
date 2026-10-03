@@ -249,7 +249,7 @@ export const FullTrend: React.FC<Props> = ({
           >
             <line
               x1={X0 + seamIdx * slot}
-              y1={yOf(maxTotal) - 26}
+              y1={chartAnnotations.some((note) => note.opacity > 0.01) ? yOf(maxTotal) : yOf(maxTotal) - 26}
               x2={X0 + seamIdx * slot}
               y2={BASE_Y + 8}
               stroke={COLORS.ink}
@@ -257,7 +257,7 @@ export const FullTrend: React.FC<Props> = ({
               strokeWidth={1.5}
               strokeDasharray="7 5"
             />
-            <text
+            {!chartAnnotations.some((note) => note.opacity > 0.01) && <text
               x={X0 + seamIdx * slot}
               y={yOf(maxTotal) - 34}
               fill={COLORS.inkDim}
@@ -266,7 +266,7 @@ export const FullTrend: React.FC<Props> = ({
               textAnchor="middle"
             >
               {trend.seamYear} · the measure changes
-            </text>
+            </text>}
           </g>
         )}
       </svg>

@@ -36,3 +36,5 @@ jobs:
             slug="${slug%/normalized}"
             node pipeline/validate.mjs "$slug"
           done
+      - name: Verify Boston story calculations and authored claims
+        run: node pipeline/episodes/build-boston-review.mjs

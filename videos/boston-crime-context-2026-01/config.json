@@ -1,0 +1,16 @@
+{
+  "slug": "boston-crime-context-2026-01",
+  "sourceDataset": "boston-ma",
+  "composition": "BostonReview",
+  "durationSec": 180,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audioSrc": "audio/boston-review.mp3",
+  "storyData": "story-data.json",
+  "sourceSnapshot": "2026-07-12",
+  "completeYears": [
+    1985,
+    2025
+  ]
+}

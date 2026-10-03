@@ -1,6 +1,7 @@
 import "./index.css";
 import React from "react";
-import { Composition, type CalculateMetadataFunction } from "remotion";
+import { Composition, staticFile, type CalculateMetadataFunction } from "remotion";
+import {BostonReview, type BostonProps} from './BostonReview';
 import { CrimeStory } from "./CrimeStory";
 import type { StoryProps } from "./data/types";
 import { loadBundle } from "./data/load";
@@ -99,6 +100,7 @@ const calculateMetadata: CalculateMetadataFunction<StoryProps> = async ({
 
 export const RemotionRoot: React.FC = () => {
   return (
+    <>
     <Composition
       id="CrimeStory"
       component={CrimeStory}
@@ -109,5 +111,7 @@ export const RemotionRoot: React.FC = () => {
       defaultProps={GRAND_RAPIDS}
       calculateMetadata={calculateMetadata}
     />
+    <Composition id="BostonReview" component={BostonReview} durationInFrames={5400} fps={30} width={1920} height={1080} defaultProps={{data:null} as BostonProps} calculateMetadata={async()=>({props:{data:await (await fetch(staticFile('stories/boston-review.json'))).json()}})}/>
+    </>
   );
 };

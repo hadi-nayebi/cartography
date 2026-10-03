@@ -66,7 +66,10 @@ from accepted or published work.
 
 ## Editorial selection and retention
 
-Choose anchors for the actual city, topic and chart. A suggestion is an example,
+Choose anchors for the actual city, topic and chart. Both broadly recognizable
+cultural milestones and local events can belong. Judge the contribution of each;
+there is no mandatory list and no blanket ban on technology or cultural events.
+A suggestion is an example,
 not a template to repeat. Record why each event belongs here and what the viewer
 learns from it. Prefer a directly relevant local event or clear data finding over
 an unrelated familiar date. Investigate plausible explanations for a spike;

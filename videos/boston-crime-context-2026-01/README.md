@@ -60,3 +60,13 @@ version.
 `render.lock.json` identifies the rendered bytes; `qa.json` records what was
 actually checked. Human acceptance and publication remain separate from a
 successful build. No YouTube URL is claimed until an upload receipt exists.
+
+## Calendar landmarks
+
+Familiar events locate the viewer in time while the histogram advances; they
+are not offered as explanations of crime change. The exact cue times and
+sources are in `story-beats.json`.
+
+- [CERN: the Web software enters the public domain in1993](https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/).
+- [YouTube: its first upload in2005](https://blog.youtube/news-and-events/youtube-to-z-happybirthdayyoutube/).
+- [Apple: introduction of the first iPhone in2007](https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/).

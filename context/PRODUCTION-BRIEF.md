@@ -1,5 +1,8 @@
 # City story production brief
 
+Use the [storytelling framework](STORYTELLING.md) to build a narrative spine,
+calendar or spatial landmarks, and a meaningful viewer payoff.
+
 Start with one useful question about a city or a clearly defined comparison.
 Follow the [production model](PRODUCTION-MODEL.md) for record ownership and
 learning between releases. Complete this brief before a new

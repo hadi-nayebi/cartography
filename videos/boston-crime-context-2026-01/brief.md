@@ -11,7 +11,7 @@ reading space. A technical check cannot establish creative acceptance.
 | --- | --- | --- |
 | 0–8 s | Boston’s 71% fall in FBI index crimes,1989–2015 | Hook with exact period and measure |
 | 8–22 s | Orient the viewer to years, districts and reported locations | Explain the views briefly |
-| 22–150 s | Annual histogram reveals 1985–2025 progressively |1989 property share;1996 Ceasefire;2000 property decline;2008 category counts;2015 endpoint;2020 emergency;2023 rebound |
+| 22–150 s | Annual histogram reveals 1985–2025 progressively |1989 property share; 1993 Web; 1996 Ceasefire; 2000 property decline; 2005 YouTube; 2007 iPhone; 2015 endpoint; 2020 emergency; 2023 rebound |
 | 150–163 s | Shift from the citywide annual view to districts/months | Plain city-focused transition |
 | 163–292 s | Animated district map, monthly chart and running category/district counts |2022 annual low;D 4 change;August 2024 monthly peak;2025 property share;2016–2025 decline |
 | 292–318 s | Full-window district distribution | Counts, not a personal safety score |
@@ -28,3 +28,5 @@ Before delivery compare actual encoded samples to the original cut: retain the
 histogram progression, mapped activity and separate monthly chart. Verify label
 spacing and annotation reading time. Inspect the complete encoded artifact;
 archive rejected versions separately and bind review to exact bytes.
+
+Calendar context follows [the storytelling framework](../../context/STORYTELLING.md). The Web, YouTube and iPhone anchors give familiar landmarks as the crime histogram advances; they do not assert causes. `story-beats.json` records exact non-overlapping cue windows and sources.

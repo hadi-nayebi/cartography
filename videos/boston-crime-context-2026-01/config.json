@@ -68,9 +68,18 @@
       "durationSec": 8
     },
     {
+      "atYear": 1993,
+      "text": "1993 · CERN releases the World Wide Web software to the public.",
+      "durationSec": 8,
+      "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
+      "role": "calendar-anchor"
+    },
+    {
       "atYear": 1996,
       "text": "Operation Ceasefire began in 1996, targeting youth firearm violence.",
-      "durationSec": 8
+      "durationSec": 8,
+      "sourceUrl": "https://ojjdp.ojp.gov/sites/ojjdp/files/pubs/gun_violence/profile02.html",
+      "role": "calendar-anchor"
     },
     {
       "atYear": 2000,
@@ -78,9 +87,18 @@
       "durationSec": 8
     },
     {
-      "atYear": 2008,
-      "text": "The decline spans both categories: 6,676 violent and 22,429 property reports in 2008.",
-      "durationSec": 8
+      "atYear": 2005,
+      "text": "2005 · YouTube’s first video goes online.",
+      "durationSec": 6,
+      "sourceUrl": "https://blog.youtube/news-and-events/youtube-to-z-happybirthdayyoutube/",
+      "role": "calendar-anchor"
+    },
+    {
+      "atYear": 2007,
+      "text": "2007 · Apple introduces the first iPhone.",
+      "durationSec": 6,
+      "sourceUrl": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+      "role": "calendar-anchor"
     },
     {
       "atYear": 2015,
@@ -90,7 +108,9 @@
     {
       "atYear": 2020,
       "text": "March 2020: Boston’s public-health emergency begins during the COVID-19 pandemic.",
-      "durationSec": 6
+      "durationSec": 6,
+      "sourceUrl": "https://www.boston.gov/sites/default/files/file/2020/04/PHE%20Declaration%20Extension.pdf",
+      "role": "calendar-anchor"
     },
     {
       "atYear": 2023,

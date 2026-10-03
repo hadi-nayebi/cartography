@@ -61,3 +61,12 @@ if(/do not join|never across|safest|to this week/i.test(viewerCopy))throw new Er
 await cp(source,join(root,'surface/remotion/public/data/boston-ma/normalized'),{recursive:true});
 await copyFile(join(dir,'music-v2.mp3'),join(audio,'boston-review-v2.mp3'));
 await writeFile(join(dir,'revision2-inputs.json'),JSON.stringify({sourceSnapshot:summary.fetchedAt,inputs:hashes,peak,configSha256:createHash('sha256').update(await readFile(join(dir,'config.json'))).digest('hex'),musicSha256:createHash('sha256').update(await readFile(join(dir,'music-v2.mp3'))).digest('hex')},null,2)+'\n');
+
+// Calendar landmarks must carry source evidence and fit between neighboring notes.
+const notes=[...config.historyNotes].sort((a,b)=>a.atYear-b.atYear);
+for(let i=0;i<notes.length;i++){
+ const note=notes[i];
+ if(note.role==='calendar-anchor'&&!/^https:\/\//.test(note.sourceUrl??''))throw new Error('Calendar anchor lacks a source');
+ const end=22+(note.atYear-1985)/41*128+(note.durationSec??4.6);
+ if(i+1<notes.length&&end>22+(notes[i+1].atYear-1985)/41*128)throw new Error('Historical annotations overlap');
+}

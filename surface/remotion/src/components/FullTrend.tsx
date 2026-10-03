@@ -229,7 +229,7 @@ export const FullTrend: React.FC<Props> = ({
             <rect x={left} y={top} width={width} height={height} rx={12}
               fill="#101914" stroke={accent} strokeWidth={1.7}/>
             <text x={left+20} y={top+24} fill={accent} fontSize={16} fontFamily={FONT_MONO} letterSpacing={1.5}>
-              {note.atYear} · {note.kind === "event" ? "CITY EVENT" : "DATA FINDING"}
+              {note.atYear} · {note.kind === "event" ? "HISTORICAL EVENT" : "DATA FINDING"}
             </text>
             <text x={left+20} y={top+55} fill={COLORS.ink} fontSize={25} fontFamily={FONT_SANS} fontWeight={700}>{note.label}</text>
             <text x={left+20} y={top+82} fill={COLORS.inkDim} fontSize={20} fontFamily={FONT_SANS}>{note.detail}</text>

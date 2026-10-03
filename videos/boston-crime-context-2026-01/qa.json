@@ -1,7 +1,7 @@
 {
   "reviewedAt": "2026-10-03T22:36:02.361738+00:00",
   "reviewDeliverySha256": "080020741ba801a6dc6e3b28cbd45c77a545e86758a03afd48c0d302225cb648",
-  "status": "encoded technical and sampled visual checks complete; human editorial and listening review pending",
+  "status": "Human accepted final v4; publication authorized",
   "data": "Frozen-input builder and TypeScript passed. No crime data changes. Historical sources documented in interlude-sources.json.",
   "visual": {
     "method": "All 17 annotations sampled at entrance, hold and exit; complete 2-second timeline sampled. Final corrected file inspected at flip/splice frames, all four interlude holds, new cultural cards, monthly readout and closing. Full-size critical frames and reduced landscape contact sheets inspected.",
@@ -20,6 +20,12 @@
     "listening": "Not performed by agent; human listening pending."
   },
   "story": "New silent Ceasefire visual interlude freezes 1996 chart, shows youth firearm focus, partners, enforcement and support, then resumes identical chart time. Web1991 and YouTube2005 added as cultural context, not causes.",
-  "humanApproval": null,
-  "published": false
+  "humanApproval": {
+    "telegramMessageId": 530,
+    "updateId": 431678014,
+    "approvedSha256": "080020741ba801a6dc6e3b28cbd45c77a545e86758a03afd48c0d302225cb648",
+    "decision": "Accepted as final; upload authorized; evaluate interlude using retention later"
+  },
+  "published": true,
+  "publicationUrl": "https://youtu.be/M43NgcR3nJ4"
 }

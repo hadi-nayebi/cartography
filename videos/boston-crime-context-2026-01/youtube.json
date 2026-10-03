@@ -1,6 +1,6 @@
 {
   "title": "Boston Crime: 40 Years of Change, Mapped",
-  "description": "How did Boston’s recorded crime change over four decades—and where did recent reports cluster?\n\nWatch the annual picture unfold from 1985 to 2025, then explore five years of reports across Boston’s 12 police districts. Local milestones help place the numbers in the city’s history.\n\nCHAPTERS\n0:00 Boston’s long decline\n0:08 Reading the city and its records\n0:22 Forty years, year by year\n2:30 From the citywide trend to the map\n2:43 Five years across Boston’s districts\n4:52 The district picture\n5:18 Sources and reproduction\n\nDATA & REPRODUCTION\nhttps://github.com/hadi-nayebi/cartography/tree/main/videos/boston-crime-context-2026-01\n\nSources: FBI Crime Data Explorer annual index crimes, 1985–2015; Boston Police Department / Analyze Boston public incident records, July 2026 snapshot. Recent map window: July 2021–June 2026.\nhttps://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend\nhttps://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system\n\nThe two reporting eras use different definitions. Newer totals count records classified as crime by the repository’s documented rules and exclude service records; the public BPD file omits sexual-assault reports. Dots are a sample of reported locations. District counts are not population-adjusted risk estimates. The film does not attribute the whole trend to the events shown.\n\nContext sources and calculations are in the reproduction record. Basemap: OpenStreetMap contributors, ODbL. Music: retained Boston score generated with Stable Audio Open. No narration.\n\nWhat would you like to understand about Boston next?",
+  "description": "How did Boston’s recorded crime change over four decades—and where did recent reports cluster?\n\nWatch the annual picture unfold from 1985 to 2025, then explore five years of reports across Boston’s 12 police districts. Historical and cultural milestones orient the timeline. A silent illustrated interlude examines Operation Ceasefire without attributing the whole decline to it.\n\nCHAPTERS\n0:00 Boston’s long decline\n0:08 Reading the city and its records\n0:22 Forty years, year by year\n0:58 Operation Ceasefire: a focused response\n1:28 Returning to the timeline\n3:00 From the citywide trend to the map\n3:13 Five years across Boston’s districts\n5:22 The district picture\n5:48 Sources and reproduction\n\nDATA & REPRODUCTION\nhttps://github.com/hadi-nayebi/cartography/tree/63d0bd2/videos/boston-crime-context-2026-01\n\nSources: FBI Crime Data Explorer annual index crimes, 1985–2015; Boston Police Department / Analyze Boston public incident records, July 2026 snapshot. Recent map window: July 2021–June 2026.\nhttps://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend\nhttps://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system\n\nThe two reporting eras use different definitions. Newer totals count records classified as crime by the repository’s documented rules and exclude service records; the public BPD file omits sexual-assault reports. Dots are a sample of reported locations. District counts are not population-adjusted risk estimates. The film does not attribute the whole trend to the events shown.\n\nContext sources and calculations are in the reproduction record. Basemap: OpenStreetMap contributors, ODbL. Music: retained Boston score generated with Stable Audio Open. No narration.\n\nWhat would you like to understand about Boston next?",
   "tags": [
     "Boston crime",
     "Boston history",
@@ -10,9 +10,15 @@
     "urban history"
   ],
   "categoryId": "27",
-  "privacyStatus": "private",
-  "status": "draft",
+  "privacyStatus": "public",
+  "status": "published",
   "thumbnailFile": "thumbnail.jpg",
   "thumbnailSha256": "561730d2b1e978db240761066eef556d179d0ab80725d33c4266ade2dbd00185",
-  "thumbnailSelection": "map and verified decline; editorial starting choice, not measured winner"
+  "thumbnailSelection": "map and verified decline; editorial starting choice, not measured winner",
+  "videoId": "M43NgcR3nJ4",
+  "url": "https://youtu.be/M43NgcR3nJ4",
+  "uploadedAt": "2026-10-03T22:46:06.926Z",
+  "approvedSha256": "080020741ba801a6dc6e3b28cbd45c77a545e86758a03afd48c0d302225cb648",
+  "thumbnailStatus": "Custom thumbnail rejected HTTP403: channel permission unavailable; YouTube generated thumbnail used",
+  "publishedAt": "2026-10-03T22:46:31.141Z"
 }

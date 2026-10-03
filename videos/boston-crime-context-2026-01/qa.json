@@ -1,34 +1,35 @@
 {
-  "reviewedAt": "2026-10-03T19:16:19.446197+00:00",
-  "appliesToRender": "8c87f2748c821bdc82251d79804adba45f8447be0081d04d9f4dd02bf0204e30",
-  "reviewDeliverySha256": "8c87f2748c821bdc82251d79804adba45f8447be0081d04d9f4dd02bf0204e30",
-  "status": "technical review complete; human editorial and listening review pending",
-  "data": "Frozen-input builder recomputes totals and asserts caption-critical values; calendar cues have primary sources and non-overlapping windows.",
-  "code": "TypeScript passed after the axis-source repair; CI run37147230377 succeeded at8014536.",
+  "reviewedAt": "2026-10-03T20:46:50.941989+00:00",
+  "appliesToRender": "35349652cd4ac18d500ca5cecccb2248ad3ee3d2a44d5b3378446fbbeb2e95d2",
+  "reviewDeliverySha256": "2d4a591c39bac45f7e9a4fb47bcb9d95a35ee98cfce18d7877245a71dca32643",
+  "status": "encoded technical and sampled visual checks complete; human editorial and listening review pending",
+  "data": "Frozen-input builder rechecked historical declines, annual totals, 2025 district/category reconciliation and monthly peak. No data changes.",
+  "code": "TypeScript passed; source CI37152126845 succeeded at f332cab.",
   "visual": {
-    "method": "Encoded 15-second contact sheet plus full-size opening/orientation, historical finding, Big Dig, source seam, COVID, map, district reveal and credits samples. Repaired map frame inspected again from final delivered bytes.",
-    "finding": "Restored progressive histogram and active map rather than rejected static treatment. Landmark collisions and chart/legend overlap repaired in source. Encoded QA found /mo overlapping top tick; removed in source and applied documented localized encoded label repair.",
-    "scope": "Sampled visual inspection, not frame-by-frame human playback.",
-    "note": "Source archive summary covers131months/allrecords; active map covers60months/crimecategories, with explicit period labels."
+    "method": "2-second timeline sampling across all chapters; all nine historical and six map annotations sampled at entrance, hold and exit in 640px landscape sheets. Full-size critical seam, readout and credits frames inspected. Join frames inspected.",
+    "limitations": "Sampled visual inspection, not continuous frame-by-frame human playback or a physical-phone test.",
+    "corrections": [
+      "Cards connect to exact named bars, separate from subtitles.",
+      "Measurement boundary yields to historical callout card.",
+      "Monthly live readout is bounded within plot and separated from moving dot.",
+      "Chart panel isolates axes from basemap road labels.",
+      "Closing total explicitly names source archive."
+    ]
   },
-  "decode": "Entire final delivery video/audio decoded with FFmpeg null output; exit0, no decode errors.",
+  "decode": "Complete final delivered file decoded without errors; 9900 video frames, 330 seconds, 1920x1080.",
   "audio": {
-    "mode": "Retained music; no narration",
     "meanVolumeDb": -19.1,
     "maxVolumeDb": -1.9,
     "clipping": false,
-    "method": "FFmpeg volumedetect. Agent did not audition audio; human listening remains pending."
+    "method": "Full audio decode and volume analysis; original continuous audio retained across video join.",
+    "listening": "Not performed by agent; human listening review pending."
   },
+  "story": "Retains agreed citywide historical arc followed by recent police-district differences. Context markers do not establish causes; counts are not personal risk. Editorial acceptance pending.",
+  "humanApproval": null,
+  "published": false,
   "packaging": {
     "title": "Boston Crime: 40 Years of Change, Mapped",
     "thumbnailSha256": "561730d2b1e978db240761066eef556d179d0ab80725d33c4266ade2dbd00185",
     "selection": "Producer-selected map and verified number; no empirical performance claim."
-  },
-  "humanApproval": null,
-  "published": false,
-  "delivery": {
-    "platform": "Telegram paired review",
-    "messageId": 499,
-    "sentAt": "2026-10-03T19:16:58.025Z"
   }
 }

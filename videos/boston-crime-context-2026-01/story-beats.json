@@ -3,25 +3,23 @@
     "atYear": 1989,
     "text": "Property offenses account for 57,084 of the 70,003 reports at Boston’s 1989 peak.",
     "durationSec": 8,
-    "startsAtSeconds": 34.488,
-    "endsAtSeconds": 42.488,
-    "relationship": "computed data finding",
     "chartLabel": "FBI index-crime peak",
     "chartDetail": "70,003 reports",
     "kind": "finding",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 34.488,
+    "endsAtSeconds": 42.488,
+    "relationship": "computed data finding"
   },
   {
     "atYear": 1993,
     "text": "The decline was already underway: 55,555 reports in 1993, 21% below 1989.",
     "durationSec": 8,
-    "startsAtSeconds": 46.976,
-    "endsAtSeconds": 54.976,
-    "relationship": "computed data finding",
     "chartLabel": "Down 21% from the peak",
     "chartDetail": "55,555 FBI index reports",
     "kind": "finding",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 46.976,
+    "endsAtSeconds": 54.976,
+    "relationship": "computed data finding"
   },
   {
     "atYear": 1996,
@@ -30,25 +28,23 @@
     "sourceUrl": "https://ojjdp.ojp.gov/sites/ojjdp/files/pubs/gun_violence/profile02.html",
     "role": "calendar-anchor",
     "editorialReason": "Local violence-prevention initiative directly relevant to the topic; distinguish its narrow target from all crime.",
-    "startsAtSeconds": 56.341,
-    "endsAtSeconds": 64.34100000000001,
-    "relationship": "temporal context; no causal claim",
     "chartLabel": "Operation Ceasefire begins",
     "chartDetail": "Youth gun-violence initiative",
     "kind": "event",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 56.341,
+    "endsAtSeconds": 64.341,
+    "relationship": "temporal context; no causal claim"
   },
   {
     "atYear": 2000,
     "text": "By 2000, reported property crime was about half its 1989 level.",
     "durationSec": 8,
-    "startsAtSeconds": 68.829,
-    "endsAtSeconds": 76.829,
-    "relationship": "computed data finding",
     "chartLabel": "Property reports roughly halve",
     "chartDetail": "Compared with 1989",
     "kind": "finding",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 68.829,
+    "endsAtSeconds": 76.829,
+    "relationship": "computed data finding"
   },
   {
     "atYear": 2003,
@@ -57,37 +53,34 @@
     "sourceUrl": "https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges",
     "role": "calendar-anchor",
     "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim.",
-    "startsAtSeconds": 78.195,
-    "endsAtSeconds": 86.195,
-    "relationship": "temporal context; no causal claim",
     "chartLabel": "Big Dig: Central Artery opens",
     "chartDetail": "Downtown roadway goes underground",
     "kind": "event",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 78.195,
+    "endsAtSeconds": 86.195,
+    "relationship": "temporal context; no causal claim"
   },
   {
     "atYear": 2010,
     "text": "By 2010, violent index offenses numbered 5,819—55% below their 1989 count.",
     "durationSec": 8,
-    "startsAtSeconds": 100.049,
-    "endsAtSeconds": 108.049,
-    "relationship": "computed data finding",
     "chartLabel": "Violent index offenses down 55%",
     "chartDetail": "Compared with 1989",
     "kind": "finding",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 100.049,
+    "endsAtSeconds": 108.049,
+    "relationship": "computed data finding"
   },
   {
     "atYear": 2015,
     "text": "The FBI series ends at 20,110 reports—71% below the 1989 peak.",
     "durationSec": 8,
-    "startsAtSeconds": 115.659,
-    "endsAtSeconds": 123.659,
-    "relationship": "computed data finding",
     "chartLabel": "FBI series closes 71% lower",
     "chartDetail": "20,110 reports vs. 70,003 in 1989",
     "kind": "finding",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 115.659,
+    "endsAtSeconds": 123.659,
+    "relationship": "computed data finding"
   },
   {
     "atYear": 2020,
@@ -96,24 +89,22 @@
     "sourceUrl": "https://www.boston.gov/sites/default/files/file/2020/04/PHE%20Declaration%20Extension.pdf",
     "role": "calendar-anchor",
     "editorialReason": "Local emergency marks the pandemic disruption; the chart does not establish its causal effect.",
-    "startsAtSeconds": 131.268,
-    "endsAtSeconds": 137.268,
-    "relationship": "temporal context; no causal claim",
     "chartLabel": "Boston declares COVID emergency",
     "chartDetail": "March 2020 · calendar context",
     "kind": "event",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 131.268,
+    "endsAtSeconds": 137.268,
+    "relationship": "temporal context; no causal claim"
   },
   {
     "atYear": 2023,
     "text": "After the 2022 low of 27,537, the annual count rose to 31,239 in 2023.",
     "durationSec": 4.5,
-    "startsAtSeconds": 140.634,
-    "endsAtSeconds": 145.134,
-    "relationship": "computed data finding",
     "chartLabel": "Reports rise from the 2022 low",
     "chartDetail": "27,537 → 31,239",
     "kind": "finding",
-    "presentation": "callout above plot; leader to the named year bar"
+    "startsAtSeconds": 140.634,
+    "endsAtSeconds": 145.134,
+    "relationship": "computed data finding"
   }
 ]

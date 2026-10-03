@@ -42,7 +42,7 @@ node pipeline/validate.mjs boston-ma
 node pipeline/episodes/build-boston-review.mjs
 cd surface/remotion
 npm ci
-npx remotion render src/index.ts CrimeStory ../../videos/boston-crime-context-2026-01/out/review-v2.mp4 --props=../../videos/boston-crime-context-2026-01/config.json --codec=h264 --concurrency=4
+npx remotion render src/index.ts CrimeStory ../../videos/boston-crime-context-2026-01/out/review-v3.mp4 --props=../../videos/boston-crime-context-2026-01/config.json --codec=h264 --concurrency=4
 ```
 
 The builder reads the committed normalized snapshot, checks caption-critical
@@ -88,3 +88,28 @@ ffmpeg -i review-v2.mp4 -vf "drawbox=x=472:y=845:w=52:h=30:color=0x07090c:t=fill
 
 A fresh render from the corrected component does not need this patch. It produces
 a new artifact requiring its own hash and review.
+
+
+## Review v3
+
+The same story now uses short cards connected to their exact annual bars. The
+measurement-boundary label yields while those cards are visible. Encoded review
+also caught a clipped monthly readout and basemap labels behind chart axes;
+the readout now stays inside the plot, and a separate panel protects the chart.
+The closing total is explicitly labeled as the source archive.
+
+The delivered 330-second candidate combines unchanged frames 0–4889 from source
+8f8e45a with rerendered frames 4890–9899 from f332cab. The original continuous
+audio is preserved. `render.lock.json` records each segment and the final hash;
+a complete render from f332cab reproduces the corrected visual design. A final
+H.264 encode uses CRF20, maxrate1000k and bufsize2000k, followed by faststart remux.
+
+Verification covers a full decode, exact duration/frame count, timeline samples
+and every annotation entrance/hold/exit, with full-size critical checks and
+640px landscape sheets. These are sampled checks, not frame-by-frame human
+playback. Human editorial acceptance and listening remain pending.
+
+Reusable checks from this iteration: inspect the measurement boundary with an
+active historical card, inspect the final monthly readout near the right edge,
+and inspect chart axes over the actual basemap. These checks found defects in
+the full encode that an earlier isolated annotation preview did not reveal.

@@ -62,8 +62,8 @@ export const Credits: React.FC<Props> = ({
         {headline ?? summary.title}
       </div>
       <div style={{ marginTop: 18, fontSize: 30, color: COLORS.ink, maxWidth: 1100, lineHeight: 1.4 }}>
-        {fmtInt(summary.totalRecords)} reported records · {summary.beatCount}{" "}
-        {regionNounPlural ?? "districts"} · {summary.months} months of detail
+        Source archive: {fmtInt(summary.totalRecords)} records · {summary.beatCount}{" "}
+        {regionNounPlural ?? "districts"} · {summary.months} months
       </div>
 
       {/* Call to action */}

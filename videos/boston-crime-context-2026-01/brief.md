@@ -41,3 +41,32 @@ spacing and annotation reading time. Inspect the complete encoded artifact;
 archive rejected versions separately and bind review to exact bytes.
 
 Calendar context follows [the storytelling framework](../../context/STORYTELLING.md). Ceasefire, the Big Dig and the local COVID emergency serve Boston’s particular story. Generic technology milestones were dropped because they added little city-specific understanding. `story-beats.json` records exact non-overlapping cue windows and sources.
+
+## Revision 3 execution and verification details
+
+Retain the frozen July 2026 source snapshot, 330-second timeline, 1920×1080 at
+30fps, original music and caption-led presentation. The builder recomputes the
+named annual, category and district findings before rendering. No new historical
+neighborhood series is implied: long-run values are citywide; local maps cover
+July 2021–June 2026 police districts.
+
+The annual plot occupies x300–1620, with baseline y800 and a 400px height. Each
+annotation card is 490×100px at y286, horizontally clamped inside that plot width;
+its 25px heading and 20px detail sit below a 16px year/type label. Its leader
+terminates at the named bar's actual revealed top, with a contrasting ring. The
+readout is above the card; axes/era legends are below the plot. One card is active
+at a time. Card fade-in is 15 frames and fade-out is 18 frames. Exact windows and
+copy are retained in story-beats.json and config.json.
+
+The source-boundary label and its line previously entered the card region.
+FullTrend now suppresses that redundant label while a callout is visible and
+starts the boundary line at the plot top. The separate measurement explanation
+and era legend remain. Inspect 2015/2020/2023 card entrances and exits to verify
+this correction in the encoded output, not merely the source preview.
+
+The map chapter retains its separate lower annotation band, timeline and side
+columns. Inspect each of its six timed notes at entrance, hold and exit, as well
+as moving map labels and the corrected monthly axis. Check full-size and 640px
+landscape views; inspect the entire timeline for pacing and transitions. Record
+actual inspection coverage and unavailable listening explicitly. No prior QA
+or approval transfers to the new bytes.

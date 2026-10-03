@@ -65,3 +65,7 @@ public/dashboard-vps-email.png
 experiment/.driver.lock
 experiment/.notes.lock
 experiment/.critic.lock
+
+# Reproducible local rendering cache and generated episode thumbnail.
+.cache/
+videos/nyc-libraries-2026-01/packaging/thumbnail.jpg

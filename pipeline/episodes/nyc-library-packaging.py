@@ -51,7 +51,7 @@ The June 2026 FacDB 26v1 public-library subset contains 226 records. Five docume
 
 REPRODUCIBLE RECIPE
 https://github.com/hadi-nayebi/cartography/tree/codex/nyc-library-recipe/videos/nyc-libraries-2026-01
-Source data, checks and display scripts are retained in the repository. This review recipe link will be pinned to the accepted source before publication.
+Source data, checks and display scripts are retained in the repository.
 
 Original procedural instrumental score, generated from the included script; no narration or external audio samples.
 '''

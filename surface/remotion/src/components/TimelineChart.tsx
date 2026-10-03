@@ -89,9 +89,6 @@ export const TimelineChart: React.FC<Props> = ({
           </text>
         </g>
       ))}
-      <text x={X0 - 10} y={Y_TOP - 2} fill={COLORS.inkFaint} fontSize={17} fontFamily={FONT_MONO} textAnchor="end">
-        /mo
-      </text>
 
       {/* reference line: where the old UCR era sat, same per-month unit */}
       {refRate && refRate > 0 && (

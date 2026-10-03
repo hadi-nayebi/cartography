@@ -70,3 +70,21 @@ Each serves this particular story; none is assigned the whole trend’s cause.
 The 1993 finding shows that the decline preceded Operation Ceasefire.
 
 - [MassDOT: the Big Dig tunnels and bridges](https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges).
+
+## Review v2 encoded repair
+
+The first full revision2 encode used source90f454b. Encoded QA found the redundant
+`/mo` label overlapping the monthly axis’s top tick. The source component now
+omits that label because the chart title already states the units. The delivery
+copy applies a small opaque label patch over that area and redraws the verified
+3000 top tick, only during the map chapter. No data curve or other label is changed.
+The original full encode is retained separately; review locks record both hashes.
+
+Reproduce that delivery-stage patch from the original full encode:
+
+```sh
+ffmpeg -i review-v2.mp4 -vf "drawbox=x=472:y=845:w=52:h=30:color=0x07090c:t=fill:enable='between(t,163,291.9667)',drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf:text='3000':x=479:y=854:fontsize=17:fontcolor=0x71857a:enable='between(t,163,291.9667)'" -c:v libx264 -preset fast -crf 18 -c:a copy -movflags +faststart review-v2-fixed.mp4
+```
+
+A fresh render from the corrected component does not need this patch. It produces
+a new artifact requiring its own hash and review.

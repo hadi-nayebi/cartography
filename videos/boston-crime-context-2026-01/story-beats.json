@@ -9,13 +9,11 @@
   },
   {
     "atYear": 1993,
-    "text": "1993 · CERN releases the World Wide Web software to the public.",
+    "text": "The decline was already underway: 55,555 reports in 1993, 21% below 1989.",
     "durationSec": 8,
-    "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
-    "role": "calendar-anchor",
     "startsAtSeconds": 46.976,
     "endsAtSeconds": 54.976,
-    "relationship": "temporal context; no causal claim"
+    "relationship": "computed data finding"
   },
   {
     "atYear": 1996,
@@ -23,6 +21,7 @@
     "durationSec": 8,
     "sourceUrl": "https://ojjdp.ojp.gov/sites/ojjdp/files/pubs/gun_violence/profile02.html",
     "role": "calendar-anchor",
+    "editorialReason": "Local violence-prevention initiative directly relevant to the topic; distinguish its narrow target from all crime.",
     "startsAtSeconds": 56.341,
     "endsAtSeconds": 64.341,
     "relationship": "temporal context; no causal claim"
@@ -36,24 +35,23 @@
     "relationship": "computed data finding"
   },
   {
-    "atYear": 2005,
-    "text": "2005 · YouTube’s first video goes online.",
-    "durationSec": 6,
-    "sourceUrl": "https://blog.youtube/news-and-events/youtube-to-z-happybirthdayyoutube/",
+    "atYear": 2003,
+    "text": "2003 · The Big Dig brings the Central Artery underground through downtown Boston.",
+    "durationSec": 8,
+    "sourceUrl": "https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges",
     "role": "calendar-anchor",
-    "startsAtSeconds": 84.439,
-    "endsAtSeconds": 90.439,
+    "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim.",
+    "startsAtSeconds": 78.195,
+    "endsAtSeconds": 86.195,
     "relationship": "temporal context; no causal claim"
   },
   {
-    "atYear": 2007,
-    "text": "2007 · Apple introduces the first iPhone.",
-    "durationSec": 6,
-    "sourceUrl": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
-    "role": "calendar-anchor",
-    "startsAtSeconds": 90.683,
-    "endsAtSeconds": 96.683,
-    "relationship": "temporal context; no causal claim"
+    "atYear": 2010,
+    "text": "By 2010, violent index offenses numbered 5,819—55% below their 1989 count.",
+    "durationSec": 8,
+    "startsAtSeconds": 100.049,
+    "endsAtSeconds": 108.049,
+    "relationship": "computed data finding"
   },
   {
     "atYear": 2015,
@@ -69,6 +67,7 @@
     "durationSec": 6,
     "sourceUrl": "https://www.boston.gov/sites/default/files/file/2020/04/PHE%20Declaration%20Extension.pdf",
     "role": "calendar-anchor",
+    "editorialReason": "Local emergency marks the pandemic disruption; the chart does not establish its causal effect.",
     "startsAtSeconds": 131.268,
     "endsAtSeconds": 137.268,
     "relationship": "temporal context; no causal claim"

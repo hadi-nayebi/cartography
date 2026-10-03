@@ -2,7 +2,7 @@
   "slug": "boston-crime-context-2026-01",
   "datasetDir": "data/boston-ma",
   "title": "Boston · Forty Years of Change",
-  "subtitle": "Annual crime reports, then the city district by district · 1985–2026",
+  "subtitle": "How the long decline unfolded—and where recent reports cluster",
   "durationSec": 330,
   "fps": 30,
   "emphasizeGroupA": true,
@@ -12,7 +12,7 @@
   "mapWindowMonths": 60,
   "hook": {
     "stat": "−71%",
-    "line": "Boston's reported crime since its 1989 peak",
+    "line": "Boston’s FBI index-crime reports, 1989–2015",
     "sub": "FBI UCR · 1989–2015"
   },
   "punchline": {
@@ -69,17 +69,16 @@
     },
     {
       "atYear": 1993,
-      "text": "1993 · CERN releases the World Wide Web software to the public.",
-      "durationSec": 8,
-      "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
-      "role": "calendar-anchor"
+      "text": "The decline was already underway: 55,555 reports in 1993, 21% below 1989.",
+      "durationSec": 8
     },
     {
       "atYear": 1996,
       "text": "Operation Ceasefire began in 1996, targeting youth firearm violence.",
       "durationSec": 8,
       "sourceUrl": "https://ojjdp.ojp.gov/sites/ojjdp/files/pubs/gun_violence/profile02.html",
-      "role": "calendar-anchor"
+      "role": "calendar-anchor",
+      "editorialReason": "Local violence-prevention initiative directly relevant to the topic; distinguish its narrow target from all crime."
     },
     {
       "atYear": 2000,
@@ -87,18 +86,17 @@
       "durationSec": 8
     },
     {
-      "atYear": 2005,
-      "text": "2005 · YouTube’s first video goes online.",
-      "durationSec": 6,
-      "sourceUrl": "https://blog.youtube/news-and-events/youtube-to-z-happybirthdayyoutube/",
-      "role": "calendar-anchor"
+      "atYear": 2003,
+      "text": "2003 · The Big Dig brings the Central Artery underground through downtown Boston.",
+      "durationSec": 8,
+      "sourceUrl": "https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges",
+      "role": "calendar-anchor",
+      "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim."
     },
     {
-      "atYear": 2007,
-      "text": "2007 · Apple introduces the first iPhone.",
-      "durationSec": 6,
-      "sourceUrl": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
-      "role": "calendar-anchor"
+      "atYear": 2010,
+      "text": "By 2010, violent index offenses numbered 5,819—55% below their 1989 count.",
+      "durationSec": 8
     },
     {
       "atYear": 2015,
@@ -110,7 +108,8 @@
       "text": "March 2020: Boston’s public-health emergency begins during the COVID-19 pandemic.",
       "durationSec": 6,
       "sourceUrl": "https://www.boston.gov/sites/default/files/file/2020/04/PHE%20Declaration%20Extension.pdf",
-      "role": "calendar-anchor"
+      "role": "calendar-anchor",
+      "editorialReason": "Local emergency marks the pandemic disruption; the chart does not establish its causal effect."
     },
     {
       "atYear": 2023,

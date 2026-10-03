@@ -61,12 +61,12 @@ version.
 actually checked. Human acceptance and publication remain separate from a
 successful build. No YouTube URL is claimed until an upload receipt exists.
 
-## Calendar landmarks
+## Boston context
 
-Familiar events locate the viewer in time while the histogram advances; they
-are not offered as explanations of crime change. The exact cue times and
-sources are in `story-beats.json`.
+Operation Ceasefire (1996), the Big Dig’s downtown tunnel openings (2003), and
+Boston’s COVID emergency (2020) place the city’s history beside the crime data.
+Each serves this particular story; none is assigned the whole trend’s cause.
+`story-beats.json` records exact reading windows, sources and selection reasons.
+The 1993 finding shows that the decline preceded Operation Ceasefire.
 
-- [CERN: the Web software enters the public domain in1993](https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/).
-- [YouTube: its first upload in2005](https://blog.youtube/news-and-events/youtube-to-z-happybirthdayyoutube/).
-- [Apple: introduction of the first iPhone in2007](https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/).
+- [MassDOT: the Big Dig tunnels and bridges](https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges).

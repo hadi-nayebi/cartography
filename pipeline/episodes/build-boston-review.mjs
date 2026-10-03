@@ -50,6 +50,7 @@ const history=await read('history.json');
 for(const name of ['feed.json','points.json','neighborhoods.json','basemap.json'])await read(name);
 const hist=(year)=>history.years.find(y=>y.year===year);
 if(hist(1989).property!==57084||hist(2000).property!==28548||hist(2008).violent!==6676||hist(2008).property!==22429)throw new Error('Historical annotation changed');
+if(hist(1993).total!==55555||Math.round((1-hist(1993).total/hist(1989).total)*100)!==21||hist(2010).violent!==5819||Math.round((1-hist(2010).violent/hist(1989).violent)*100)!==55)throw new Error('Revised historical finding changed');
 const annualDistrict=(id,year)=>timeline.months.reduce((sum,m,i)=>sum+(m.startsWith(`${year}-`)?cats.reduce((n,c)=>n+timeline.cells[id][i][c],0):0),0);
 if(annualDistrict('D4',2022)!==4156||annualDistrict('D4',2023)!==5022||trend.years.find(y=>y.year===2023).total!==31239)throw new Error('District or annual annotation changed');
 const recent=timeline.months.slice(-60).map(month=>({month,total:Object.values(timeline.cells).reduce((s,v)=>s+cats.reduce((n,c)=>n+v[timeline.months.indexOf(month)][c],0),0)}));
@@ -70,3 +71,5 @@ for(let i=0;i<notes.length;i++){
  const end=22+(note.atYear-1985)/41*128+(note.durationSec??4.6);
  if(i+1<notes.length&&end>22+(notes[i+1].atYear-1985)/41*128)throw new Error('Historical annotations overlap');
 }
+
+await writeFile(join(dir,'story-beats.json'),JSON.stringify(notes.map(n=>({...n,startsAtSeconds:Number((22+(n.atYear-1985)/41*128).toFixed(3)),endsAtSeconds:Number((22+(n.atYear-1985)/41*128+(n.durationSec??4.6)).toFixed(3)),relationship:n.role==='calendar-anchor'?'temporal context; no causal claim':'computed data finding'})),null,2)+'\n');

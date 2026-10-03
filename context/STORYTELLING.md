@@ -63,3 +63,16 @@ proof of improvement; human calibration remains part of the work.
 Retain each revision's source and bytes, apply concrete feedback, and carry the
 resulting correction into the next production. Keep rejected work distinct
 from accepted or published work.
+
+## Editorial selection and retention
+
+Choose anchors for the actual city, topic and chart. A suggestion is an example,
+not a template to repeat. Record why each event belongs here and what the viewer
+learns from it. Prefer a directly relevant local event or clear data finding over
+an unrelated familiar date. Investigate plausible explanations for a spike;
+use causal language only when evidence supports it. Omit weak anchors.
+
+Earn attention with an early truthful payoff, readable motion and new information
+at each stage. Inspect the opening seconds, chart development and geographic
+payoff rather than adding arbitrary animation. Retention is measured after
+release; full retention and a winning thumbnail cannot be promised in advance.

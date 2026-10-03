@@ -77,6 +77,8 @@ export const TimelineChart: React.FC<Props> = ({
       viewBox="0 0 1920 1080"
       style={{ position: "absolute", inset: 0, pointerEvents: "none" }}
     >
+      {/* Isolate chart labels from underlying basemap road shields and lines. */}
+      <rect x={X0 - 70} y={Y_TOP - 40} width={W + 84} height={HEIGHT + 66} fill={COLORS.bg} fillOpacity={0.98} rx={8} />
       {/* title + units */}
       <text x={X0} y={Y_TOP - 16} fill={COLORS.ink} fontSize={20} fontFamily={FONT_MONO} fontWeight={700}>
         {term.toUpperCase()} INCIDENTS PER MONTH

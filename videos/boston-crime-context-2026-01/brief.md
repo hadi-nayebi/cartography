@@ -1,5 +1,14 @@
 # Boston: the long arc and the local pattern
 
+**Current phase: Observe. Story agreement pending. Production stopped.**
+
+The prior outline below is retained material, not an agreed production plan.
+Discuss its useful question, narrative and payoff with Hadi before further
+production. Apply the [OPEVC workflow](../../context/OPEVC-WORKFLOW.md); Boston
+is the only active video until he approves the exact finished artifact.
+
+## Prior outline for discussion
+
 Viewer question: How did Boston’s recorded crime change, and where did recent reports accumulate?
 
 The original annual-histogram and animated-map structure is the visual baseline.

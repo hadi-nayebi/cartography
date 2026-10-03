@@ -58,3 +58,6 @@ A project fact or definition has one canonical home. Other files link to that
 home instead of silently restating it. The website keeps only the minimum copy
 needed to tell the story and route a visitor to the right source or decision
 room.
+
+The [OPEVC workflow](OPEVC-WORKFLOW.md) defines story agreement, detailed planning,
+execution, encoded/human verification, return routes and applied condensation.

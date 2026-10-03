@@ -1,6 +1,14 @@
 # Boston title and thumbnail review
 
-Recommended starting pair: **A — Boston Crime: 40 Years of Change, Mapped**.
+Selected starting title: **Boston Crime: 40 Years of Change, Mapped**.
+Selected thumbnail: **selected-map-number.jpg**, also copied to `../thumbnail.jpg`.
+It combines the actual Boston district outline with the verified71% decline,
+retaining the exact FBI index-crime measure and1989–2015 period. The neutral
+map identifies the place; it does not imply a district-level historical decline.
+
+![Selected starting thumbnail](selected-map-number.jpg)
+
+The original A/B/C candidates remain below as alternatives.
 It names the city and topic, promises a bounded historical view, and matches the
 film’s shift from annual histogram to active district map. Its question is open
 without inventing a cause or a safety ranking. This is an editorial recommendation,
@@ -24,3 +32,5 @@ DejaVu Sans fonts). Source boundaries/counts come from the same frozen normalize
 Boston dataset as the film. The complete proposed description and chapters are
 in `../youtube.json`. Confirm the main-branch recipe link resolves after merge
 before a release. Preserve the chosen title/thumbnail hashes with the release.
+
+Thumbnail choice is delegated to the producer; iterate from actual post-release analytics rather than requesting a taste judgment for every alternative. Preserve change dates and comparison conditions.

@@ -74,6 +74,17 @@ text(d,(59,565),"12 POLICE DISTRICTS",30)
 text(d,(685,642),"JUL 2021–JUN 2026",28)
 im.save(OUT/"c-districts.jpg",quality=94)
 
+# Selected starting thumbnail: one geographic identifier and one verified fact.
+# The neutral map is an outline, not a heat map of the 1989–2015 change.
+im,d=canvas()
+map_shape(d,(735,70,490,575))
+text(d,(55,35),"BOSTON",98)
+text(d,(45,180),"−71%",185,"#f2b44e")
+text(d,(65,415),"FBI INDEX CRIMES",34)
+text(d,(65,485),"1989 → 2015",46)
+text(d,(65,620),"40 YEARS OF CHANGE",32)
+im.save(OUT/"selected-map-number.jpg",quality=94)
+
 sheet=Image.new('RGB',(960,600),'#eef0f0')
 sd=ImageDraw.Draw(sheet)
 for n,(name,title) in enumerate([

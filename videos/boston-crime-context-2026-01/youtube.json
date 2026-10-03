@@ -11,5 +11,8 @@
   ],
   "categoryId": "27",
   "privacyStatus": "private",
-  "status": "draft"
+  "status": "draft",
+  "thumbnailFile": "thumbnail.jpg",
+  "thumbnailSha256": "561730d2b1e978db240761066eef556d179d0ab80725d33c4266ade2dbd00185",
+  "thumbnailSelection": "map and verified decline; editorial starting choice, not measured winner"
 }

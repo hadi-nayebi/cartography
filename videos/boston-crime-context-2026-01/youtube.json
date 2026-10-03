@@ -1,11 +1,13 @@
 {
-  "title": "Boston: Forty Years of Change",
-  "description": "An annual histogram traces Boston\u2019s recorded crime, followed by an animated district map and monthly chart of the recent pattern. Source snapshot: July2026.\n\nData and reproduction: https://github.com/hadi-nayebi/cartography/tree/main/videos/boston-crime-context-2026-01\n\nFBI index crimes and BPD crime-classified records use different definitions. Service records are excluded from crime totals; public sexual-assault records are absent from the newer file.\n\nMusic: retained Boston Stable Audio Open score.",
+  "title": "Boston Crime: 40 Years of Change, Mapped",
+  "description": "How did Boston’s recorded crime change over four decades—and where did recent reports cluster?\n\nWatch the annual picture unfold from 1985 to 2025, then explore five years of reports across Boston’s 12 police districts. Local milestones help place the numbers in the city’s history.\n\nCHAPTERS\n0:00 Boston’s long decline\n0:08 Reading the city and its records\n0:22 Forty years, year by year\n2:30 From the citywide trend to the map\n2:43 Five years across Boston’s districts\n4:52 The district picture\n5:18 Sources and reproduction\n\nDATA & REPRODUCTION\nhttps://github.com/hadi-nayebi/cartography/tree/main/videos/boston-crime-context-2026-01\n\nSources: FBI Crime Data Explorer annual index crimes, 1985–2015; Boston Police Department / Analyze Boston public incident records, July 2026 snapshot. Recent map window: July 2021–June 2026.\nhttps://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend\nhttps://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system\n\nThe two reporting eras use different definitions. Newer totals count records classified as crime by the repository’s documented rules and exclude service records; the public BPD file omits sexual-assault reports. Dots are a sample of reported locations. District counts are not population-adjusted risk estimates. The film does not attribute the whole trend to the events shown.\n\nContext sources and calculations are in the reproduction record. Basemap: OpenStreetMap contributors, ODbL. Music: retained Boston score generated with Stable Audio Open. No narration.\n\nWhat would you like to understand about Boston next?",
   "tags": [
-    "Boston",
-    "Cartography",
+    "Boston crime",
+    "Boston history",
+    "Boston crime map",
     "data visualization",
-    "city history"
+    "Cartography",
+    "urban history"
   ],
   "categoryId": "27",
   "privacyStatus": "private",

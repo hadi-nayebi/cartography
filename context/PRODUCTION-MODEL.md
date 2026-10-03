@@ -19,7 +19,8 @@ The existing `videos/<story-id>/` layout should retain:
 - `brief.md`: the completed [production brief](PRODUCTION-BRIEF.md), scene plan,
   annotation evidence and viewer payoff.
 - `config.json`: composition inputs and references to topic-appropriate data.
-- `youtube.json`: title, description, credits, visibility and eventual platform ID.
+- `youtube.json`: title, complete description, chapters, credits, visibility and eventual platform ID.
+- `packaging/`: three title/thumbnail candidates, recommended pairing, rationale and selected asset hashes.
 - `render.lock.json`: actual output path, SHA-256, duration, render command,
   source revision and data snapshot identity.
 - `qa.json`: calculation/visual/audio review evidence and the render hash it

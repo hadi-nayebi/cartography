@@ -76,3 +76,13 @@ Earn attention with an early truthful payoff, readable motion and new informatio
 at each stage. Inspect the opening seconds, chart development and geographic
 payoff rather than adding arbitrary animation. Retention is measured after
 release; full retention and a winning thumbnail cannot be promised in advance.
+
+## Official platform guidance to apply
+
+[YouTube’s title/thumbnail guidance](https://support.google.com/youtube/answer/12340300?hl=en)
+supports accurate, concise wording. Put the city/topic first and make the promise
+visible at small thumbnail size. [The retention guide](https://support.google.com/youtube/answer/9314415)
+uses the first 30 seconds to assess the introduction. Check whether that opening
+fulfills the packaging promise; after release investigate actual dips and spikes.
+Do not treat arbitrary animation frequency or a generic retention percentage as
+a universal rule for educational maps.

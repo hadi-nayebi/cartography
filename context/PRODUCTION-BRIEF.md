@@ -74,3 +74,15 @@ Ask whether a viewer can explain the takeaways without memorizing every number.
 Store data provenance, configuration, and render identity with the video. Human
 review applies to those exact rendered bytes; edits require a new verification
 and approval. Uploading or publishing remains a separate authorized action.
+
+## Title, thumbnail and description package
+
+Produce three distinct title/thumbnail pairs, an editorial recommendation and
+its reason, plus the complete description with chapters, source/recipe links
+and credits. Inspect thumbnails at small display size. Make the first seconds
+of the film fulfill the title’s promise. A dramatic number must retain its
+measure and period; do not imply danger from raw report counts.
+
+Preserve selected asset hashes and exact metadata with the video’s review record.
+After release use actual clicks, watch time and retention to test assumptions;
+record experiment eligibility and method before claiming a winning variant.

@@ -498,12 +498,12 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
   const flip = active ? interpolate(local, [0, 24, hold-24, hold-1], [0, 180, 180, 0], {extrapolateLeft: "clamp", extrapolateRight: "clamp"}) : 0;
   return <AbsoluteFill style={{background: "#07090c", perspective: 2400}}>
     {props.audioSrc && <Audio src={staticFile(props.audioSrc)} volume={(f) => Math.min(1, Math.max(0, (durationInFrames-f)/(fps*3)))}/>}
-    <AbsoluteFill style={{transform: `rotateY(${flip}deg)`, backfaceVisibility: "hidden"}}>
+    <AbsoluteFill style={{visibility: flip < 90 ? "visible" : "hidden", transform: `rotateY(${flip}deg)`, backfaceVisibility: "hidden"}}>
       {frame < pivot && <Sequence durationInFrames={pivot}><CrimeStoryBase {...props} audioSrc={undefined}/></Sequence>}
       {active && <Freeze frame={pivot}><CrimeStoryBase {...props} audioSrc={undefined}/></Freeze>}
       {frame >= pivot+hold && <Sequence from={hold}><CrimeStoryBase {...props} audioSrc={undefined}/></Sequence>}
     </AbsoluteFill>
-    {active && <AbsoluteFill style={{transform: `rotateY(${flip-180}deg)`, backfaceVisibility: "hidden"}}>
+    {active && <AbsoluteFill style={{visibility: flip >= 90 ? "visible" : "hidden", transform: `rotateY(${flip-180}deg)`, backfaceVisibility: "hidden"}}>
       <Sequence from={pivot} durationInFrames={hold}><CeasefireInterlude durationInFrames={hold} annualTotals={[1989,1993,1996,2000,2015].map(year=>props.bundle!.trend!.years.find(y=>y.year===year)!.total)}/></Sequence>
     </AbsoluteFill>}
   </AbsoluteFill>;

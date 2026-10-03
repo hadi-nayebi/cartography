@@ -24,7 +24,7 @@ export const Legend: React.FC<Props> = ({ opacity, perDot, realPoints, otherLabe
         position: "absolute",
         left: 34,
         top: 700,
-        width: 430,
+        width: 400,
         opacity,
         fontFamily: FONT_MONO,
         background: "rgba(8,11,16,0.92)",
@@ -61,7 +61,7 @@ export const Legend: React.FC<Props> = ({ opacity, perDot, realPoints, otherLabe
         <span style={{ fontSize: 20, color: RISE }}>▲</span>
         <span style={{ fontSize: 18, fontWeight: 500, color: COLORS.inkDim }}>rising vs prior 3 mo</span>
         <span style={{ fontSize: 20, color: FALL, marginLeft: 8 }}>▼</span>
-        <span style={{ fontSize: 18, fontWeight: 500, color: COLORS.inkDim }}>falling (better)</span>
+        <span style={{ fontSize: 18, fontWeight: 500, color: COLORS.inkDim }}>falling</span>
       </div>
     </div>
   );

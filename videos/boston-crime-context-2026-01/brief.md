@@ -1,51 +1,30 @@
-# Boston story brief
+# Boston: the long arc and the local pattern
 
-## Question and payoff
-How did Boston's recorded crime change between 1985 and 2025, and what must a
-resident understand before interpreting that change?
+Viewer question: How did Boston’s recorded crime change, and where did recent reports accumulate?
 
-Audience: a Boston resident with no statistical background. Three takeaways:
-the older record declines substantially; a measurement break separates it from
-the recent record; district report volumes describe a pattern, not personal risk.
+The original annual-histogram and animated-map structure is the visual baseline.
+The film is 330 seconds, with retained music and no narration. Preserve its useful
+information density while giving meaningful annotations 6–8 seconds and separate
+reading space. A technical check cannot establish creative acceptance.
 
-## Scene plan
-| Time | View | New understanding |
+| Time | Story | Annotation role |
 | --- | --- | --- |
-| 0–18s | City outline and time span | One place, two distinct data eras |
-| 18–43s | FBI line, 1989 marker and endpoint comparison | Size and shape of the older decline |
-| 43–65s | Same line with 1996 anchor | Ceasefire belongs in the city's history, but its target differs from this broad count |
-| 65–88s | Separate source panels | The 2015/2016 discontinuity cannot be read as a sudden crime jump |
-| 88–116s | Recent series and 2020 anchor | Long decline, pandemic context, and a 2025 level above the 2022 low |
-| 116–144s | 2025 district map plus top four report volumes | Citywide change does not erase geographic differences |
-| 144–163s | Crime-category bars | What this recipe includes and excludes |
-| 163–180s | Three takeaways and reproduction route | A practical way to read place, time and evidence together |
+| 0–8 s | Boston’s 71% fall in FBI index crimes,1989–2015 | Hook with exact period and measure |
+| 8–22 s | Orient the viewer to years, districts and reported locations | Explain the views briefly |
+| 22–150 s | Annual histogram reveals 1985–2025 progressively |1989 property share;1996 Ceasefire;2000 property decline;2008 category counts;2015 endpoint;2020 emergency;2023 rebound |
+| 150–163 s | Shift from the citywide annual view to districts/months | Plain city-focused transition |
+| 163–292 s | Animated district map, monthly chart and running category/district counts |2022 annual low;D 4 change;August 2024 monthly peak;2025 property share;2016–2025 decline |
+| 292–318 s | Full-window district distribution | Counts, not a personal safety score |
+| 318–330 s | Source and recipe route | Document the evidence |
 
-## Annotation evidence and reading budget
-1996: US DOJ describes Operation Ceasefire as a coordinated strategy established
-in May 1996 targeting youth firearm violence. NIJ evaluates youth-violence
-outcomes. This is historical context, not causal attribution for the whole line.
-The anchor stays visible for the 22-second chapter, with three sequential captions.
+History notes are verified against history/trend files; district and monthly
+notes are recomputed from timeline cells with service records excluded.
+Operation Ceasefire’s youth-firearm target is sourced to DOJ, and the March 2020
+emergency to Boston’s order (README links). Neither event is assigned the whole
+crime trend’s causal effect. The 2016 measurement change is explained as a
+factual change in BPD’s records, without instructions to the producer.
 
-2015/2016: the retained FBI series ends in 2015; BPD's new incident source starts
-August 2015. Only full years enter the recent comparison. Two separated panels
-and three captions use 23 seconds to explain the distinction.
-
-2020: Boston's emergency-extension order identifies March 15 as the original
-public-health emergency declaration. A marker places the date on the recent
-series. The captions expressly avoid claiming an isolated causal effect.
-
-Captions receive roughly 6–9 seconds each and appear one at a time. No incident
-feed, quiz, cumulative counter or competing notification occupies that space.
-Map, chart, source labels and captions remain readable in the encoded review.
-
-## Data and verification
-Use the July 12, 2026 retained snapshot. Exclude partial 2026 from annual change
-claims. Recompute the 2025 map and category totals from timeline cells; require
-them to reconcile with the trend. See README for exact numbers and source URLs.
-No old confidence score or approval transfers to this story. Inspect encoded
-frames, transitions, audio, numerical claims and the reviewed-file hash.
-
-## Feedback checkpoint
-This is a caption-led first review with music. Ask for timestamp-specific
-clarity, pacing, context and usefulness feedback. Any revision requires a new
-encoded review and hash; an acceptable first build is not publication approval.
+Before delivery compare actual encoded samples to the original cut: retain the
+histogram progression, mapped activity and separate monthly chart. Verify label
+spacing and annotation reading time. Inspect the complete encoded artifact;
+archive rejected versions separately and bind review to exact bytes.

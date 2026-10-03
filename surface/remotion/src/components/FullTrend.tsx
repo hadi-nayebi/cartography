@@ -20,6 +20,7 @@ interface Props {
   /** why-the-jump explainer shown while the sweep crosses the seam
       (config copy.seamExplain overrides the engine default). */
   seamExplain?: string;
+  eraCaption?: string;
   /** sourced historical memory anchors; context-only never implies causation. */
   contextAnchors?: ContextAnchor[];
 }
@@ -43,6 +44,7 @@ export const FullTrend: React.FC<Props> = ({
   kicker,
   punchline,
   seamExplain,
+  eraCaption,
   contextAnchors = [],
 }) => {
   const years = trend.years;
@@ -264,7 +266,7 @@ export const FullTrend: React.FC<Props> = ({
           color: COLORS.inkFaint,
         }}
       >
-        two different counting systems — compare the shape within each era, not across the dashed seam
+        {eraCaption ?? "FBI index crimes and newer police incident records use different definitions."}
       </div>
 
       {/* WHY-THE-JUMP seam explainer — rides the sweep across the measure

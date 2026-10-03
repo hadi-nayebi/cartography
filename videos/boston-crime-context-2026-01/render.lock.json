@@ -1,20 +1,4 @@
 {
-  "renderedAt": "2026-10-03T18:15:06.763657+00:00",
-  "commit": "0752504b02bcfca6a21118d6d786d0805d371132",
-  "datasetFetchedAt": "2026-07-12",
-  "durationSec": 180.053333,
-  "fps": 30,
-  "audioSrc": "music.mp3",
-  "output": "out/review-v1.mp4",
-  "sha256": "70c30941331f1143b558719abd576025f71b56aa602e760c9f859c2334b76fb7",
-  "remotion": "render src/index.ts BostonReview videos/boston-crime-context-2026-01/out/review-v1-spacing.mp4 --codec=h264 --concurrency=4 --browser-executable=/opt/google/chrome/chrome --log=error",
-  "note": "Rendered from surface/remotion with ../../ output prefix; output renamed after QA.",
-  "storyDataSha256": "e0a2965869de902cdce8a49b1410214e6c740b2e97e1aa424160be2b5941c193",
-  "musicSha256": "d7fd9c226ed84a159fb4bc4bec7073fa7d02024342255a55addb4b41b7aa7a16",
-  "reviewDelivery": {
-    "filename": "boston-review-v1.mp4",
-    "sha256": "3d33fb9a84c032c998917a849809f284ad6da20d5a6e33bc6b1b7340b17d1b30",
-    "bytes": 14310541,
-    "transform": "ffmpeg -i out/review-v1.mp4 -c copy -movflags +faststart boston-review-v1.mp4"
-  }
+  "output": "out/review-v2.mp4",
+  "status": "pending revised render; previous review rejected"
 }

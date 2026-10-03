@@ -1,16 +1,138 @@
 {
   "slug": "boston-crime-context-2026-01",
-  "sourceDataset": "boston-ma",
-  "composition": "BostonReview",
-  "durationSec": 180,
+  "datasetDir": "data/boston-ma",
+  "title": "Boston · Forty Years of Change",
+  "subtitle": "Annual crime reports, then the city district by district · 1985–2026",
+  "durationSec": 330,
   "fps": 30,
-  "width": 1920,
-  "height": 1080,
-  "audioSrc": "audio/boston-review.mp3",
-  "storyData": "story-data.json",
-  "sourceSnapshot": "2026-07-12",
-  "completeYears": [
-    1985,
-    2025
-  ]
+  "emphasizeGroupA": true,
+  "audioSrc": "audio/boston-review-v2.mp3",
+  "repoUrl": "github.com/hadi-nayebi/cartography",
+  "trendStyle": "bars",
+  "mapWindowMonths": 60,
+  "hook": {
+    "stat": "−71%",
+    "line": "Boston's reported crime since its 1989 peak",
+    "sub": "FBI UCR · 1989–2015"
+  },
+  "punchline": {
+    "text": "70,003 → 20,110",
+    "sub": "FBI index-crime reports · 1989 to 2015 · a 71% decline"
+  },
+  "theme": {
+    "name": "sage",
+    "colors": {
+      "bg": "#07090c",
+      "beatFill": "#0c1210",
+      "beatStroke": "rgba(140,190,160,0.24)",
+      "panelStroke": "rgba(140,190,160,0.2)",
+      "grid": "rgba(140,190,160,0.12)",
+      "ink": "#eef4ef",
+      "inkDim": "#aec2b3",
+      "inkFaint": "#71857a"
+    },
+    "catColors": {
+      "persons": "#e63946",
+      "property": "#e9b44c",
+      "society": "#4fbf8b",
+      "other": "#6b7684"
+    }
+  },
+  "copy": {
+    "countTerm": "reported",
+    "cityName": "Boston",
+    "regionNoun": "district",
+    "chapter2Kicker": "BOSTON · JULY 2021–JUNE 2026",
+    "chapter2Title": "The pattern across 12 districts",
+    "chapter2Caption": "Monthly crime-classified reports · sampled reported locations",
+    "transitionKicker": "FROM YEARS TO MONTHS · BOSTON",
+    "transitionTitle": "The citywide trend has a geography",
+    "transitionDesc": "The recent record reveals where reports accumulated, and how the pattern changed from month to month.",
+    "methodRecentTag": "BPD / ANALYZE BOSTON",
+    "methodRecentSub": "July 2021–June 2026 · districts and months",
+    "methodDotsHeadline": "Real dots, real places",
+    "methodDotsSub": "Sampled locations published by BPD. Records without coordinates remain in district totals.",
+    "methodFootnote": "Annual FBI index crimes through 2015; BPD crime-classified records from 2016. Public sexual-assault records are absent from the newer file.",
+    "seamExplain": "BPD introduced its new incident-record system in August 2015. Its first full year, 2016, counts a broader set of records than the earlier FBI index-crime series.",
+    "sourceLine": "Boston Police Department / Analyze Boston + FBI UCR · source snapshot July 2026",
+    "coverageText": "99.4% of source records assigned to districts",
+    "creditsSources": "Sources: FBI UCR annual index crimes, 1985–2015; BPD / Analyze Boston incident records, July 2026 snapshot. Crime categories exclude service records. BPD omits sexual-assault records from its public file. Report volume is not a personal risk estimate. Basemap: OpenStreetMap contributors (ODbL).",
+    "eraCaption": "FBI index crimes through 2015 · BPD crime-classified records from 2016",
+    "timelineCaption": "BPD crime-classified records · July 2021–June 2026",
+    "musicCredit": "Music: Stable Audio Open · retained Boston score"
+  },
+  "historyNotes": [
+    {
+      "atYear": 1989,
+      "text": "Property offenses account for 57,084 of the 70,003 reports at Boston’s 1989 peak.",
+      "durationSec": 8
+    },
+    {
+      "atYear": 1996,
+      "text": "Operation Ceasefire began in 1996, targeting youth firearm violence.",
+      "durationSec": 8
+    },
+    {
+      "atYear": 2000,
+      "text": "By 2000, reported property crime was about half its 1989 level.",
+      "durationSec": 8
+    },
+    {
+      "atYear": 2008,
+      "text": "The decline spans both categories: 6,676 violent and 22,429 property reports in 2008.",
+      "durationSec": 8
+    },
+    {
+      "atYear": 2015,
+      "text": "The FBI series ends at 20,110 reports—71% below the 1989 peak.",
+      "durationSec": 8
+    },
+    {
+      "atYear": 2020,
+      "text": "March 2020: Boston’s public-health emergency begins during the COVID-19 pandemic.",
+      "durationSec": 6
+    },
+    {
+      "atYear": 2023,
+      "text": "After the 2022 low of 27,537, the annual count rose to 31,239 in 2023.",
+      "durationSec": 6
+    }
+  ],
+  "annotations": [
+    {
+      "atMonth": "2021-11",
+      "text": "The map shows a sample of published locations; district totals include reports without coordinates.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2023-01",
+      "text": "2022 ends with 27,537 crime-classified reports—the lowest complete year since 2016.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2024-01",
+      "text": "D4 / South End recorded 5,022 reports in 2023, up from 4,156 in 2022.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2024-08",
+      "text": "August 2024: 2,944 crime-classified reports, the highest month in this five-year window.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2026-01",
+      "text": "Property offenses account for 18,186 of the 29,963 crime-classified reports in 2025.",
+      "durationSec": 6
+    },
+    {
+      "atMonth": "2026-04",
+      "text": "The annual total fell 36% from 2016 to 2025. The map shows how unevenly reports are distributed.",
+      "durationSec": 6
+    }
+  ],
+  "sourceDataset": "boston-ma",
+  "composition": "CrimeStory",
+  "showQuiz": false,
+  "showHistoricalReference": false,
+  "contextAnchors": []
 }

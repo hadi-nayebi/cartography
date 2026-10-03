@@ -1,6 +1,6 @@
 {
-  "title": "Boston: four decades, two measuring systems",
-  "description": "Follow Boston’s recorded crime through two distinct data eras, with a district map and sourced historical context. Data snapshot: July 12, 2026.\n\nReproduction and source notes: https://github.com/hadi-nayebi/cartography/tree/main/videos/boston-crime-context-2026-01\n\nCounts are not individual risk. The FBI and newer BPD series use different definitions. Modern categories follow the documented offense-description recipe; public sexual-assault records are absent, not zero.\n\nMusic: retained Boston Stable Audio Open score.",
+  "title": "Boston: Forty Years of Change",
+  "description": "An annual histogram traces Boston\u2019s recorded crime, followed by an animated district map and monthly chart of the recent pattern. Source snapshot: July2026.\n\nData and reproduction: https://github.com/hadi-nayebi/cartography/tree/main/videos/boston-crime-context-2026-01\n\nFBI index crimes and BPD crime-classified records use different definitions. Service records are excluded from crime totals; public sexual-assault records are absent from the newer file.\n\nMusic: retained Boston Stable Audio Open score.",
   "tags": [
     "Boston",
     "Cartography",

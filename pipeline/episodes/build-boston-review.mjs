@@ -1,4 +1,4 @@
-import {readFile, writeFile, mkdir, copyFile} from 'node:fs/promises';
+import {readFile, writeFile, mkdir, copyFile, cp} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {resolve, dirname, join} from 'node:path';
@@ -44,3 +44,20 @@ await writeFile(join(pub,'boston-review.json'),JSON.stringify(result));
 const audio=join(root,'surface/remotion/public/audio');await mkdir(audio,{recursive:true});
 await copyFile(join(dir,'music.mp3'),join(audio,'boston-review.mp3'));
 console.log(JSON.stringify({mappedTotal,categories:result.categories,districts:districts.map(({id,total})=>({id,total})),historicalChange:result.historicalChange,modernChange:result.modernChange,sinceLow:result.sinceLow}));
+
+// Revision2 restores the original annual-histogram / monthly-map composition.
+const history=await read('history.json');
+for(const name of ['feed.json','points.json','neighborhoods.json','basemap.json'])await read(name);
+const hist=(year)=>history.years.find(y=>y.year===year);
+if(hist(1989).property!==57084||hist(2000).property!==28548||hist(2008).violent!==6676||hist(2008).property!==22429)throw new Error('Historical annotation changed');
+const annualDistrict=(id,year)=>timeline.months.reduce((sum,m,i)=>sum+(m.startsWith(`${year}-`)?cats.reduce((n,c)=>n+timeline.cells[id][i][c],0):0),0);
+if(annualDistrict('D4',2022)!==4156||annualDistrict('D4',2023)!==5022||trend.years.find(y=>y.year===2023).total!==31239)throw new Error('District or annual annotation changed');
+const recent=timeline.months.slice(-60).map(month=>({month,total:Object.values(timeline.cells).reduce((s,v)=>s+cats.reduce((n,c)=>n+v[timeline.months.indexOf(month)][c],0),0)}));
+const peak=recent.reduce((a,b)=>b.total>a.total?b:a);
+if(peak.month!=='2024-08'||peak.total!==2944||result.categories.find(c=>c.key==='property').total!==18186)throw new Error('Monthly/category annotation changed');
+const config=JSON.parse(await readFile(join(dir,'config.json'),'utf8'));
+const viewerCopy=JSON.stringify([config.copy,config.historyNotes,config.annotations,config.hook,config.punchline]);
+if(/do not join|never across|safest|to this week/i.test(viewerCopy))throw new Error('Production instruction or unsupported claim leaked into viewer copy');
+await cp(source,join(root,'surface/remotion/public/data/boston-ma/normalized'),{recursive:true});
+await copyFile(join(dir,'music-v2.mp3'),join(audio,'boston-review-v2.mp3'));
+await writeFile(join(dir,'revision2-inputs.json'),JSON.stringify({sourceSnapshot:summary.fetchedAt,inputs:hashes,peak,configSha256:createHash('sha256').update(await readFile(join(dir,'config.json'))).digest('hex'),musicSha256:createHash('sha256').update(await readFile(join(dir,'music-v2.mp3'))).digest('hex')},null,2)+'\n');

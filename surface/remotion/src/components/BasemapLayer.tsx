@@ -45,19 +45,24 @@ export const BasemapLayer: React.FC<Props> = ({ basemap, projection, opacity, la
       const [x, y] = projection.project(l.lng, l.lat);
       return { ...l, x, y, labelSide: 1, dy: 0 };
     });
-    // simple de-collision: sort by y; when two labels would stack (<26px apart
-    // vertically and horizontally near), flip the later one to the left side,
-    // and if still crowded push it down a line.
+    // Place full text boxes, not just anchor points. Keep labels clear of the
+    // side panels and annotation band; leader lines retain the true location.
     ms.sort((a, b) => a.y - b.y);
-    for (let i = 1; i < ms.length; i++) {
-      for (let j = 0; j < i; j++) {
-        const dy = Math.abs(ms[i].y + ms[i].dy - (ms[j].y + ms[j].dy));
-        const dx = Math.abs(ms[i].x - ms[j].x);
-        if (dy < 26 && dx < 300) {
-          if (ms[j].labelSide === 1 && ms[i].labelSide === 1) ms[i].labelSide = -1;
-          else ms[i].dy += 26;
+    const placed: {left:number;right:number;top:number;bottom:number}[]=[];
+    for(const mark of ms){
+      const width=(mark.name.replace(/\s*✈\s*/g, "").length+2)*12;
+      let found=false;
+      for(const dy of [0,-30,30,-60,60,-90,90,-120,120]){
+        for(const side of [1,-1]){
+          const left=side===1?mark.x+12:mark.x-12-width;
+          const box={left,right:left+width,top:mark.y+dy-19,bottom:mark.y+dy+9};
+          if(box.left<470||box.right>1400||box.top<165||box.bottom>685)continue;
+          if(placed.some(p=>box.left<p.right+10&&box.right>p.left-10&&box.top<p.bottom+6&&box.bottom>p.top-6))continue;
+          mark.labelSide=side;mark.dy=dy;placed.push(box);found=true;break;
         }
+        if(found)break;
       }
+      if(!found)mark.labelSide=0; // retain location dot when no clear label slot exists
     }
     return ms;
   }, [basemap, projection]);
@@ -115,6 +120,8 @@ export const BasemapLayer: React.FC<Props> = ({ basemap, projection, opacity, la
       {marks.map((l, i) => (
         <g key={i} opacity={lblO}>
           <circle cx={l.x} cy={l.y} r={4.5} fill="#ffffff" fillOpacity={0.9} stroke="rgba(0,0,0,0.7)" strokeWidth={1.4} />
+          {l.labelSide!==0&&<>
+          {l.dy!==0&&<line x1={l.x} y1={l.y} x2={l.x+8*l.labelSide} y2={l.y+l.dy} stroke={COLORS.inkDim} strokeWidth={1}/>}
           <text
             x={l.x + 12 * l.labelSide}
             y={l.y + 5 + l.dy}
@@ -128,7 +135,7 @@ export const BasemapLayer: React.FC<Props> = ({ basemap, projection, opacity, la
             strokeWidth={3.5}
           >
             {`${KIND_GLYPH[l.kind] ?? "•"} ${l.name.replace(/\s*✈\s*/g, "")}`}
-          </text>
+          </text></>}
         </g>
       ))}
     </svg>

@@ -184,7 +184,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       const i = stats.months.indexOf(a.atMonth);
       if (i < 0) return null;
       const secAt = PHASES.transitionEnd + (i / monthCount) * (PHASES.granularEnd - PHASES.transitionEnd);
-      const durFrames = Math.round(4.6 * fps);
+      const durFrames = Math.round((a.durationSec ?? 4.6) * fps);
       let startFrame = Math.round(secAt * fps);
       const maxStart = Math.round(PHASES.granularEnd * fps) - durFrames;
       if (startFrame > maxStart) startFrame = maxStart;
@@ -202,7 +202,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
         : history!.years.findIndex((y) => y.year === h.atYear);
       if (i < 0) return null;
       const secAt = PHASES.methodEnd + (i / nYears) * (PHASES.historyEnd - PHASES.methodEnd);
-      const durFrames = Math.round(4.6 * fps);
+      const durFrames = Math.round((h.durationSec ?? 4.6) * fps);
       let startFrame = Math.round(secAt * fps);
       const maxStart = Math.round(PHASES.historyEnd * fps) - durFrames;
       if (startFrame > maxStart) startFrame = maxStart;
@@ -305,6 +305,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
           accent={CAT_COLORS.property}
           punchline={props.punchline}
           seamExplain={copy?.seamExplain}
+          eraCaption={copy?.eraCaption}
           contextAnchors={props.contextAnchors ?? []}
         />
       ) : history && historyOpacity > 0.001 ? (
@@ -340,16 +341,17 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
           months={stats.months}
           cityMonthly={stats.cityMonthly}
           monthFloat={gFloat}
-          refRate={lastFbiTotal ? lastFbiTotal / 12 : undefined}
+          refRate={props.showHistoricalReference === false ? undefined : lastFbiTotal ? lastFbiTotal / 12 : undefined}
           refLabel={
             lastFbiTotal
               ? `${lastHistYear} UCR Violent+Property ≈ ${Math.round(lastFbiTotal / 12)}/mo (narrower count)`
               : undefined
           }
           countTerm={copy?.countTerm}
+          caption={copy?.timelineCaption}
         />
       </div>
-      <Leaderboard stats={stats} gFloat={gFloat} opacity={granHud} countTerm={copy?.countTerm} />
+      <Leaderboard stats={stats} gFloat={gFloat} opacity={granHud} countTerm={copy?.countTerm} regionNoun={copy?.regionNoun} />
 
       {/* Granular annotations */}
       {annoSeqs.map(({ a, startFrame, durFrames, anchor }, idx) => (
@@ -402,7 +404,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       </Sequence>
 
       {/* Engagement quiz — posed during the history era, answered at the reveal */}
-      {quizOptions.length >= 2 && (
+      {props.showQuiz !== false && quizOptions.length >= 2 && (
         <Sequence from={quizStart} durationInFrames={quizDur} layout="none">
           <Quiz
             options={quizOptions}
@@ -430,7 +432,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
 
       {/* Reveal */}
       <Sequence from={Math.round(PHASES.granularEnd * fps)} durationInFrames={Math.round((PHASES.revealEnd - PHASES.granularEnd) * fps)} layout="none">
-        <Reveal stats={stats} summary={winBundle.summary} durationInFrames={Math.round((PHASES.revealEnd - PHASES.granularEnd) * fps)} countTerm={copy?.countTerm} />
+        <Reveal stats={stats} summary={winBundle.summary} durationInFrames={Math.round((PHASES.revealEnd - PHASES.granularEnd) * fps)} countTerm={copy?.countTerm} regionNoun={copy?.regionNoun} showQuiz={props.showQuiz} />
       </Sequence>
 
       {/* Close */}

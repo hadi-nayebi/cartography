@@ -1,8 +1,10 @@
-# Boston: four decades, two measuring systems
+# Boston · Forty Years of Change
 
-A three-minute, caption-led story about Boston's recorded crime from 1985 to
-2025, with a district map and historical context. The source snapshot was
-retrieved July 12, 2026. It is not a live crime feed.
+A five-and-a-half-minute story: an annual histogram reveals Boston’s long arc,
+then an animated district map and monthly chart explore the recent pattern.
+Timed annotations connect the data to useful historical context and local findings.
+The source snapshot was retrieved July 12, 2026; the annual chart ends in 2025
+and the map covers July 2021 through June 2026.
 
 ## What the data supports
 
@@ -11,7 +13,7 @@ retrieved July 12, 2026. It is not a live crime feed.
 - The newer series counts crime-classified records assigned to a BPD district.
   It falls from 46,849 in 2016 to 29,963 in 2025, or 36%; 2025 is 9% above
   the 2022 low of 27,537.
-- The 2025 district records reconcile to 29,963. D4 has the largest count in
+- The 2025 district records reconcile to 29,963. D 4 has the largest count in
   that view, 5,584. Counts do not measure population-adjusted risk or rank safety.
 
 The two annual series use different definitions. They appear in separate
@@ -40,7 +42,7 @@ node pipeline/validate.mjs boston-ma
 node pipeline/episodes/build-boston-review.mjs
 cd surface/remotion
 npm ci
-npx remotion render src/index.ts BostonReview ../../videos/boston-crime-context-2026-01/out/review-v1.mp4 --codec=h264 --concurrency=4
+npx remotion render src/index.ts CrimeStory ../../videos/boston-crime-context-2026-01/out/review-v2.mp4 --props=../../videos/boston-crime-context-2026-01/config.json --codec=h264 --concurrency=4
 ```
 
 The builder reads the committed normalized snapshot, checks caption-critical
@@ -48,7 +50,7 @@ figures, records input checksums in `story-data.json`, and stages the story in
 Remotion's public folder. An updated source must pass those checks or the copy
 must be reviewed. Geometry comes from the same source district boundaries.
 
-`music.mp3` contains the first three minutes of the existing Boston Stable Audio
+`music-v2.mp3` contains five and a half minutes of the existing Boston Stable Audio
 Open score, encoded at 160 kbps and retained here for reproduction. The builder
 stages that exact file; the composition lowers its level and applies fades.
 See [audio generation documentation](../../pipeline/audio/README.md) for the

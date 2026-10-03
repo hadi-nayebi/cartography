@@ -2,7 +2,7 @@
   "reviewedAt": "2026-10-03T18:15:06.790064+00:00",
   "appliesToRender": "70c30941331f1143b558719abd576025f71b56aa602e760c9f859c2334b76fb7",
   "reviewDeliverySha256": "3d33fb9a84c032c998917a849809f284ad6da20d5a6e33bc6b1b7340b17d1b30",
-  "status": "revision2 in production; previous render rejected",
+  "status": "rejected by editorial review; not for publication",
   "data": "Builder recomputed 2025 district/category totals and guarded caption-critical values; normalized snapshot validation passed.",
   "code": "TypeScript and targeted ESLint passed after spacing repair.",
   "visual": {

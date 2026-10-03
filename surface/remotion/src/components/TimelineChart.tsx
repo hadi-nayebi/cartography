@@ -12,9 +12,10 @@ interface Props {
   refLabel?: string;
   /** counted-category label (config.copy.countTerm); neutral fallback "reported". */
   countTerm?: string;
+  caption?: string;
 }
 
-const X0 = 430;
+const X0 = 530;
 const X1 = 1862;
 const Y_BOTTOM = 1014;
 const HEIGHT = 150;
@@ -32,6 +33,7 @@ export const TimelineChart: React.FC<Props> = ({
   refRate,
   refLabel,
   countTerm,
+  caption,
 }) => {
   const term = countTerm ?? "reported";
   const W = X1 - X0;
@@ -75,7 +77,7 @@ export const TimelineChart: React.FC<Props> = ({
         {term.toUpperCase()} INCIDENTS PER MONTH
       </text>
       <text x={X0 + 370} y={Y_TOP - 16} fill={COLORS.inkFaint} fontSize={19} fontFamily={FONT_MONO}>
-        — monthly rate · rises &amp; falls with the real trend (not a running total)
+        {caption ?? "— monthly reported counts"}
       </text>
 
       {/* y grid: 0, mid, top with value labels */}

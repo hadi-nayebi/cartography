@@ -150,12 +150,14 @@ export interface Bundle {
 }
 
 export interface Annotation {
+  durationSec?: number;
   atMonth: string; // "2023-07" — must exist in timeline.months
   text: string; // factual, checkable against timeline.json
   beat?: string; // optional beat key to anchor the callout at that centroid
 }
 
 export interface HistoryNote {
+  durationSec?: number;
   atYear: number; // must exist in history.years
   text: string; // checkable against history.json
 }
@@ -186,6 +188,8 @@ export interface CityCopy {
    * ten major-offense types; the neutral default "reported" is true for any
    * incident-based source. Engine falls back to "reported" when absent. */
   countTerm?: string;
+  eraCaption?: string;
+  timelineCaption?: string;
   seamExplain?: string; // why-the-jump card at the trend's measure seam
   chapter2Kicker?: string; // "CHAPTER 2 · 2023–2026 · GRPD NIBRS"
   chapter2Title?: string; // "The map comes alive — per police beat"
@@ -245,6 +249,8 @@ export interface StoryConfig {
   punchline?: { text: string; sub: string };
   /** map chapter covers at most this many trailing months (default 60 = 5yr). */
   mapWindowMonths?: number;
+  showQuiz?: boolean;
+  showHistoricalReference?: boolean;
 }
 
 // After calculateMetadata, the bundle is attached to the props. The index

@@ -1,0 +1,13 @@
+{
+  "composition": "LibraryStory",
+  "fps": 30,
+  "durationSec": 150,
+  "width": 1920,
+  "height": 1080,
+  "audio": "Original deterministic procedural instrumental, no narration",
+  "data": "data/nyc-libraries/derived/libraries.json",
+  "geometry": "data/nyc-libraries/raw/boroughs-26b.geojson",
+  "displayBuilder": "pipeline/episodes/nyc-library-visuals.py",
+  "scoreBuilder": "pipeline/episodes/nyc-library-score.py",
+  "approval": "pending exact-artifact review"
+}

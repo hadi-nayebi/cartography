@@ -28,7 +28,7 @@ const CityMap:React.FC<{data:BostonData;large?:boolean;heat?:boolean;highlight?:
 };
 
 const Chart:React.FC<{years:Year[];progress:number;accent?:string;marker?:number;small?:boolean}>=({years,progress,accent=C.teal,marker,small=false})=>{
- const width=small?500:1100,height=440,left=88,right=40,top=35,bottom=68;
+ const width=small?500:1100,height=380,left=88,right=40,top=35,bottom=68;
  const max=Math.ceil(Math.max(...years.map(y=>y.total))/10000)*10000;
  const x=(i:number)=>left+i/(years.length-1)*(width-left-right);
  const y=(n:number)=>height-bottom-n/max*(height-top-bottom);

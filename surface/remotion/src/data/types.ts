@@ -238,6 +238,7 @@ export interface StoryConfig {
   fps: number;
   annotations: Annotation[]; // granular era (2023+)
   historyAnnotationMode?: "chart";
+  historyInterlude?: {pauseAtSec: number; durationSec: number; kind: "ceasefire"};
   historyNotes: HistoryNote[]; // deep-history era (2000–2022)
   contextAnchors?: ContextAnchor[]; // sourced memory anchors on the long arc
   emphasizeGroupA: boolean;

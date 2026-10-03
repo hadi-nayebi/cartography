@@ -3,10 +3,10 @@
   "datasetDir": "data/boston-ma",
   "title": "Boston · Forty Years of Change",
   "subtitle": "How the long decline unfolded—and where recent reports cluster",
-  "durationSec": 330,
+  "durationSec": 360,
   "fps": 30,
   "emphasizeGroupA": true,
-  "audioSrc": "audio/boston-review-v2.mp3",
+  "audioSrc": "audio/boston-review-v4.mp3",
   "repoUrl": "github.com/hadi-nayebi/cartography",
   "trendStyle": "bars",
   "mapWindowMonths": 60,
@@ -65,10 +65,21 @@
     {
       "atYear": 1989,
       "text": "Property offenses account for 57,084 of the 70,003 reports at Boston’s 1989 peak.",
-      "durationSec": 8,
+      "durationSec": 6,
       "chartLabel": "FBI index-crime peak",
       "chartDetail": "70,003 reports",
       "kind": "finding"
+    },
+    {
+      "atYear": 1991,
+      "text": "The Web is announced publicly. August 1991 · cultural landmark",
+      "durationSec": 5,
+      "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+      "role": "calendar-anchor",
+      "editorialReason": "Familiar cultural milestone; temporal orientation, not a crime-cause claim.",
+      "chartLabel": "The Web is announced publicly",
+      "chartDetail": "August 1991 · cultural landmark",
+      "kind": "event"
     },
     {
       "atYear": 1993,
@@ -100,12 +111,23 @@
     {
       "atYear": 2003,
       "text": "2003 · The Big Dig brings the Central Artery underground through downtown Boston.",
-      "durationSec": 8,
+      "durationSec": 6,
       "sourceUrl": "https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges",
       "role": "calendar-anchor",
       "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim.",
       "chartLabel": "Big Dig: Central Artery opens",
       "chartDetail": "Downtown roadway goes underground",
+      "kind": "event"
+    },
+    {
+      "atYear": 2005,
+      "text": "The first YouTube upload. April 2005 · cultural landmark",
+      "durationSec": 7,
+      "sourceUrl": "https://blog.youtube/news-and-events/celebrating-10-years-of-youtube/",
+      "role": "calendar-anchor",
+      "editorialReason": "Familiar cultural milestone; temporal orientation, not a crime-cause claim.",
+      "chartLabel": "The first YouTube upload",
+      "chartDetail": "April 2005 · cultural landmark",
       "kind": "event"
     },
     {
@@ -181,5 +203,10 @@
   "showQuiz": false,
   "showHistoricalReference": false,
   "contextAnchors": [],
-  "historyAnnotationMode": "chart"
+  "historyAnnotationMode": "chart",
+  "historyInterlude": {
+    "pauseAtSec": 58.5,
+    "durationSec": 30,
+    "kind": "ceasefire"
+  }
 }

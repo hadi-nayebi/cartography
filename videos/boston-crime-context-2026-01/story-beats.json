@@ -2,13 +2,27 @@
   {
     "atYear": 1989,
     "text": "Property offenses account for 57,084 of the 70,003 reports at Boston’s 1989 peak.",
-    "durationSec": 8,
+    "durationSec": 6,
     "chartLabel": "FBI index-crime peak",
     "chartDetail": "70,003 reports",
     "kind": "finding",
     "startsAtSeconds": 34.488,
-    "endsAtSeconds": 42.488,
+    "endsAtSeconds": 40.488,
     "relationship": "computed data finding"
+  },
+  {
+    "atYear": 1991,
+    "text": "The Web is announced publicly. August 1991 · cultural landmark",
+    "durationSec": 5,
+    "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+    "role": "calendar-anchor",
+    "editorialReason": "Familiar cultural milestone; temporal orientation, not a crime-cause claim.",
+    "chartLabel": "The Web is announced publicly",
+    "chartDetail": "August 1991 · cultural landmark",
+    "kind": "event",
+    "startsAtSeconds": 40.732,
+    "endsAtSeconds": 45.732,
+    "relationship": "temporal context; no causal claim"
   },
   {
     "atYear": 1993,
@@ -32,7 +46,7 @@
     "chartDetail": "Youth gun-violence initiative",
     "kind": "event",
     "startsAtSeconds": 56.341,
-    "endsAtSeconds": 64.341,
+    "endsAtSeconds": 94.341,
     "relationship": "temporal context; no causal claim"
   },
   {
@@ -42,22 +56,36 @@
     "chartLabel": "Property reports roughly halve",
     "chartDetail": "Compared with 1989",
     "kind": "finding",
-    "startsAtSeconds": 68.829,
-    "endsAtSeconds": 76.829,
+    "startsAtSeconds": 98.829,
+    "endsAtSeconds": 106.829,
     "relationship": "computed data finding"
   },
   {
     "atYear": 2003,
     "text": "2003 · The Big Dig brings the Central Artery underground through downtown Boston.",
-    "durationSec": 8,
+    "durationSec": 6,
     "sourceUrl": "https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges",
     "role": "calendar-anchor",
     "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim.",
     "chartLabel": "Big Dig: Central Artery opens",
     "chartDetail": "Downtown roadway goes underground",
     "kind": "event",
-    "startsAtSeconds": 78.195,
-    "endsAtSeconds": 86.195,
+    "startsAtSeconds": 108.195,
+    "endsAtSeconds": 114.195,
+    "relationship": "temporal context; no causal claim"
+  },
+  {
+    "atYear": 2005,
+    "text": "The first YouTube upload. April 2005 · cultural landmark",
+    "durationSec": 7,
+    "sourceUrl": "https://blog.youtube/news-and-events/celebrating-10-years-of-youtube/",
+    "role": "calendar-anchor",
+    "editorialReason": "Familiar cultural milestone; temporal orientation, not a crime-cause claim.",
+    "chartLabel": "The first YouTube upload",
+    "chartDetail": "April 2005 · cultural landmark",
+    "kind": "event",
+    "startsAtSeconds": 114.439,
+    "endsAtSeconds": 121.439,
     "relationship": "temporal context; no causal claim"
   },
   {
@@ -67,8 +95,8 @@
     "chartLabel": "Violent index offenses down 55%",
     "chartDetail": "Compared with 1989",
     "kind": "finding",
-    "startsAtSeconds": 100.049,
-    "endsAtSeconds": 108.049,
+    "startsAtSeconds": 130.049,
+    "endsAtSeconds": 138.049,
     "relationship": "computed data finding"
   },
   {
@@ -78,8 +106,8 @@
     "chartLabel": "FBI series closes 71% lower",
     "chartDetail": "20,110 reports vs. 70,003 in 1989",
     "kind": "finding",
-    "startsAtSeconds": 115.659,
-    "endsAtSeconds": 123.659,
+    "startsAtSeconds": 145.659,
+    "endsAtSeconds": 153.659,
     "relationship": "computed data finding"
   },
   {
@@ -92,8 +120,8 @@
     "chartLabel": "Boston declares COVID emergency",
     "chartDetail": "March 2020 · calendar context",
     "kind": "event",
-    "startsAtSeconds": 131.268,
-    "endsAtSeconds": 137.268,
+    "startsAtSeconds": 161.268,
+    "endsAtSeconds": 167.268,
     "relationship": "temporal context; no causal claim"
   },
   {
@@ -103,8 +131,8 @@
     "chartLabel": "Reports rise from the 2022 low",
     "chartDetail": "27,537 → 31,239",
     "kind": "finding",
-    "startsAtSeconds": 140.634,
-    "endsAtSeconds": 145.134,
+    "startsAtSeconds": 170.634,
+    "endsAtSeconds": 175.134,
     "relationship": "computed data finding"
   }
 ]

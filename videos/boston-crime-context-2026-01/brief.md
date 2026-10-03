@@ -70,3 +70,23 @@ as moving map labels and the corrected monthly axis. Check full-size and 640px
 landscape views; inspect the entire timeline for pacing and transitions. Record
 actual inspection coverage and unavailable listening explicitly. No prior QA
 or approval transfers to the new bytes.
+
+## Revision4: a pause behind the chart
+
+The1996 Ceasefire annotation opens a30-second silent illustrated interlude. The
+chart freezes at58.5s, flips away, and resumes the exact same frame afterward.
+Four shots show the narrower youth-firearm focus, a coordinated meeting,
+enforcement and service referrals, and the distinction from citywide crime.
+Original vector illustrations are labeled conceptual; no archival claim,
+incident location, victim count or causal effect is invented. Source and timing
+are locked in `interlude-sources.json`.
+
+Cultural orientation stays on-chart: the Web's public announcement in1991 and
+the first YouTube upload in2005. These are temporal context. The surrounding
+cards have disjoint reading windows. The full film becomes360seconds; later
+data frames are shifted30seconds, not accelerated or skipped. Existing music
+is time-stretched without pitch change. No narration.
+
+Verification: inspect both flip edges and four scene holds, compare frozen and
+resumed chart frames, inspect all new/shifted annotations at1920px and640px,
+and decode the full360s delivery. Human editorial/listening review remains open.

@@ -1,0 +1,31 @@
+{
+  "revision": 4,
+  "kind": "original conceptual vector illustration",
+  "event": "Operation Ceasefire",
+  "eventDate": "May 1996",
+  "source": "https://ojjdp.ojp.gov/sites/ojjdp/files/pubs/gun_violence/profile02.html",
+  "claims": [
+    "Coordinated strategy aimed at youth firearm violence",
+    "Police, probation, clergy and streetworkers participated in direct communication",
+    "Outreach workers referred youth to social services, job training and employment opportunities"
+  ],
+  "limits": [
+    "Not archival imagery or incident geography",
+    "No treatment-effect estimate",
+    "Youth firearm violence is narrower than citywide FBI index crimes"
+  ],
+  "chartComparisonYears": [
+    1989,
+    1993,
+    1996,
+    2000,
+    2015
+  ],
+  "pauseAtBaseFrame": 1755,
+  "insertedFrames": 900,
+  "fps": 30,
+  "culturalSources": [
+    "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+    "https://blog.youtube/news-and-events/celebrating-10-years-of-youtube/"
+  ]
+}

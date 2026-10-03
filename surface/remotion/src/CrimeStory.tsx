@@ -2,12 +2,14 @@ import React, { useMemo } from "react";
 import {
   AbsoluteFill,
   Audio,
+  Freeze,
   Sequence,
   interpolate,
   useCurrentFrame,
   useVideoConfig,
   staticFile,
 } from "remotion";
+import { CeasefireInterlude } from "./components/CeasefireInterlude";
 import type { StoryProps } from "./data/types";
 import { deriveStats } from "./data/derive";
 import { buildMapProjection, MapLayer } from "./components/MapLayer";
@@ -53,7 +55,7 @@ function accentFor(text: string): string {
 
 const clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
 
-export const CrimeStory: React.FC<StoryProps> = (props) => {
+const CrimeStoryBase: React.FC<StoryProps> = (props) => {
   const {
     bundle,
     emphasizeGroupA,
@@ -481,4 +483,28 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       />
     </AbsoluteFill>
   );
+};
+
+// Insert time without advancing any data, captions, source strips or chapters.
+export const CrimeStory: React.FC<StoryProps> = (props) => {
+  const frame = useCurrentFrame();
+  const {fps, durationInFrames} = useVideoConfig();
+  const spec = props.historyInterlude;
+  if (!spec) return <CrimeStoryBase {...props} />;
+  const pivot = Math.round(spec.pauseAtSec * fps);
+  const hold = Math.round(spec.durationSec * fps);
+  const local = frame - pivot;
+  const active = local >= 0 && local < hold;
+  const flip = active ? interpolate(local, [0, 24, hold-24, hold-1], [0, 180, 180, 0], {extrapolateLeft: "clamp", extrapolateRight: "clamp"}) : 0;
+  return <AbsoluteFill style={{background: "#07090c", perspective: 2400}}>
+    {props.audioSrc && <Audio src={staticFile(props.audioSrc)} volume={(f) => Math.min(1, Math.max(0, (durationInFrames-f)/(fps*3)))}/>}
+    <AbsoluteFill style={{transform: `rotateY(${flip}deg)`, backfaceVisibility: "hidden"}}>
+      {frame < pivot && <Sequence durationInFrames={pivot}><CrimeStoryBase {...props} audioSrc={undefined}/></Sequence>}
+      {active && <Freeze frame={pivot}><CrimeStoryBase {...props} audioSrc={undefined}/></Freeze>}
+      {frame >= pivot+hold && <Sequence from={hold}><CrimeStoryBase {...props} audioSrc={undefined}/></Sequence>}
+    </AbsoluteFill>
+    {active && <AbsoluteFill style={{transform: `rotateY(${flip-180}deg)`, backfaceVisibility: "hidden"}}>
+      <Sequence from={pivot} durationInFrames={hold}><CeasefireInterlude durationInFrames={hold} annualTotals={[1989,1993,1996,2000,2015].map(year=>props.bundle!.trend!.years.find(y=>y.year===year)!.total)}/></Sequence>
+    </AbsoluteFill>}
+  </AbsoluteFill>;
 };

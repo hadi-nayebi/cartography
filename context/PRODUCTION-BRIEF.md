@@ -1,11 +1,16 @@
 # City story production brief
 
-Start with one useful question about a city. Complete this brief before a new
+Start with one useful question about a city or a clearly defined comparison.
+Follow the [production model](PRODUCTION-MODEL.md) for record ownership and
+learning between releases. Complete this brief before a new
 video enters production; use the same evidence standards for every topic.
 
 ## Question and viewer payoff
 
 - City, geographic boundary, topic, and time period.
+- Geographic form: single city, comparison, state, or country. Name coverage
+  and compatible denominators; identify overlapping areas before aggregation.
+- Planned duration below ten minutes; justify the time each scene needs.
 - One question a viewer should be able to answer after watching.
 - Intended viewer and the knowledge the explanation assumes.
 - Up to three takeaways, each linked to a reproducible calculation or source.

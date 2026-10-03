@@ -1,57 +1,42 @@
-# BRAND.md — Crime Cartography dedicated-channel brand book
+# Cartography brand and viewer promise
 
-Status: **current dedicated-channel brand direction**
+## Promise
 
-> Owner + orchestrator write here; channel-scientist audits against it and
-> proposes refinements via notes. Every public-facing choice traces to this.
+City stories through maps, charts, and sourced context. Viewers should leave
+with a clearer understanding of where patterns occur, how they change, and
+what the evidence can explain.
 
-## The promise (what a viewer can always count on)
-**"The numbers, mapped — every one of them real."** Sourced public data,
-honestly visualized: declared gaps stay gaps, measure changes are explained on
-screen, every figure reproducible from the public repo. Produced through a
-human-directed agentic system with a public machinery trail—the transparency is
-part of the brand.
+## Scope and voice
 
-## Voice
-Plain, precise, curious. NEVER fear-mongering — crime data is history and
-geography, not a danger ranking. No "most dangerous city" framing, ever.
-Correlation never causation. Rises get shown as honestly as falls. The viewer
-should leave knowing something true, even something small: how crime trends
-moved over years and across their own city's map.
+Businesses, housing, transport, population, crime, and other city topics share
+one channel and production system. Be plain, precise, and curious. Choose a
+useful question before choosing a chart. Avoid sensational rankings or causal
+claims that the evidence cannot support. Preserve dignity, privacy, and local
+context when describing people and neighborhoods.
 
-## Visual system (remake direction)
-- Dark cartographic ground, one gold working accent, monospace data labels.
-- Thumbnails: REAL render frames only — big verified stat over the city map
-  (the composed style: −71% over Boston). Never stock imagery, never clickbait
-  art, never a number that isn't in the video.
-- Titles: verified-stat hooks ≤100 chars ("City Crime Fell X% Since YYYY —
-  …, Mapped"); the exact figure must match the video's on-screen claim and
-  never bridge a measure seam.
-- Descriptions: chapters + sources + MADE-BY-AN-AI block + repo link + city
-  hashtag — the template lives in every videos/<slug>/youtube.json.
+## Visual language
 
-## Channel architecture (owner ruling, 2026-07-23)
+A map supplies geographic orientation in every video. Complement it with views
+that fit the question. Sourced annotations add reference points throughout the
+story. Use clear hierarchy, readable labels, a restrained palette, and enough
+time to understand each idea. Dense data does not require a crowded screen.
 
-Crime Cartography is the only public destination for this project. Earth One is
-out of scope. The channel may grow multiple crime-related formats and playlists,
-including owner-narrated videos, but no other channel is an upload fallback.
+Thumbnails and titles must describe the actual video. Use verified figures only
+when they are meaningful; a percentage hook is not mandatory. Do not fix a new
+story to an old example's duration, chart mix, palette, or music.
 
-## Playlist taxonomy (each format = one playlist = one viewer promise)
-1. **US Cities · Crime, Mapped** (pre-launch remake phase) — city deep-dives.
-2. State vs State comparatives (when ≥5 cities/state — batch-2+).
-3. Counties in a state · sweeps (later).
-4. All-USA · timelines (later).
-Future: same surfaces, other public stats (owner-gated, later era).
+## Channel and playlists
 
-## Growth loop (who learns what)
-channel-scientist (daily) correlates live performance with the experiment
-matrix → RESULTS.md → batch-2 uses winning levels; sequential A/B on live
-titles/thumbnails runs ONLY through owner-approved proposal notes with ≥3-day
-measurement windows. Native Studio "Test & Compare" is not API-accessible —
-owner can run it manually in Studio when useful.
+Keep the existing dedicated channel identity as the publication destination.
+Use **Cartography** as its display name. A display name or repository rename
+must not change the owner-locked channel ID or bypass channel verification.
+Group playlists by a clear viewer question or topic as real videos justify
+them. Crime data is one topic, not the definition of the channel.
 
-## Non-negotiables (brand = trust)
-No fabricated or interpolated figures anywhere public. No engagement bait that
-misrepresents content. Comments claiming data errors are treated as bug
-reports (triaged to the producer, investigated, corrected publicly if real —
-corrections are part of the record). Attribution/licenses always honored.
+## Trust
+
+Trace displayed claims to source data, declare gaps and measure changes, and
+honor attribution and licenses. Correct verified errors visibly. Human review
+applies to exact rendered bytes and remains separate from publication approval.
+The [editorial standard](../context/EDITORIAL.md) and
+[production brief](../context/PRODUCTION-BRIEF.md) govern each story.

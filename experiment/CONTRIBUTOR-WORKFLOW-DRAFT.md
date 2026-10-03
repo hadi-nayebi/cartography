@@ -13,8 +13,8 @@ wins.
 
 ## 1. Project
 
-**Crime Cartography** is a human-managed, agent-operated production project for
-sourced crime-related videos. The dedicated Crime Cartography channel is the
+**Cartography** is a human-managed, agent-operated production project for
+sourced city data visualization videos. The dedicated Cartography channel is the
 only public home for the series. The public repository contains production
 machinery and reproducibility records; finished audiovisual works are not
 licensed under the repository's MIT software license.
@@ -36,7 +36,7 @@ rules or a separately approved revision; succession does not happen silently.
 
 ## 3. Project subscriber
 
-A **project subscriber** is an adult who separately requests Crime Cartography
+A **project subscriber** is an adult who separately requests Cartography
 project emails through the project website. Project subscription is not a
 YouTube subscription. It creates no entitlement to assignments, points,
 payment, ownership, or selection for a later program.
@@ -110,7 +110,7 @@ agreement explicitly says otherwise after professional review.
 The first workflow uses a **website form backed by email**. During the initial
 subscription pilot:
 
-1. a visitor completes the Crime Cartography form on the Hadosh Academy site;
+1. a visitor completes the Cartography form on the Hadosh Academy site;
 2. EmailJS sends a structured notification to
    `earthone+crimecarto@earthone.life`;
 3. a separate read-only inbox worker validates and counts those requests

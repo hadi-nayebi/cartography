@@ -1,20 +1,23 @@
 # Project
 
-Part of the [Crime Cartography shared context](INDEX.md).
+Part of the [Cartography shared context](INDEX.md).
 
 ## The project `[consolidated]`
 
-Crime Cartography is the first working case of a larger experiment: use an
-agentic harness as a production medium, surround it with a human editorial
-collective, and publicly develop the rules by which that collective operates
-and may share created value.
+Cartography creates informative data visualization videos about cities. Maps
+show where a pattern occurs; line graphs, histograms, bars, and other views
+explain the changes or comparisons that matter to the question.
 
-Crime-data visualization is the first format because audience interest is
-already proven, public datasets make the machinery inspectable, and the output
-can be made more useful than an attractive moving chart. This channel remains
-crime-focused while expanding into comparisons, explainers, and other formats.
-The operating model may later be reused by separate projects in other factual
-domains.
+Topics include crime, businesses, housing, transport, population, and other
+aspects of city life supported by reliable data. Crime is one example within
+this shared production system. Each story combines sourced data, geographic
+orientation, and carefully timed context so the viewer learns more as it plays.
+
+An agentic harness supports research, data preparation, and visual production.
+Human editorial judgment governs the question, context, pacing, and release.
+The existing crime adapters and CrimeStory composition implement crime examples;
+new topics require their own source and measure validation before rendering.
+The [production brief](PRODUCTION-BRIEF.md) defines that topic-independent entry.
 
 ## The experiment's three lenses `[consolidated direction]`
 
@@ -33,10 +36,10 @@ accountability for release.
 Can a format already capable of attracting large audiences—starting with data
 visualization—also help people build a healthier factual memory of the world?
 
-The first case uses crime trends across time, place, and category. A successful
+City stories explore patterns across time, place, and category. A successful
 video should be engaging enough to watch and structured well enough that the
-viewer remembers defensible facts, source limits, and useful context. Separate
-future projects may test the same operating model in other factual domains.
+viewer remembers defensible facts, source limits, and useful context. Different city topics share this project and its evidence
+standards.
 
 ### 3. Collective governance and fair value
 
@@ -61,9 +64,9 @@ before the required systems and terms exist.
 
 ## What is true now `[consolidated]`
 
-- The dedicated `@CrimeCartography` channel is the only publication destination
-  for this project.
-- EarthOne is out of scope. Its three Crime Cartography uploads were removed.
+- The dedicated channel is the only publication destination for this project.
+  Its immutable channel identity is retained when display branding changes.
+- EarthOne is out of scope. Its three crime-data uploads were removed.
 - Twenty city pipelines and twenty inherited reference cuts exist.
 - No inherited cut is approved for the dedicated channel.
 - Dedicated remakes completed: **0**.
@@ -105,7 +108,7 @@ wait for a participant threshold.
 ### Horizon 1 — prove the story
 
 1. Open the public project room and email-request form.
-2. Release the introduction and two human-approved dedicated remakes.
+2. Release human-approved city stories selected through a topic-specific brief.
 3. Publish what human feedback changed.
 
 ### Horizon 2 — prove the editorial loop
@@ -117,7 +120,7 @@ wait for a participant threshold.
 
 ### Horizon 3 — earn expansion
 
-1. Expand to more cities, comparisons, and crime-related formats.
+1. Develop more city topics, comparisons, and suitable visualization formats.
 2. Formalize governance and any value-distribution model only after qualified
    review and versioned consent.
 3. Reuse the operating system for other factual domains when its safeguards
@@ -131,7 +134,7 @@ decision rooms, not settled milestones.
 ## Current three priorities `[consolidated]`
 
 1. Reconcile the public repository, website, and Discussion sources.
-2. Produce and human-review the first dedicated remake and introduction.
+2. Select a city question, prepare its production brief, and human-review its video.
 3. Prove the email request and confirmation path before calling the subscriber
    operation active.
 

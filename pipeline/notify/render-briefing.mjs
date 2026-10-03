@@ -53,7 +53,7 @@ function blocksHtml(blocks, { accent = "#111827" } = {}) {
 export function renderBriefing(md) {
   const lines = md.split(/\r?\n/);
   const subjectLine = lines.find((l) => /^Subject:\s*/.test(l));
-  const subject = subjectLine ? subjectLine.replace(/^Subject:\s*/, "").trim() : "Crime Cartography · Production Briefing";
+  const subject = subjectLine ? subjectLine.replace(/^Subject:\s*/, "").trim() : "Cartography · Production Briefing";
 
   // Split into preamble + ①..⑥ sections.
   const sections = []; // { glyph, title, lines[] }
@@ -100,7 +100,7 @@ export function renderBriefing(md) {
   ${sectionHtml}
   <tr><td style="padding:18px 28px 22px;">
     <div style="border-top:1px solid #e2e8f0;padding-top:12px;font-size:11px;line-height:1.6;color:#9ca3af;">
-      Sent by the Crime Cartography production harness (send policy: earthone → hadinayebi only).<br>
+      Sent by the Cartography production harness (send policy: earthone → hadinayebi only).<br>
       Repo copy: experiment/briefings/ · github.com/hadi-nayebi/crime-cartography
     </div>
   </td></tr>

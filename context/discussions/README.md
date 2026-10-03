@@ -1,6 +1,6 @@
 # Canonical Discussion sources
 
-These Markdown files are the source bodies for the public Crime Cartography
+These Markdown files are the source bodies for the public Cartography
 GitHub Discussions. GitHub provides the conversation surface; this repository
 owns the context.
 

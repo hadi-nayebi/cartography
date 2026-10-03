@@ -1,6 +1,6 @@
 # Design collective governance and fair-value rules
 
-Crime Cartography is exploring whether a human-managed production harness can
+Cartography is exploring whether a human-managed production harness can
 share created value with people who perform useful editorial work. No economic
 program is active.
 

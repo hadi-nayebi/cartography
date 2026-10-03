@@ -2,7 +2,7 @@
 
 Status: **v0.1 implementation contract for public review**
 
-Crime Cartography begins with email as its private participation interface. The
+Cartography begins with email as its private participation interface. The
 website is the friendly input surface; the EarthOne mailbox is the initial
 subscriber record; the public repository contains only the protocol and
 processing machinery.
@@ -16,13 +16,13 @@ can satisfy every later privacy, moderation, identity, or revision-history need.
 
 ## Subscription path
 
-1. A visitor completes the Crime Cartography project form on the Hadosh Academy
+1. A visitor completes the Cartography project form on the Hadosh Academy
    website.
 2. EmailJS converts that form submission into a structured notification email.
 3. The notification is delivered to
    `earthone+crimecarto@earthone.life`.
 4. A read-only inbox worker selects only messages delivered to that address and
-   decodes the embedded Crime Cartography subscription envelope.
+   decodes the embedded Cartography subscription envelope.
 5. The harness can count, validate, and segment current requests directly from
    the mailbox. It does not create a second subscriber database.
 
@@ -47,7 +47,7 @@ be inspected or bypassed.
 Before the form is described as abuse-resistant for production collection, the
 EmailJS template must also enforce:
 
-1. a dedicated Crime Cartography intake template that is not shared with
+1. a dedicated Cartography intake template that is not shared with
    contact, access, or other project forms;
 2. an origin allowlist limited to the production Academy origin;
 3. reCAPTCHA v2 verification on the intake template; and
@@ -120,7 +120,7 @@ compliance, and owner approval of the exact message class.
 ## Deployment gates
 
 - confirm the EarthOne mail system accepts the `+crimecarto` recipient;
-- create a dedicated Crime Cartography EmailJS template, configure it to deliver
+- create a dedicated Cartography EmailJS template, configure it to deliver
   to that exact recipient, and preserve the structured message;
 - restrict the EmailJS domain allowlist to the production Academy origin;
 - enable and test reCAPTCHA v2 enforcement on the intake template;

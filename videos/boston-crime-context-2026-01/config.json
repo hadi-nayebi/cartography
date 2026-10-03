@@ -65,12 +65,18 @@
     {
       "atYear": 1989,
       "text": "Property offenses account for 57,084 of the 70,003 reports at Boston’s 1989 peak.",
-      "durationSec": 8
+      "durationSec": 8,
+      "chartLabel": "FBI index-crime peak",
+      "chartDetail": "70,003 reports",
+      "kind": "finding"
     },
     {
       "atYear": 1993,
       "text": "The decline was already underway: 55,555 reports in 1993, 21% below 1989.",
-      "durationSec": 8
+      "durationSec": 8,
+      "chartLabel": "Down 21% from the peak",
+      "chartDetail": "55,555 FBI index reports",
+      "kind": "finding"
     },
     {
       "atYear": 1996,
@@ -78,12 +84,18 @@
       "durationSec": 8,
       "sourceUrl": "https://ojjdp.ojp.gov/sites/ojjdp/files/pubs/gun_violence/profile02.html",
       "role": "calendar-anchor",
-      "editorialReason": "Local violence-prevention initiative directly relevant to the topic; distinguish its narrow target from all crime."
+      "editorialReason": "Local violence-prevention initiative directly relevant to the topic; distinguish its narrow target from all crime.",
+      "chartLabel": "Operation Ceasefire begins",
+      "chartDetail": "Youth gun-violence initiative",
+      "kind": "event"
     },
     {
       "atYear": 2000,
       "text": "By 2000, reported property crime was about half its 1989 level.",
-      "durationSec": 8
+      "durationSec": 8,
+      "chartLabel": "Property reports roughly halve",
+      "chartDetail": "Compared with 1989",
+      "kind": "finding"
     },
     {
       "atYear": 2003,
@@ -91,17 +103,26 @@
       "durationSec": 8,
       "sourceUrl": "https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges",
       "role": "calendar-anchor",
-      "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim."
+      "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim.",
+      "chartLabel": "Big Dig: Central Artery opens",
+      "chartDetail": "Downtown roadway goes underground",
+      "kind": "event"
     },
     {
       "atYear": 2010,
       "text": "By 2010, violent index offenses numbered 5,819—55% below their 1989 count.",
-      "durationSec": 8
+      "durationSec": 8,
+      "chartLabel": "Violent index offenses down 55%",
+      "chartDetail": "Compared with 1989",
+      "kind": "finding"
     },
     {
       "atYear": 2015,
       "text": "The FBI series ends at 20,110 reports—71% below the 1989 peak.",
-      "durationSec": 8
+      "durationSec": 8,
+      "chartLabel": "FBI series closes 71% lower",
+      "chartDetail": "20,110 reports vs. 70,003 in 1989",
+      "kind": "finding"
     },
     {
       "atYear": 2020,
@@ -109,12 +130,18 @@
       "durationSec": 6,
       "sourceUrl": "https://www.boston.gov/sites/default/files/file/2020/04/PHE%20Declaration%20Extension.pdf",
       "role": "calendar-anchor",
-      "editorialReason": "Local emergency marks the pandemic disruption; the chart does not establish its causal effect."
+      "editorialReason": "Local emergency marks the pandemic disruption; the chart does not establish its causal effect.",
+      "chartLabel": "Boston declares COVID emergency",
+      "chartDetail": "March 2020 · calendar context",
+      "kind": "event"
     },
     {
       "atYear": 2023,
       "text": "After the 2022 low of 27,537, the annual count rose to 31,239 in 2023.",
-      "durationSec": 6
+      "durationSec": 4.5,
+      "chartLabel": "Reports rise from the 2022 low",
+      "chartDetail": "27,537 → 31,239",
+      "kind": "finding"
     }
   ],
   "annotations": [
@@ -153,5 +180,6 @@
   "composition": "CrimeStory",
   "showQuiz": false,
   "showHistoricalReference": false,
-  "contextAnchors": []
+  "contextAnchors": [],
+  "historyAnnotationMode": "chart"
 }

@@ -5,7 +5,11 @@
     "durationSec": 8,
     "startsAtSeconds": 34.488,
     "endsAtSeconds": 42.488,
-    "relationship": "computed data finding"
+    "relationship": "computed data finding",
+    "chartLabel": "FBI index-crime peak",
+    "chartDetail": "70,003 reports",
+    "kind": "finding",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 1993,
@@ -13,7 +17,11 @@
     "durationSec": 8,
     "startsAtSeconds": 46.976,
     "endsAtSeconds": 54.976,
-    "relationship": "computed data finding"
+    "relationship": "computed data finding",
+    "chartLabel": "Down 21% from the peak",
+    "chartDetail": "55,555 FBI index reports",
+    "kind": "finding",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 1996,
@@ -23,8 +31,12 @@
     "role": "calendar-anchor",
     "editorialReason": "Local violence-prevention initiative directly relevant to the topic; distinguish its narrow target from all crime.",
     "startsAtSeconds": 56.341,
-    "endsAtSeconds": 64.341,
-    "relationship": "temporal context; no causal claim"
+    "endsAtSeconds": 64.34100000000001,
+    "relationship": "temporal context; no causal claim",
+    "chartLabel": "Operation Ceasefire begins",
+    "chartDetail": "Youth gun-violence initiative",
+    "kind": "event",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 2000,
@@ -32,7 +44,11 @@
     "durationSec": 8,
     "startsAtSeconds": 68.829,
     "endsAtSeconds": 76.829,
-    "relationship": "computed data finding"
+    "relationship": "computed data finding",
+    "chartLabel": "Property reports roughly halve",
+    "chartDetail": "Compared with 1989",
+    "kind": "finding",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 2003,
@@ -43,7 +59,11 @@
     "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim.",
     "startsAtSeconds": 78.195,
     "endsAtSeconds": 86.195,
-    "relationship": "temporal context; no causal claim"
+    "relationship": "temporal context; no causal claim",
+    "chartLabel": "Big Dig: Central Artery opens",
+    "chartDetail": "Downtown roadway goes underground",
+    "kind": "event",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 2010,
@@ -51,7 +71,11 @@
     "durationSec": 8,
     "startsAtSeconds": 100.049,
     "endsAtSeconds": 108.049,
-    "relationship": "computed data finding"
+    "relationship": "computed data finding",
+    "chartLabel": "Violent index offenses down 55%",
+    "chartDetail": "Compared with 1989",
+    "kind": "finding",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 2015,
@@ -59,7 +83,11 @@
     "durationSec": 8,
     "startsAtSeconds": 115.659,
     "endsAtSeconds": 123.659,
-    "relationship": "computed data finding"
+    "relationship": "computed data finding",
+    "chartLabel": "FBI series closes 71% lower",
+    "chartDetail": "20,110 reports vs. 70,003 in 1989",
+    "kind": "finding",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 2020,
@@ -70,14 +98,22 @@
     "editorialReason": "Local emergency marks the pandemic disruption; the chart does not establish its causal effect.",
     "startsAtSeconds": 131.268,
     "endsAtSeconds": 137.268,
-    "relationship": "temporal context; no causal claim"
+    "relationship": "temporal context; no causal claim",
+    "chartLabel": "Boston declares COVID emergency",
+    "chartDetail": "March 2020 · calendar context",
+    "kind": "event",
+    "presentation": "callout above plot; leader to the named year bar"
   },
   {
     "atYear": 2023,
     "text": "After the 2022 low of 27,537, the annual count rose to 31,239 in 2023.",
-    "durationSec": 6,
+    "durationSec": 4.5,
     "startsAtSeconds": 140.634,
-    "endsAtSeconds": 146.634,
-    "relationship": "computed data finding"
+    "endsAtSeconds": 145.134,
+    "relationship": "computed data finding",
+    "chartLabel": "Reports rise from the 2022 low",
+    "chartDetail": "27,537 → 31,239",
+    "kind": "finding",
+    "presentation": "callout above plot; leader to the named year bar"
   }
 ]

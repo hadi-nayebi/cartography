@@ -30,5 +30,7 @@
     "platform": "Telegram paired review",
     "messageId": 499,
     "sentAt": "2026-10-03T19:16:58.025Z"
-  }
+  },
+  "editorialAcceptance": "rejected by Hadi in Telegram message 502 / update431678002",
+  "reviewFeedback": "History notes were subtitles, not annotations; require short text bubbles above chart with lines connected to the exact histogram bars."
 }

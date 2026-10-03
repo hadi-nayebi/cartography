@@ -307,6 +307,13 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
           seamExplain={copy?.seamExplain}
           eraCaption={copy?.eraCaption}
           contextAnchors={props.contextAnchors ?? []}
+          chartAnnotations={props.historyAnnotationMode === "chart" ? histSeqs
+            .filter(({startFrame,durFrames}) => frame >= startFrame && frame < startFrame + durFrames)
+            .map(({h,startFrame,durFrames}) => ({
+              atYear: h.atYear, label: h.chartLabel ?? h.text,
+              detail: h.chartDetail ?? "", kind: h.kind ?? "finding",
+              opacity: Math.min(clamp((frame-startFrame)/15,0,1),clamp((startFrame+durFrames-frame)/18,0,1)),
+            })) : []}
         />
       ) : history && historyOpacity > 0.001 ? (
         <HistoryEra history={history} yearFloat={yearFloat} opacity={historyOpacity} />
@@ -365,7 +372,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       ))}
 
       {/* History notes (lower third) */}
-      {histSeqs.map(({ h, startFrame, durFrames }, idx) => (
+      {(props.historyAnnotationMode === "chart" ? [] : histSeqs).map(({ h, startFrame, durFrames }, idx) => (
         <Sequence key={`h${idx}`} from={startFrame} durationInFrames={durFrames} layout="none">
           <Annotation text={h.text} durationInFrames={durFrames} accent={accentFor(h.text)} region="history" />
         </Sequence>

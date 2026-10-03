@@ -157,6 +157,9 @@ export interface Annotation {
 }
 
 export interface HistoryNote {
+  chartLabel?: string; // concise headline inside the bar-linked callout
+  chartDetail?: string;
+  kind?: "finding" | "event";
   durationSec?: number;
   atYear: number; // must exist in history.years
   text: string; // checkable against history.json
@@ -234,6 +237,7 @@ export interface StoryConfig {
   durationSec: number;
   fps: number;
   annotations: Annotation[]; // granular era (2023+)
+  historyAnnotationMode?: "chart";
   historyNotes: HistoryNote[]; // deep-history era (2000–2022)
   contextAnchors?: ContextAnchor[]; // sourced memory anchors on the long arc
   emphasizeGroupA: boolean;

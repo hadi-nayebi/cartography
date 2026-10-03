@@ -89,3 +89,13 @@ uses the first 30 seconds to assess the introduction. Check whether that opening
 fulfills the packaging promise; after release investigate actual dips and spikes.
 Do not treat arbitrary animation frequency or a generic retention percentage as
 a universal rule for educational maps.
+
+## Annotations must attach to the evidence
+
+Hadi's October 3 review rejected subtitle-like history notes as chart annotations.
+An annotation is a short callout inside or immediately above the plot, with a
+visible leader ending on the exact bar, point or mapped feature it discusses.
+Keep subtitles and explanatory captions separate. Inspect a rendered frame while
+the callout is visible and verify the leader's actual endpoint, text clearance,
+year and source claim. A field named annotation or a lower-third caption does
+not satisfy this gate. Show motion through the callout window, not only a still.

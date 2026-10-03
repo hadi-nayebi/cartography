@@ -20,8 +20,10 @@ interface Props {
   /** why-the-jump explainer shown while the sweep crosses the seam
       (config copy.seamExplain overrides the engine default). */
   seamExplain?: string;
+  eraCaption?: string;
   /** sourced historical memory anchors; context-only never implies causation. */
   contextAnchors?: ContextAnchor[];
+  chartAnnotations?: {atYear:number;label:string;detail:string;kind:"finding"|"event";opacity:number}[];
 }
 
 const X0 = 300;
@@ -43,7 +45,9 @@ export const FullTrend: React.FC<Props> = ({
   kicker,
   punchline,
   seamExplain,
+  eraCaption,
   contextAnchors = [],
+  chartAnnotations = [],
 }) => {
   const years = trend.years;
   const n = years.length;
@@ -206,6 +210,32 @@ export const FullTrend: React.FC<Props> = ({
           );
         })}
 
+        {/* Short annotation cards occupy the clear band above the plot. Each
+            leader terminates at the actual revealed bar top, not the axis or
+            a subtitle region. Only scheduled notes are passed into this layer. */}
+        {chartAnnotations.map(note => {
+          const index=years.findIndex(y=>y.year===note.atYear);
+          if(index<0)return null;
+          const x=X0+index*slot+slot/2;
+          const reveal=Math.max(0,Math.min(1,yearFloat-index+.5));
+          const y=BASE_Y-(years[index].total/maxTotal)*CHART_H*reveal;
+          const width=490, height=100, top=286;
+          const left=Math.max(X0,Math.min(X1-width,x-width/2));
+          const stemX=Math.max(left+25,Math.min(left+width-25,x));
+          return <g key={note.atYear} opacity={note.opacity}>
+            <path d={`M${stemX},${top+height} L${stemX},${top+height+12} L${x},${y-8}`}
+              fill="none" stroke={accent} strokeWidth={2.5}/>
+            <circle cx={x} cy={y} r={7} fill={COLORS.bg} stroke={accent} strokeWidth={3}/>
+            <rect x={left} y={top} width={width} height={height} rx={12}
+              fill="#101914" stroke={accent} strokeWidth={1.7}/>
+            <text x={left+20} y={top+24} fill={accent} fontSize={16} fontFamily={FONT_MONO} letterSpacing={1.5}>
+              {note.atYear} · {note.kind === "event" ? "HISTORICAL EVENT" : "DATA FINDING"}
+            </text>
+            <text x={left+20} y={top+55} fill={COLORS.ink} fontSize={25} fontFamily={FONT_SANS} fontWeight={700}>{note.label}</text>
+            <text x={left+20} y={top+82} fill={COLORS.inkDim} fontSize={20} fontFamily={FONT_SANS}>{note.detail}</text>
+          </g>;
+        })}
+
         {/* SEAM — explicit measure change */}
         {seamIdx > 0 && yearFloat > seamIdx - 2 && (
           <g
@@ -219,7 +249,7 @@ export const FullTrend: React.FC<Props> = ({
           >
             <line
               x1={X0 + seamIdx * slot}
-              y1={yOf(maxTotal) - 26}
+              y1={chartAnnotations.some((note) => note.opacity > 0.01) ? yOf(maxTotal) : yOf(maxTotal) - 26}
               x2={X0 + seamIdx * slot}
               y2={BASE_Y + 8}
               stroke={COLORS.ink}
@@ -227,7 +257,7 @@ export const FullTrend: React.FC<Props> = ({
               strokeWidth={1.5}
               strokeDasharray="7 5"
             />
-            <text
+            {!chartAnnotations.some((note) => note.opacity > 0.01) && <text
               x={X0 + seamIdx * slot}
               y={yOf(maxTotal) - 34}
               fill={COLORS.inkDim}
@@ -236,7 +266,7 @@ export const FullTrend: React.FC<Props> = ({
               textAnchor="middle"
             >
               {trend.seamYear} · the measure changes
-            </text>
+            </text>}
           </g>
         )}
       </svg>
@@ -264,7 +294,7 @@ export const FullTrend: React.FC<Props> = ({
           color: COLORS.inkFaint,
         }}
       >
-        two different counting systems — compare the shape within each era, not across the dashed seam
+        {eraCaption ?? "FBI index crimes and newer police incident records use different definitions."}
       </div>
 
       {/* WHY-THE-JUMP seam explainer — rides the sweep across the measure

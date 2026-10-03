@@ -1,0 +1,36 @@
+{
+  "renderedAt": "2026-10-03T22:36:02.361738+00:00",
+  "status": "Human accepted final v4; publication authorized",
+  "durationSec": 360,
+  "fps": 30,
+  "frameCount": 10800,
+  "output": "out/review-v4-fixed.mp4",
+  "sha256": "648e865a6a0f82c5d23ee616d9b60826aa7e0ae22f95712875ee15456d5b79ad",
+  "sourceSegments": [
+    {
+      "frames": "0-1694 and 2746-10799",
+      "commit": "b388e49",
+      "sha256": "51f3763589a00085b555ae38276167d013494272d7ee21b76b98f3c31701645b"
+    },
+    {
+      "frames": "1695-2745",
+      "commit": "906a0a4",
+      "sha256": "72bdb2f8e6271de3858ff2e28077fbe294acc2b681989025a947991bc756333c"
+    }
+  ],
+  "assembly": "FFmpeg concatenated unchanged prefix, corrected 1051-frame interlude and unchanged suffix; continuous full audio reencoded AAC96k. H264 CRF20 max950k. Final faststart remux.",
+  "configSha256": "40ef7c87f664f9d41f8968afce44139210cef6b063675a044a7d1b95e03f2913",
+  "reviewDelivery": {
+    "filename": "boston-review-v4.mp4",
+    "sha256": "080020741ba801a6dc6e3b28cbd45c77a545e86758a03afd48c0d302225cb648",
+    "bytes": 27315423
+  },
+  "humanApproval": {
+    "telegramMessageId": 530,
+    "updateId": 431678014,
+    "approvedSha256": "080020741ba801a6dc6e3b28cbd45c77a545e86758a03afd48c0d302225cb648",
+    "decision": "Accepted as final; upload authorized; evaluate interlude using retention later"
+  },
+  "published": true,
+  "publicationUrl": "https://youtu.be/M43NgcR3nJ4"
+}

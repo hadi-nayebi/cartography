@@ -12,9 +12,10 @@ interface Props {
   refLabel?: string;
   /** counted-category label (config.copy.countTerm); neutral fallback "reported". */
   countTerm?: string;
+  caption?: string;
 }
 
-const X0 = 430;
+const X0 = 530;
 const X1 = 1862;
 const Y_BOTTOM = 1014;
 const HEIGHT = 150;
@@ -32,6 +33,7 @@ export const TimelineChart: React.FC<Props> = ({
   refRate,
   refLabel,
   countTerm,
+  caption,
 }) => {
   const term = countTerm ?? "reported";
   const W = X1 - X0;
@@ -62,6 +64,11 @@ export const TimelineChart: React.FC<Props> = ({
   const playheadX = xOf(Math.min(monthFloat, n));
   const playheadY = yOf(curRate);
   const pulse = 1 + 0.5 * Math.exp(-frac * 7);
+  // Keep the complete live label inside the plot, clear of its own moving dot.
+  const readoutWidth = Math.max(220, (term.length + 8) * 11 + 24);
+  const readoutLeft = playheadX + 12 + readoutWidth > X1
+    ? playheadX - readoutWidth - 12 : playheadX + 12;
+  const readoutTop = Math.max(Y_TOP + 4, playheadY - 64);
 
   return (
     <svg
@@ -70,12 +77,14 @@ export const TimelineChart: React.FC<Props> = ({
       viewBox="0 0 1920 1080"
       style={{ position: "absolute", inset: 0, pointerEvents: "none" }}
     >
+      {/* Isolate chart labels from underlying basemap road shields and lines. */}
+      <rect x={X0 - 70} y={Y_TOP - 40} width={W + 84} height={HEIGHT + 66} fill={COLORS.bg} fillOpacity={0.98} rx={8} />
       {/* title + units */}
       <text x={X0} y={Y_TOP - 16} fill={COLORS.ink} fontSize={20} fontFamily={FONT_MONO} fontWeight={700}>
         {term.toUpperCase()} INCIDENTS PER MONTH
       </text>
       <text x={X0 + 370} y={Y_TOP - 16} fill={COLORS.inkFaint} fontSize={19} fontFamily={FONT_MONO}>
-        — monthly rate · rises &amp; falls with the real trend (not a running total)
+        {caption ?? "— monthly reported counts"}
       </text>
 
       {/* y grid: 0, mid, top with value labels */}
@@ -87,9 +96,6 @@ export const TimelineChart: React.FC<Props> = ({
           </text>
         </g>
       ))}
-      <text x={X0 - 10} y={Y_TOP - 2} fill={COLORS.inkFaint} fontSize={17} fontFamily={FONT_MONO} textAnchor="end">
-        /mo
-      </text>
 
       {/* reference line: where the old UCR era sat, same per-month unit */}
       {refRate && refRate > 0 && (
@@ -125,12 +131,13 @@ export const TimelineChart: React.FC<Props> = ({
           <line x1={playheadX} y1={Y_TOP} x2={playheadX} y2={Y_BOTTOM} stroke="#ffffff" strokeOpacity={0.45} strokeWidth={1} />
           <circle cx={playheadX} cy={playheadY} r={5.5 * pulse} fill="#ffffff" />
           <circle cx={playheadX} cy={playheadY} r={5.5} fill={CAT_COLORS.persons} />
-          <g transform={`translate(${Math.min(playheadX + 12, X1 - 200)}, ${Math.max(Y_TOP + 18, playheadY - 14)})`}>
+          <g transform={`translate(${readoutLeft}, ${readoutTop + 24})`}>
+            <rect x={-8} y={-25} width={readoutWidth} height={55} rx={5} fill={COLORS.bg} fillOpacity={0.96} />
             <text x={0} y={0} fill={COLORS.ink} fontSize={26} fontFamily={FONT_MONO} fontWeight={700}>
               {Math.round(curRate)}
             </text>
             <text x={0} y={22} fill={COLORS.inkDim} fontSize={17} fontFamily={FONT_MONO}>
-              {term} crimes this month
+              {term} / month
             </text>
           </g>
         </>

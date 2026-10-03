@@ -17,9 +17,9 @@ interface Props {
 
 // Cold open rebuilt as a retention hook (research: the steepest drop is
 // seconds 10–20; the payoff must land by ~15s). Structure inside 8s:
-//   0.0–0.7s  black beat
-//   0.7–3.2s  the STAT slams in huge (pattern interrupt) + its meaning line
-//   3.2–8.0s  title + subtitle arrive below (promise), everything eases out
+//   0.0–0.15s  black beat
+//   0.15–2.2s  the STAT slams in huge (pattern interrupt) + its meaning line
+//   2.2–8.0s  title + subtitle arrive below (promise), everything eases out
 export const HookOpen: React.FC<Props> = ({
   stat,
   line,
@@ -32,13 +32,13 @@ export const HookOpen: React.FC<Props> = ({
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const statPop = spring({ frame: frame - Math.round(0.7 * fps), fps, config: { damping: 11, mass: 0.9, stiffness: 130 }, durationInFrames: 26 });
-  const lineIn = interpolate(frame, [Math.round(1.4 * fps), Math.round(2.2 * fps)], [0, 1], {
+  const statPop = spring({ frame: frame - Math.round(0.15 * fps), fps, config: { damping: 11, mass: 0.9, stiffness: 130 }, durationInFrames: 26 });
+  const lineIn = interpolate(frame, [Math.round(0.65 * fps), Math.round(1.4 * fps)], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
     easing: Easing.bezier(0.16, 1, 0.3, 1),
   });
-  const titleIn = interpolate(frame, [Math.round(3.2 * fps), Math.round(4.2 * fps)], [0, 1], {
+  const titleIn = interpolate(frame, [Math.round(2.2 * fps), Math.round(3.2 * fps)], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
     easing: Easing.bezier(0.16, 1, 0.3, 1),
@@ -99,7 +99,7 @@ export const HookOpen: React.FC<Props> = ({
       {/* the promise — title arrives under the stat */}
       <div style={{ marginTop: 44, opacity: titleIn, transform: `translateY(${(1 - titleIn) * 14}px)` }}>
         <div style={{ fontFamily: FONT_MONO, fontSize: 18, letterSpacing: 6, color: COLORS.inkFaint, marginBottom: 10 }}>
-          CRIME CARTOGRAPHY
+          CARTOGRAPHY
         </div>
         <div style={{ fontSize: 44, fontWeight: 700, color: COLORS.ink, maxWidth: 1250, lineHeight: 1.1 }}>{title}</div>
         <div style={{ fontSize: 24, color: COLORS.inkDim, marginTop: 10 }}>{subtitle}</div>

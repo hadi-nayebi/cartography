@@ -19,7 +19,8 @@ The existing `videos/<story-id>/` layout should retain:
 - `brief.md`: the completed [production brief](PRODUCTION-BRIEF.md), scene plan,
   annotation evidence and viewer payoff.
 - `config.json`: composition inputs and references to topic-appropriate data.
-- `youtube.json`: title, description, credits, visibility and eventual platform ID.
+- `youtube.json`: title, complete description, chapters, credits, visibility and eventual platform ID.
+- `packaging/`: selected title/thumbnail, rationale and asset hashes; alternatives only when useful for a defined comparison.
 - `render.lock.json`: actual output path, SHA-256, duration, render command,
   source revision and data snapshot identity.
 - `qa.json`: calculation/visual/audio review evidence and the render hash it
@@ -34,11 +35,17 @@ the restriction. Keep tokens, internal strategy and raw human feedback private.
 For a new topic, agree the adapter and composition contracts before rendering.
 Do not rename arbitrary measures to satisfy the existing crime schema.
 
+## Governing workflow
+
+The [OPEVC workflow](OPEVC-WORKFLOW.md) governs phase transitions and review.
+Story agreement precedes production. Work on one video until Hadi approves its
+exact artifact; a review wait does not authorize another project.
+
 ## One cycle, two outputs
 
 | Phase | Story work | Reusable result |
 | --- | --- | --- |
-| Observe | Research the question, audience and available evidence | Record source semantics and failure cases |
+| Observe | Discuss and agree a useful topic, story and payoff with Hadi | Retain the agreed outline and evidence boundaries |
 | Plan | Select geographic scope, scenes and sourced annotations | Choose an existing recipe or identify its specific gap |
 | Execute | Fetch, normalize, calculate, design and render | Improve a shared adapter or component only where useful |
 | Verify | Recompute claims and inspect final encoded pixels/audio | Add a check for a real defect and verify its repair |
@@ -74,8 +81,9 @@ weekly plan into a claim that seven videos are ready.
 
 Start with a representative pilot. Measure research effort, render time,
 revision effort and quality before committing to daily or multiple daily
-releases. Independent research can overlap; heavy rendering follows the
-machine's resource limits. A quota ceiling is not a posting schedule.
+releases. Do not advance other candidates while the current video awaits approval.
+Heavy rendering follows the machine's resource limits. A quota ceiling is not
+a posting schedule.
 
 Before upload, verify the locked channel identity and the exact render bytes.
 The upload CLI ignores stored visibility: it uses private visibility unless

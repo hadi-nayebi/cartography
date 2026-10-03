@@ -1,5 +1,17 @@
 # City story production brief
 
+Follow [OPEVC phase gates](OPEVC-WORKFLOW.md). One active video; no production
+before story agreement and no next video before current-video approval.
+
+## Story agreement and current phase
+
+Record the agreed question, audience, narrative direction and payoff, plus the
+private owner record holding Hadi's agreement. State pending explicitly when
+there is no agreement. Identify the current phase and unresolved questions.
+
+Use the [storytelling framework](STORYTELLING.md) to build a narrative spine,
+calendar or spatial landmarks, and a meaningful viewer payoff.
+
 Start with one useful question about a city or a clearly defined comparison.
 Follow the [production model](PRODUCTION-MODEL.md) for record ownership and
 learning between releases. Complete this brief before a new
@@ -49,7 +61,8 @@ For each proposed anchor record:
 | Evidence | Source URL, publisher, source date, and supporting passage |
 | Relevance | Why it helps answer this video's question |
 | Relationship | Context only, or a documented change to the measure |
-| Placement | Chart/map location and video time interval |
+| Placement | Exact target bar/point/feature; leader endpoint; box bounds; caption and label clearance |
+| Motion | Entrance, hold and exit intervals; collision checks across movement |
 | Reading budget | Sufficient time and space alongside narration and other labels |
 
 An event close to a turning point does not establish its cause. Spread useful
@@ -59,6 +72,23 @@ viewers to read several messages at once. Do not invent anchors to fill a quota.
 The crime example renderer already supports sourced `contextAnchors`, timed
 `annotations`, and map callouts. Check their placement and timing for the new
 composition; their existence does not prove a new story's clarity.
+
+## Execution specification
+
+For each scene complete this table before execution; unresolved material fields
+keep the video in Plan.
+
+| Detail | Specification |
+| --- | --- |
+| Story | Question, takeaway, exact copy, source and reading time |
+| Data | Fields, transformations, joins, exclusions, units and calculation check |
+| Visual | Tool/component, projection/scale, plot bounds, axes and legend |
+| Placement | Coordinates, font sizes, safe areas, layering and phone-size check |
+| Motion | Reveal/camera path, timing, transition, annotation target tracking |
+| Audio | Narration/captions, music source, levels, fades and listening check |
+| Preview | Smallest meaningful still/motion check before a full render |
+| Cost | Expected render work and uncertainty; stop conditions |
+| Acceptance | Exact encoded windows, defect checks and story payoff to verify |
 
 ## Verification and release
 
@@ -71,3 +101,23 @@ Ask whether a viewer can explain the takeaways without memorizing every number.
 Store data provenance, configuration, and render identity with the video. Human
 review applies to those exact rendered bytes; edits require a new verification
 and approval. Uploading or publishing remains a separate authorized action.
+
+## Title, thumbnail and description package
+
+Select a title/thumbnail pairing with a clear reason; produce alternatives only
+when they answer a concrete editorial or experiment question. Include the complete description with chapters, source/recipe links
+and credits. Inspect thumbnails at small display size. Make the first seconds
+of the film fulfill the title’s promise. A dramatic number must retain its
+measure and period; do not imply danger from raw report counts.
+
+Preserve selected asset hashes and exact metadata with the video’s review record.
+After release use actual clicks, watch time and retention to test assumptions;
+record experiment eligibility and method before claiming a winning variant.
+
+## Iteration and condensation
+
+| Observed failure | Return to O/P/E | Actual correction | Reusable workflow change and file | Next consuming check | Evidence/result |
+| --- | --- | --- | --- | --- | --- |
+
+Do not mark a lesson proven because this table was filled. Verify its effect in
+the next actual iteration. Hadi's final verification binds the exact artifact.

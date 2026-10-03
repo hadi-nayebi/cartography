@@ -12,6 +12,8 @@ interface Props {
   /** counted-category label (config.copy.countTerm); neutral fallback "reported".
    * Never assert a taxonomy (e.g. NIBRS "Group A") the source doesn't use. */
   countTerm?: string;
+  regionNoun?: string;
+  showQuiz?: boolean;
 }
 
 const SAFE = "#36e07a";
@@ -21,7 +23,7 @@ const BUSY = "#ff2e63";
 // payoff — the beats with the FEWEST reported Group A crimes ("safest"), called
 // out honestly as report counts, not per-capita. Every figure is a real
 // period total.
-export const Reveal: React.FC<Props> = ({ stats, summary, durationInFrames, countTerm }) => {
+export const Reveal: React.FC<Props> = ({ stats, summary, durationInFrames, countTerm, regionNoun = "neighborhood", showQuiz = true }) => {
   const term = countTerm ?? "reported";
   const frame = useCurrentFrame();
   const fadeIn = interpolate(frame, [0, 20], [0, 1], {
@@ -67,7 +69,7 @@ export const Reveal: React.FC<Props> = ({ stats, summary, durationInFrames, coun
         {/* LEFT — busiest */}
         <div style={{ flex: 1.25 }}>
           <div style={{ fontSize: 32, fontWeight: 700, marginBottom: 18, color: BUSY }}>
-            Busiest neighborhoods — most {term} crime
+            Most {term} crime by {regionNoun}
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 11 }}>
             {busiest.map((b, i) => {
@@ -96,7 +98,7 @@ export const Reveal: React.FC<Props> = ({ stats, summary, durationInFrames, coun
         {/* RIGHT — quiz answer / safest */}
         <div style={{ flex: 1, borderLeft: "1px solid rgba(125,145,175,0.22)", paddingLeft: 48 }}>
           <div style={{ fontFamily: FONT_MONO, fontSize: 17, letterSpacing: 4, color: SAFE, marginBottom: 6 }}>
-            QUIZ ANSWER
+            {showQuiz ? "QUIZ ANSWER" : "DISTRICTS WITH FEWER REPORTS"}
           </div>
           <div style={{ fontSize: 32, fontWeight: 700, marginBottom: 4, color: SAFE }}>
             Fewest {term} crimes
@@ -135,8 +137,8 @@ export const Reveal: React.FC<Props> = ({ stats, summary, durationInFrames, coun
             })}
           </div>
           <div style={{ fontSize: 18, color: COLORS.inkFaint, marginTop: 16, lineHeight: 1.45 }}>
-            "Safest" = fewest {term} crimes. Report counts only — not
-            adjusted for population or area.
+            Report volume differs with population, visitors and activity.
+            These totals are not an individual safety rating.
             {stats.hoodNoDataCount > 0 &&
               ` ${stats.hoodNoDataCount} area${stats.hoodNoDataCount === 1 ? "" : "s"} with no mapped records excluded — no data isn't "no crime".`}
           </div>

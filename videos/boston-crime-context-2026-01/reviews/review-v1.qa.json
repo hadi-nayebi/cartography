@@ -1,0 +1,23 @@
+{
+  "reviewedAt": "2026-10-03T18:15:06.790064+00:00",
+  "appliesToRender": "70c30941331f1143b558719abd576025f71b56aa602e760c9f859c2334b76fb7",
+  "reviewDeliverySha256": "3d33fb9a84c032c998917a849809f284ad6da20d5a6e33bc6b1b7340b17d1b30",
+  "status": "rejected by editorial review; not for publication",
+  "data": "Builder recomputed 2025 district/category totals and guarded caption-critical values; normalized snapshot validation passed.",
+  "code": "TypeScript and targeted ESLint passed after spacing repair.",
+  "visual": {
+    "method": "Encoded samples every 10 seconds, plus full-size chapter samples at50 and100 seconds after chart-height repair. Earlier full-size stills at30,74,130 seconds.",
+    "finding": "Two chart context notes crowded the caption band in the initial render. Reduced chart height by60px and inspected corrected encoded samples.",
+    "scope": "Sampled review, not frame-by-frame human viewing."
+  },
+  "decode": "Entire delivered video and audio decoded with ffmpeg -f null -; exit0, no decode errors.",
+  "audio": {
+    "mode": "Retained music only; no narration",
+    "meanVolumeDb": -32.1,
+    "maxVolumeDb": -16.1,
+    "method": "ffmpeg volumedetect; no clipping. Human listening not completed by agent; audio input unavailable.",
+    "acceptance": "pending"
+  },
+  "humanApproval": "rejected",
+  "published": false
+}

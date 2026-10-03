@@ -1,0 +1,212 @@
+{
+  "slug": "boston-crime-context-2026-01",
+  "datasetDir": "data/boston-ma",
+  "title": "Boston · Forty Years of Change",
+  "subtitle": "How the long decline unfolded—and where recent reports cluster",
+  "durationSec": 360,
+  "fps": 30,
+  "emphasizeGroupA": true,
+  "audioSrc": "audio/boston-review-v4.mp3",
+  "repoUrl": "github.com/hadi-nayebi/cartography",
+  "trendStyle": "bars",
+  "mapWindowMonths": 60,
+  "hook": {
+    "stat": "−71%",
+    "line": "Boston’s FBI index-crime reports, 1989–2015",
+    "sub": "FBI UCR · 1989–2015"
+  },
+  "punchline": {
+    "text": "70,003 → 20,110",
+    "sub": "FBI index-crime reports · 1989 to 2015 · a 71% decline"
+  },
+  "theme": {
+    "name": "sage",
+    "colors": {
+      "bg": "#07090c",
+      "beatFill": "#0c1210",
+      "beatStroke": "rgba(140,190,160,0.24)",
+      "panelStroke": "rgba(140,190,160,0.2)",
+      "grid": "rgba(140,190,160,0.12)",
+      "ink": "#eef4ef",
+      "inkDim": "#aec2b3",
+      "inkFaint": "#71857a"
+    },
+    "catColors": {
+      "persons": "#e63946",
+      "property": "#e9b44c",
+      "society": "#4fbf8b",
+      "other": "#6b7684"
+    }
+  },
+  "copy": {
+    "countTerm": "reported",
+    "cityName": "Boston",
+    "regionNoun": "district",
+    "chapter2Kicker": "BOSTON · JULY 2021–JUNE 2026",
+    "chapter2Title": "The pattern across 12 districts",
+    "chapter2Caption": "Monthly crime-classified reports · sampled reported locations",
+    "transitionKicker": "FROM YEARS TO MONTHS · BOSTON",
+    "transitionTitle": "The citywide trend has a geography",
+    "transitionDesc": "The recent record reveals where reports accumulated, and how the pattern changed from month to month.",
+    "methodRecentTag": "BPD / ANALYZE BOSTON",
+    "methodRecentSub": "July 2021–June 2026 · districts and months",
+    "methodDotsHeadline": "Real dots, real places",
+    "methodDotsSub": "Sampled locations published by BPD. Records without coordinates remain in district totals.",
+    "methodFootnote": "Annual FBI index crimes through 2015; BPD crime-classified records from 2016. Public sexual-assault records are absent from the newer file.",
+    "seamExplain": "BPD introduced its new incident-record system in August 2015. Its first full year, 2016, counts a broader set of records than the earlier FBI index-crime series.",
+    "sourceLine": "Boston Police Department / Analyze Boston + FBI UCR · source snapshot July 2026",
+    "coverageText": "99.4% of source records assigned to districts",
+    "creditsSources": "Sources: FBI UCR annual index crimes, 1985–2015; BPD / Analyze Boston incident records, July 2026 snapshot. Crime categories exclude service records. BPD omits sexual-assault records from its public file. Report volume is not a personal risk estimate. Basemap: OpenStreetMap contributors (ODbL).",
+    "eraCaption": "FBI index crimes through 2015 · BPD crime-classified records from 2016",
+    "timelineCaption": "BPD crime-classified records · July 2021–June 2026",
+    "musicCredit": "Music: Stable Audio Open · retained Boston score"
+  },
+  "historyNotes": [
+    {
+      "atYear": 1989,
+      "text": "Property offenses account for 57,084 of the 70,003 reports at Boston’s 1989 peak.",
+      "durationSec": 6,
+      "chartLabel": "FBI index-crime peak",
+      "chartDetail": "70,003 reports",
+      "kind": "finding"
+    },
+    {
+      "atYear": 1991,
+      "text": "The Web is announced publicly. August 1991 · cultural landmark",
+      "durationSec": 5,
+      "sourceUrl": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+      "role": "calendar-anchor",
+      "editorialReason": "Familiar cultural milestone; temporal orientation, not a crime-cause claim.",
+      "chartLabel": "The Web is announced publicly",
+      "chartDetail": "August 1991 · cultural landmark",
+      "kind": "event"
+    },
+    {
+      "atYear": 1993,
+      "text": "The decline was already underway: 55,555 reports in 1993, 21% below 1989.",
+      "durationSec": 8,
+      "chartLabel": "Down 21% from the peak",
+      "chartDetail": "55,555 FBI index reports",
+      "kind": "finding"
+    },
+    {
+      "atYear": 1996,
+      "text": "Operation Ceasefire began in 1996, targeting youth firearm violence.",
+      "durationSec": 8,
+      "sourceUrl": "https://ojjdp.ojp.gov/sites/ojjdp/files/pubs/gun_violence/profile02.html",
+      "role": "calendar-anchor",
+      "editorialReason": "Local violence-prevention initiative directly relevant to the topic; distinguish its narrow target from all crime.",
+      "chartLabel": "Operation Ceasefire begins",
+      "chartDetail": "Youth gun-violence initiative",
+      "kind": "event"
+    },
+    {
+      "atYear": 2000,
+      "text": "By 2000, reported property crime was about half its 1989 level.",
+      "durationSec": 8,
+      "chartLabel": "Property reports roughly halve",
+      "chartDetail": "Compared with 1989",
+      "kind": "finding"
+    },
+    {
+      "atYear": 2003,
+      "text": "2003 · The Big Dig brings the Central Artery underground through downtown Boston.",
+      "durationSec": 6,
+      "sourceUrl": "https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges",
+      "role": "calendar-anchor",
+      "editorialReason": "A visible transformation of Boston’s geography locates this era; no crime-effect claim.",
+      "chartLabel": "Big Dig: Central Artery opens",
+      "chartDetail": "Downtown roadway goes underground",
+      "kind": "event"
+    },
+    {
+      "atYear": 2005,
+      "text": "The first YouTube upload. April 2005 · cultural landmark",
+      "durationSec": 7,
+      "sourceUrl": "https://blog.youtube/news-and-events/celebrating-10-years-of-youtube/",
+      "role": "calendar-anchor",
+      "editorialReason": "Familiar cultural milestone; temporal orientation, not a crime-cause claim.",
+      "chartLabel": "The first YouTube upload",
+      "chartDetail": "April 2005 · cultural landmark",
+      "kind": "event"
+    },
+    {
+      "atYear": 2010,
+      "text": "By 2010, violent index offenses numbered 5,819—55% below their 1989 count.",
+      "durationSec": 8,
+      "chartLabel": "Violent index offenses down 55%",
+      "chartDetail": "Compared with 1989",
+      "kind": "finding"
+    },
+    {
+      "atYear": 2015,
+      "text": "The FBI series ends at 20,110 reports—71% below the 1989 peak.",
+      "durationSec": 8,
+      "chartLabel": "FBI series closes 71% lower",
+      "chartDetail": "20,110 reports vs. 70,003 in 1989",
+      "kind": "finding"
+    },
+    {
+      "atYear": 2020,
+      "text": "March 2020: Boston’s public-health emergency begins during the COVID-19 pandemic.",
+      "durationSec": 6,
+      "sourceUrl": "https://www.boston.gov/sites/default/files/file/2020/04/PHE%20Declaration%20Extension.pdf",
+      "role": "calendar-anchor",
+      "editorialReason": "Local emergency marks the pandemic disruption; the chart does not establish its causal effect.",
+      "chartLabel": "Boston declares COVID emergency",
+      "chartDetail": "March 2020 · calendar context",
+      "kind": "event"
+    },
+    {
+      "atYear": 2023,
+      "text": "After the 2022 low of 27,537, the annual count rose to 31,239 in 2023.",
+      "durationSec": 4.5,
+      "chartLabel": "Reports rise from the 2022 low",
+      "chartDetail": "27,537 → 31,239",
+      "kind": "finding"
+    }
+  ],
+  "annotations": [
+    {
+      "atMonth": "2021-11",
+      "text": "The map shows a sample of published locations; district totals include reports without coordinates.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2023-01",
+      "text": "2022 ends with 27,537 crime-classified reports—the lowest complete year since 2016.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2024-01",
+      "text": "D4 / South End recorded 5,022 reports in 2023, up from 4,156 in 2022.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2024-08",
+      "text": "August 2024: 2,944 crime-classified reports, the highest month in this five-year window.",
+      "durationSec": 8
+    },
+    {
+      "atMonth": "2026-01",
+      "text": "Property offenses account for 18,186 of the 29,963 crime-classified reports in 2025.",
+      "durationSec": 6
+    },
+    {
+      "atMonth": "2026-04",
+      "text": "The annual total fell 36% from 2016 to 2025. The map shows how unevenly reports are distributed.",
+      "durationSec": 6
+    }
+  ],
+  "sourceDataset": "boston-ma",
+  "composition": "CrimeStory",
+  "showQuiz": false,
+  "showHistoricalReference": false,
+  "contextAnchors": [],
+  "historyAnnotationMode": "chart",
+  "historyInterlude": {
+    "pauseAtSec": 58.5,
+    "durationSec": 30,
+    "kind": "ceasefire"
+  }
+}

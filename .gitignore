@@ -1,6 +1,8 @@
 # Node / Remotion
 node_modules/
 surface/remotion/node_modules/
+surface/remotion/public/audio/
+surface/remotion/public/stories/
 .remotion/
 out/
 *.log

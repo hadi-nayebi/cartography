@@ -99,6 +99,7 @@ const calculateMetadata: CalculateMetadataFunction<StoryProps> = async ({
 
 export const RemotionRoot: React.FC = () => {
   return (
+    <>
     <Composition
       id="CrimeStory"
       component={CrimeStory}
@@ -109,5 +110,6 @@ export const RemotionRoot: React.FC = () => {
       defaultProps={GRAND_RAPIDS}
       calculateMetadata={calculateMetadata}
     />
+    </>
   );
 };

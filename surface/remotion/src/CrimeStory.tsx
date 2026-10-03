@@ -2,12 +2,14 @@ import React, { useMemo } from "react";
 import {
   AbsoluteFill,
   Audio,
+  Freeze,
   Sequence,
   interpolate,
   useCurrentFrame,
   useVideoConfig,
   staticFile,
 } from "remotion";
+import { CeasefireInterlude } from "./components/CeasefireInterlude";
 import type { StoryProps } from "./data/types";
 import { deriveStats } from "./data/derive";
 import { buildMapProjection, MapLayer } from "./components/MapLayer";
@@ -53,7 +55,7 @@ function accentFor(text: string): string {
 
 const clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
 
-export const CrimeStory: React.FC<StoryProps> = (props) => {
+const CrimeStoryBase: React.FC<StoryProps> = (props) => {
   const {
     bundle,
     emphasizeGroupA,
@@ -184,7 +186,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       const i = stats.months.indexOf(a.atMonth);
       if (i < 0) return null;
       const secAt = PHASES.transitionEnd + (i / monthCount) * (PHASES.granularEnd - PHASES.transitionEnd);
-      const durFrames = Math.round(4.6 * fps);
+      const durFrames = Math.round((a.durationSec ?? 4.6) * fps);
       let startFrame = Math.round(secAt * fps);
       const maxStart = Math.round(PHASES.granularEnd * fps) - durFrames;
       if (startFrame > maxStart) startFrame = maxStart;
@@ -202,7 +204,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
         : history!.years.findIndex((y) => y.year === h.atYear);
       if (i < 0) return null;
       const secAt = PHASES.methodEnd + (i / nYears) * (PHASES.historyEnd - PHASES.methodEnd);
-      const durFrames = Math.round(4.6 * fps);
+      const durFrames = Math.round((h.durationSec ?? 4.6) * fps);
       let startFrame = Math.round(secAt * fps);
       const maxStart = Math.round(PHASES.historyEnd * fps) - durFrames;
       if (startFrame > maxStart) startFrame = maxStart;
@@ -305,7 +307,15 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
           accent={CAT_COLORS.property}
           punchline={props.punchline}
           seamExplain={copy?.seamExplain}
+          eraCaption={copy?.eraCaption}
           contextAnchors={props.contextAnchors ?? []}
+          chartAnnotations={props.historyAnnotationMode === "chart" ? histSeqs
+            .filter(({startFrame,durFrames}) => frame >= startFrame && frame < startFrame + durFrames)
+            .map(({h,startFrame,durFrames}) => ({
+              atYear: h.atYear, label: h.chartLabel ?? h.text,
+              detail: h.chartDetail ?? "", kind: h.kind ?? "finding",
+              opacity: Math.min(clamp((frame-startFrame)/15,0,1),clamp((startFrame+durFrames-frame)/18,0,1)),
+            })) : []}
         />
       ) : history && historyOpacity > 0.001 ? (
         <HistoryEra history={history} yearFloat={yearFloat} opacity={historyOpacity} />
@@ -340,16 +350,17 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
           months={stats.months}
           cityMonthly={stats.cityMonthly}
           monthFloat={gFloat}
-          refRate={lastFbiTotal ? lastFbiTotal / 12 : undefined}
+          refRate={props.showHistoricalReference === false ? undefined : lastFbiTotal ? lastFbiTotal / 12 : undefined}
           refLabel={
             lastFbiTotal
               ? `${lastHistYear} UCR Violent+Property ≈ ${Math.round(lastFbiTotal / 12)}/mo (narrower count)`
               : undefined
           }
           countTerm={copy?.countTerm}
+          caption={copy?.timelineCaption}
         />
       </div>
-      <Leaderboard stats={stats} gFloat={gFloat} opacity={granHud} countTerm={copy?.countTerm} />
+      <Leaderboard stats={stats} gFloat={gFloat} opacity={granHud} countTerm={copy?.countTerm} regionNoun={copy?.regionNoun} />
 
       {/* Granular annotations */}
       {annoSeqs.map(({ a, startFrame, durFrames, anchor }, idx) => (
@@ -363,7 +374,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       ))}
 
       {/* History notes (lower third) */}
-      {histSeqs.map(({ h, startFrame, durFrames }, idx) => (
+      {(props.historyAnnotationMode === "chart" ? [] : histSeqs).map(({ h, startFrame, durFrames }, idx) => (
         <Sequence key={`h${idx}`} from={startFrame} durationInFrames={durFrames} layout="none">
           <Annotation text={h.text} durationInFrames={durFrames} accent={accentFor(h.text)} region="history" />
         </Sequence>
@@ -402,7 +413,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       </Sequence>
 
       {/* Engagement quiz — posed during the history era, answered at the reveal */}
-      {quizOptions.length >= 2 && (
+      {props.showQuiz !== false && quizOptions.length >= 2 && (
         <Sequence from={quizStart} durationInFrames={quizDur} layout="none">
           <Quiz
             options={quizOptions}
@@ -430,7 +441,7 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
 
       {/* Reveal */}
       <Sequence from={Math.round(PHASES.granularEnd * fps)} durationInFrames={Math.round((PHASES.revealEnd - PHASES.granularEnd) * fps)} layout="none">
-        <Reveal stats={stats} summary={winBundle.summary} durationInFrames={Math.round((PHASES.revealEnd - PHASES.granularEnd) * fps)} countTerm={copy?.countTerm} />
+        <Reveal stats={stats} summary={winBundle.summary} durationInFrames={Math.round((PHASES.revealEnd - PHASES.granularEnd) * fps)} countTerm={copy?.countTerm} regionNoun={copy?.regionNoun} showQuiz={props.showQuiz} />
       </Sequence>
 
       {/* Close */}
@@ -472,4 +483,28 @@ export const CrimeStory: React.FC<StoryProps> = (props) => {
       />
     </AbsoluteFill>
   );
+};
+
+// Insert time without advancing any data, captions, source strips or chapters.
+export const CrimeStory: React.FC<StoryProps> = (props) => {
+  const frame = useCurrentFrame();
+  const {fps, durationInFrames} = useVideoConfig();
+  const spec = props.historyInterlude;
+  if (!spec) return <CrimeStoryBase {...props} />;
+  const pivot = Math.round(spec.pauseAtSec * fps);
+  const hold = Math.round(spec.durationSec * fps);
+  const local = frame - pivot;
+  const active = local >= 0 && local < hold;
+  const flip = active ? interpolate(local, [0, 24, hold-24, hold-1], [0, 180, 180, 0], {extrapolateLeft: "clamp", extrapolateRight: "clamp"}) : 0;
+  return <AbsoluteFill style={{background: "#07090c", perspective: 2400}}>
+    {props.audioSrc && <Audio src={staticFile(props.audioSrc)} volume={(f) => Math.min(1, Math.max(0, (durationInFrames-f)/(fps*3)))}/>}
+    <AbsoluteFill style={{visibility: flip < 90 ? "visible" : "hidden", transform: `rotateY(${flip}deg)`, backfaceVisibility: "hidden"}}>
+      {frame < pivot && <Sequence durationInFrames={pivot}><CrimeStoryBase {...props} audioSrc={undefined}/></Sequence>}
+      {active && <Freeze frame={pivot}><CrimeStoryBase {...props} audioSrc={undefined}/></Freeze>}
+      {frame >= pivot+hold && <Sequence from={hold}><CrimeStoryBase {...props} audioSrc={undefined}/></Sequence>}
+    </AbsoluteFill>
+    {active && <AbsoluteFill style={{visibility: flip >= 90 ? "visible" : "hidden", transform: `rotateY(${flip-180}deg)`, backfaceVisibility: "hidden"}}>
+      <Sequence from={pivot} durationInFrames={hold}><CeasefireInterlude durationInFrames={hold} annualTotals={[1989,1993,1996,2000,2015].map(year=>props.bundle!.trend!.years.find(y=>y.year===year)!.total)}/></Sequence>
+    </AbsoluteFill>}
+  </AbsoluteFill>;
 };

@@ -1,0 +1,20 @@
+{
+  "sourceSnapshot": "2026-07-12T07:05:46.795Z",
+  "inputs": {
+    "trend.json": "0e9ffa971db8ee142d13c2c565e4ae792090e8b40be8198aca1115a94e87ea67",
+    "timeline.json": "6748348044a92b5a0256b97ab184d2b8800a7578de5f8f883c6145de2b9a2c52",
+    "beats.json": "8a91774860f08815f0800558fd90fcd7d0904e5600b973aeb4fbd755506dcdac",
+    "summary.json": "ea32563f414f47483ec2e323558fe39766b1ab684929ac5d932e38585301d778",
+    "history.json": "23e41308bdb06f06d33cd15f93a10e692dee61c10740d7294446ace468faac81",
+    "feed.json": "f8255c9b5a98d0f0427a5dce4b01367271fe65ad35a67658f730d63f57c86651",
+    "points.json": "ee3e0754bd74bafe02b80d8d212b8fcbceb896bf4b09af37e4f5cf7f56904995",
+    "neighborhoods.json": "faad29541451ca1621e29acf808242693555a0e19be3969a524c61909aab0925",
+    "basemap.json": "7b9c88680f1503304ece6d411a786e23ae62c4df1a7de85713a7ee6c88ce6555"
+  },
+  "peak": {
+    "month": "2024-08",
+    "total": 2944
+  },
+  "configSha256": "ba490db7d8e5a17e9c5f5c7f2babc8926b20b6fca79bd51a210a8719a5d1a72f",
+  "musicSha256": "5c9cc124aa7f41b23cc6d933606b8f066fde9857ee49a0d431f51bbf9dc93149"
+}

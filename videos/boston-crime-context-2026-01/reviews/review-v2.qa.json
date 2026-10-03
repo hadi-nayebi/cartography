@@ -1,0 +1,34 @@
+{
+  "reviewedAt": "2026-10-03T19:16:19.446197+00:00",
+  "appliesToRender": "8c87f2748c821bdc82251d79804adba45f8447be0081d04d9f4dd02bf0204e30",
+  "reviewDeliverySha256": "8c87f2748c821bdc82251d79804adba45f8447be0081d04d9f4dd02bf0204e30",
+  "status": "technical review complete; human editorial and listening review pending",
+  "data": "Frozen-input builder recomputes totals and asserts caption-critical values; calendar cues have primary sources and non-overlapping windows.",
+  "code": "TypeScript passed after the axis-source repair; CI run37147230377 succeeded at8014536.",
+  "visual": {
+    "method": "Encoded 15-second contact sheet plus full-size opening/orientation, historical finding, Big Dig, source seam, COVID, map, district reveal and credits samples. Repaired map frame inspected again from final delivered bytes.",
+    "finding": "Restored progressive histogram and active map rather than rejected static treatment. Landmark collisions and chart/legend overlap repaired in source. Encoded QA found /mo overlapping top tick; removed in source and applied documented localized encoded label repair.",
+    "scope": "Sampled visual inspection, not frame-by-frame human playback.",
+    "note": "Source archive summary covers131months/allrecords; active map covers60months/crimecategories, with explicit period labels."
+  },
+  "decode": "Entire final delivery video/audio decoded with FFmpeg null output; exit0, no decode errors.",
+  "audio": {
+    "mode": "Retained music; no narration",
+    "meanVolumeDb": -19.1,
+    "maxVolumeDb": -1.9,
+    "clipping": false,
+    "method": "FFmpeg volumedetect. Agent did not audition audio; human listening remains pending."
+  },
+  "packaging": {
+    "title": "Boston Crime: 40 Years of Change, Mapped",
+    "thumbnailSha256": "561730d2b1e978db240761066eef556d179d0ab80725d33c4266ade2dbd00185",
+    "selection": "Producer-selected map and verified number; no empirical performance claim."
+  },
+  "humanApproval": null,
+  "published": false,
+  "delivery": {
+    "platform": "Telegram paired review",
+    "messageId": 499,
+    "sentAt": "2026-10-03T19:16:58.025Z"
+  }
+}

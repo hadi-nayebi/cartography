@@ -1,0 +1,23 @@
+{
+  "renderedAt": "2026-10-03T19:16:19.446197+00:00",
+  "commit": "90f454bd4288816103b454fefb9b1219d2128895",
+  "postprocessSourceCommit": "80145368d825ad3a2fe5843799bd93803e1de916",
+  "datasetFetchedAt": "2026-07-12T07:05:46.795Z",
+  "durationSec": 330,
+  "fps": 30,
+  "audioSrc": "music-v2.mp3",
+  "output": "out/review-v2-fixed.mp4",
+  "sha256": "8c87f2748c821bdc82251d79804adba45f8447be0081d04d9f4dd02bf0204e30",
+  "initialEncodeSha256": "1528b1e9a876dc95173b3444f2b1737d75045dc37a282f57685d86a21d89d740",
+  "remotion": "render src/index.ts CrimeStory ../../videos/boston-crime-context-2026-01/out/review-v2.mp4 --props=../../videos/boston-crime-context-2026-01/config.json --codec=h264 --concurrency=4 --browser-executable=/opt/google/chrome/chrome --log=error",
+  "postprocess": "Localized monthly-axis label repair documented in README; FFmpeg libx264 fast CRF18, audio copied. Corrected component removes redundant /mo label for future renders.",
+  "configSha256": "ba490db7d8e5a17e9c5f5c7f2babc8926b20b6fca79bd51a210a8719a5d1a72f",
+  "musicSha256": "5c9cc124aa7f41b23cc6d933606b8f066fde9857ee49a0d431f51bbf9dc93149",
+  "reviewDelivery": {
+    "filename": "boston-review-v2.mp4",
+    "sha256": "8c87f2748c821bdc82251d79804adba45f8447be0081d04d9f4dd02bf0204e30",
+    "bytes": 46056093,
+    "transform": "ffmpeg -c copy -movflags +faststart; same hash as repaired encode"
+  },
+  "status": "technical QA complete; editorial review pending"
+}

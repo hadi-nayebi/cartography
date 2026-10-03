@@ -37,7 +37,8 @@ export const LibraryStory:React.FC<LibraryProps>=({visuals})=>{
  if(!bedford)throw new Error('Bedford source marker missing');
  const zoom=smooth((t-80)/3)*(1-smooth((t-115)/3));
  const scale=1+zoom*2.4;
- const tx=(465-bedford.x*scale)*zoom,ty=(365-bedford.y*scale)*zoom;
+ const tx=(465-bedford.x*3.4)*zoom,ty=(365-bedford.y*3.4)*zoom;
+ const targetX=bedford.x*scale+tx,targetY=bedford.y*scale+ty;
  const timelineYear=t<57?1895:t<69?1896:1898;
  return <AbsoluteFill style={{background:PAPER,color:INK,fontFamily:'DejaVu Sans, sans-serif'}}>
   <Audio src={staticFile('audio/nyc-library-score.wav')} volume={f=>interpolate(f,[0,45,4380,4499],[0,.85,.85,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp'})}/>
@@ -55,7 +56,7 @@ export const LibraryStory:React.FC<LibraryProps>=({visuals})=>{
     })}
     </g>
     {!close&&labels.map(([name,x,y])=><text key={name} x={x} y={y} textAnchor="middle" fontSize={focusBorough===name?25:19} fontWeight="700" fill={INK} stroke={PAPER} strokeWidth="5" paintOrder="stroke">{name}</text>)}
-    {close&&<g><circle cx={bedford.x*scale+tx} cy={bedford.y*scale+ty} r={14+3*Math.sin(t*2)} fill="none" stroke={colors[1]} strokeWidth="3"/><circle cx={bedford.x*scale+tx} cy={bedford.y*scale+ty} r="5" fill={colors[1]}/><text x="465" y="318" textAnchor="middle" fill={INK} fontSize="26" fontWeight="700" stroke={PAPER} strokeWidth="6" paintOrder="stroke">BEDFORD LIBRARY</text><text x="465" y="420" textAnchor="middle" fill={INK} fontSize="20" stroke={PAPER} strokeWidth="5" paintOrder="stroke">Brooklyn · Franklin Avenue</text></g>}
+    {close&&<g><circle cx={targetX} cy={targetY} r={14+3*Math.sin(t*2)} fill="none" stroke={colors[1]} strokeWidth="3"/><circle cx={targetX} cy={targetY} r="5" fill={colors[1]}/><text x={targetX} y={targetY-47} textAnchor="middle" fill={INK} fontSize="26" fontWeight="700" stroke={PAPER} strokeWidth="6" paintOrder="stroke">BEDFORD LIBRARY</text><text x={targetX} y={targetY+55} textAnchor="middle" fill={INK} fontSize="20" stroke={PAPER} strokeWidth="5" paintOrder="stroke">Brooklyn · Franklin Avenue</text></g>}
     <text x="35" y="48" fontSize="17" fill={MUTED}>{history?'TODAY’S BOROUGH GEOGRAPHY':close?'NEIGHBORHOOD LOCATION':'FACILITY LOCATIONS · JUNE 2026'}</text>
     <path d="M863 74V34M855 45L863 34L871 45" fill="none" stroke={MUTED} strokeWidth="2"/><text x="863" y="94" textAnchor="middle" fontSize="15" fill={MUTED}>N</text>
    </svg>

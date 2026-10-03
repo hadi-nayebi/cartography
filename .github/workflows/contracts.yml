@@ -28,6 +28,8 @@ jobs:
           pipeline/public/*.test.mjs
           pipeline/publish/*.test.mjs
           pipeline/subscribers/*.test.mjs
+          pipeline/sources/nyc-libraries.test.mjs
+          pipeline/sources/library-geography.test.mjs
       - name: Validate repository production records
         shell: bash
         run: |
@@ -36,3 +38,9 @@ jobs:
             slug="${slug%/normalized}"
             node pipeline/validate.mjs "$slug"
           done
+
+      - name: Verify frozen library source and site groups
+        run: |
+          node pipeline/sources/nyc-libraries.mjs
+          node pipeline/sources/verify-library-geography.mjs
+          git diff --exit-code -- data/nyc-libraries/derived/libraries.json

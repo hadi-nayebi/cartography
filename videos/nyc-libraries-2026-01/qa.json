@@ -1,0 +1,42 @@
+{
+  "sha256": "38f78a8b83411d4701e575542e2707123848b2ed5948ea499a948374952a19d9",
+  "bytes": 12744857,
+  "videoDuration": 150,
+  "containerDuration": 150.058667,
+  "samplesSeconds": [
+    6,
+    12,
+    18,
+    23,
+    29,
+    39,
+    51,
+    63,
+    74,
+    82,
+    90,
+    100,
+    111,
+    117,
+    125,
+    142,
+    149
+  ],
+  "decode": "pass",
+  "humanListening": "pending",
+  "editorialAcceptance": "pending",
+  "renderSourceCommit": "42df262530ca4dd3857cc958724c21007bd63244",
+  "audioMeanDb": -20.9,
+  "audioPeakDb": -9.7,
+  "visualInspection": "All chapter samples inspected; corrected camera samples at 82 and 117 seconds verified from final encode",
+  "failedPredecessor": {
+    "source": "b63fae9",
+    "sha256": "fd1f71a66b07d7a13e201958e1bc953782ad9a20510432ad8c48e4a3e1c77290",
+    "reason": "Bedford camera overshoot; never delivered"
+  },
+  "delivery": {
+    "telegramMessageId": 505,
+    "sentAt": "2026-10-03T19:45:24.128Z",
+    "filename": "nyc-libraries-review-v1.mp4"
+  }
+}

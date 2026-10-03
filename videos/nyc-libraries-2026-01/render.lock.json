@@ -1,0 +1,11 @@
+{
+  "sourceCommit": "42df262530ca4dd3857cc958724c21007bd63244",
+  "output": "out/review-v1.mp4",
+  "sha256": "38f78a8b83411d4701e575542e2707123848b2ed5948ea499a948374952a19d9",
+  "durationSec": 150,
+  "fps": 30,
+  "status": "delivered-for-editorial-review; not approved",
+  "qa": "qa.json",
+  "inputLock": "source.lock.json",
+  "telegramMessageId": 505
+}

@@ -1,6 +1,7 @@
 import "./index.css";
 import React from "react";
-import { Composition, type CalculateMetadataFunction } from "remotion";
+import { Composition, staticFile, type CalculateMetadataFunction } from "remotion";
+import { LibraryStory, type LibraryProps } from './LibraryStory';
 import { CrimeStory } from "./CrimeStory";
 import type { StoryProps } from "./data/types";
 import { loadBundle } from "./data/load";
@@ -99,6 +100,8 @@ const calculateMetadata: CalculateMetadataFunction<StoryProps> = async ({
 
 export const RemotionRoot: React.FC = () => {
   return (
+    <>
+    <Composition id="LibraryStory" component={LibraryStory} durationInFrames={4500} fps={30} width={1920} height={1080} defaultProps={{visuals:null} as LibraryProps} calculateMetadata={async ({props,abortSignal})=>{const r=await fetch(staticFile('data/nyc-libraries/visuals.json'),{signal:abortSignal});if(!r.ok)throw new Error('Missing library display data');return {props:{...props,visuals:await r.json()}};}}/>
     <Composition
       id="CrimeStory"
       component={CrimeStory}
@@ -109,5 +112,6 @@ export const RemotionRoot: React.FC = () => {
       defaultProps={GRAND_RAPIDS}
       calculateMetadata={calculateMetadata}
     />
+    </>
   );
 };

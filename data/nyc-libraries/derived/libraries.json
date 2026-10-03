@@ -1,0 +1,5179 @@
+{
+  "schemaVersion": 1,
+  "measure": "FacDB public-library records, not certified current branches",
+  "recordCount": 226,
+  "mapMarkerCount": 221,
+  "documentedSiteGroups": 5,
+  "recordCountsByBorough": {
+    "BRONX": 35,
+    "BROOKLYN": 68,
+    "MANHATTAN": 42,
+    "QUEENS": 67,
+    "STATEN ISLAND": 14
+  },
+  "recordCountsBySystem": {
+    "Brooklyn Public Library": 68,
+    "New York Public Library": 91,
+    "Queens Public Library": 67
+  },
+  "records": [
+    {
+      "id": "0272db2a815f38d52de5a70bb9181fca",
+      "name": "HOWARD BEACH",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6638125681,
+      "longitude": -73.8418005525,
+      "buildingId": "4292455",
+      "address": "92-06 156 AVENUE"
+    },
+    {
+      "id": "02923b42067a8b3790486a4763d785f5",
+      "name": "FRESH MEADOWS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7415593826,
+      "longitude": -73.7822681507,
+      "buildingId": "4444054",
+      "address": "193-20 HORACE HARDING EXPRESSWAY"
+    },
+    {
+      "id": "02cb698f33a96d5ab6deb0cb9df019c1",
+      "name": "GLENDALE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.70258055,
+      "longitude": -73.8757991131,
+      "buildingId": "4090100",
+      "address": "78-60 73 PLACE"
+    },
+    {
+      "id": "03c6d733eefe179d405351b9ccc899ca",
+      "name": "MORRISANIA LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8312720847,
+      "longitude": -73.9017895369,
+      "buildingId": "2004303",
+      "address": "610 EAST 169 STREET"
+    },
+    {
+      "id": "043a663af03b0d70d0a3f7831ef1aefd",
+      "name": "TOMPKINS SQUARE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7273097844,
+      "longitude": -73.9804114104,
+      "buildingId": "1005147",
+      "address": "331 EAST 10 STREET"
+    },
+    {
+      "id": "05601de94006cc0b5ec99e025c6bfe0b",
+      "name": "GRAND CONCOURSE LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8440100646,
+      "longitude": -73.9100923152,
+      "buildingId": "2007870",
+      "address": "155 EAST 173 STREET"
+    },
+    {
+      "id": "057d26a803e341d91bdb735afd961e30",
+      "name": "KEW GARDENS HILLS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7259407866,
+      "longitude": -73.8207482989,
+      "buildingId": "4619938",
+      "address": "72-33 VLEIGH PLACE"
+    },
+    {
+      "id": "06994ae1765308adf812985cb2204b7d",
+      "name": "MAPLETON LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6230710774,
+      "longitude": -73.9894435491,
+      "buildingId": "3132091",
+      "address": "1702 60 STREET"
+    },
+    {
+      "id": "0809656e340a82528569fc986db14658",
+      "name": "SHEEPSHEAD BAY LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.587008637,
+      "longitude": -73.9554293531,
+      "buildingId": "3204896",
+      "address": "2636 EAST 14 STREET"
+    },
+    {
+      "id": "08172fb3a315dd5fa26a6cc37b0a6743",
+      "name": "BAISLEY PARK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6803224258,
+      "longitude": -73.7916806295,
+      "buildingId": "4264849",
+      "address": "117-11 SUTPHIN BOULEVARD"
+    },
+    {
+      "id": "0a1b6e5a0b3f8fa0c38c6a910916b2f3",
+      "name": "CYPRESS HILLS LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6726465,
+      "longitude": -73.8740892,
+      "buildingId": "3252993",
+      "address": null
+    },
+    {
+      "id": "0ad7841a37579731c647d893439e431e",
+      "name": "FAR ROCKAWAY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6043336419,
+      "longitude": -73.7524660745,
+      "buildingId": "4298240",
+      "address": "16-37 CENTRAL AVENUE"
+    },
+    {
+      "id": "0ddf3f7fd6063f6f89642e76e3c68f56",
+      "name": "HIGH BRIDGE LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8379673359,
+      "longitude": -73.9235452658,
+      "buildingId": "2003163",
+      "address": "78 WEST 168 STREET"
+    },
+    {
+      "id": "0e18d5f24d7aada30769753cf69849c8",
+      "name": "BAY TERRACE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7825359852,
+      "longitude": -73.7770147104,
+      "buildingId": "4131148",
+      "address": "18-36 BELL BOULEVARD"
+    },
+    {
+      "id": "0f70705af2d8110f7757f193ee996491",
+      "name": "RICHMONDTOWN LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.5665436598,
+      "longitude": -74.1385500645,
+      "buildingId": "5060744",
+      "address": "200 CLARKE AVENUE"
+    },
+    {
+      "id": "10c0c3484af97dbdbd519ac043dd6448",
+      "name": "EDENWALD LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8889011106,
+      "longitude": -73.840834064,
+      "buildingId": "2066596",
+      "address": "1255 EAST 233 STREET"
+    },
+    {
+      "id": "11227fa7d859b1c64029c0a3c92b4911",
+      "name": "EASTCHESTER LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8701459976,
+      "longitude": -73.8450655401,
+      "buildingId": "2061767",
+      "address": "1385 EAST GUN HILL ROAD"
+    },
+    {
+      "id": "12f9ad95f1a7100bbe3ae67f2da79089",
+      "name": "AUBURNDALE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7737590241,
+      "longitude": -73.7963502396,
+      "buildingId": "4129461",
+      "address": "25-55 FRANCIS LEWIS BOULEVARD"
+    },
+    {
+      "id": "13087f1014cb4ae22b84af82d279a681",
+      "name": "LEONARD LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.713637,
+      "longitude": -73.947968,
+      "buildingId": "3068818",
+      "address": null
+    },
+    {
+      "id": "13522ee484728cf90b296e5706502f14",
+      "name": "DYKER LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6163154589,
+      "longitude": -74.0119900831,
+      "buildingId": "3164019",
+      "address": "8202 13 AVENUE"
+    },
+    {
+      "id": "144c91d88e55a62205c5cc9d22c95752",
+      "name": "MULBERRY STREET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7240742796,
+      "longitude": -73.9957236719,
+      "buildingId": "1007931",
+      "address": "10 JERSEY STREET"
+    },
+    {
+      "id": "146745b995f7db41ff9738ef021e27a3",
+      "name": "BROAD CHANNEL",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6007401106,
+      "longitude": -73.8200529934,
+      "buildingId": "4297581",
+      "address": "16-26 CROSS BAY BOULEVARD"
+    },
+    {
+      "id": "14a0a05fcb5e1354be00d97b9bdf112e",
+      "name": "WHITESTONE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7885379249,
+      "longitude": -73.8107190561,
+      "buildingId": "4107201",
+      "address": "151-10 14 ROAD"
+    },
+    {
+      "id": "152b4ea25001f26454e5f99aa07f8d64",
+      "name": "STONE AVENUE LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6644731187,
+      "longitude": -73.9052186164,
+      "buildingId": "3084596",
+      "address": "581 MOTHER GASTON BOULEVARD"
+    },
+    {
+      "id": "16c43157ad1d08974acb24533d982f8d",
+      "name": "MACON LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6830369,
+      "longitude": -73.9348376,
+      "buildingId": "3046408",
+      "address": null
+    },
+    {
+      "id": "16f77463d54e81fc6320bcc00cfc239c",
+      "name": "INWOOD LIBRARY–JOSEPH AND SHEILA ROSENBLATT BUILDING",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8657251083,
+      "longitude": -73.9257199072,
+      "buildingId": "1091724",
+      "address": "4790 BROADWAY"
+    },
+    {
+      "id": "1796ef48f88daa663ce954b67b58aa47",
+      "name": "SARATOGA LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.684789,
+      "longitude": -73.915177,
+      "buildingId": "3040218",
+      "address": null
+    },
+    {
+      "id": "1948ba31c21bacc79ecc2578210bfeb2",
+      "name": "MCGOLDRICK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7637546941,
+      "longitude": -73.8098346667,
+      "buildingId": "4119345",
+      "address": "155-06 ROOSEVELT AVENUE"
+    },
+    {
+      "id": "1b2d01dbabaa19954081aa7950433960",
+      "name": "NEW AMSTERDAM LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7136065315,
+      "longitude": -74.0078659267,
+      "buildingId": "1001446",
+      "address": "9 MURRAY STREET"
+    },
+    {
+      "id": "1b5f19ba9293b1171b520d2ce197f0fb",
+      "name": "FLATBUSH LEARNING CENTER",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6519213,
+      "longitude": -73.958256,
+      "buildingId": "3116706",
+      "address": null
+    },
+    {
+      "id": "1b93bf18b98a19a8f00758b5528a2e78",
+      "name": "BOROUGH PARK LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.638856,
+      "longitude": -73.989018,
+      "buildingId": "3135907",
+      "address": null
+    },
+    {
+      "id": "1e61ab24f52d4baa3dbda1d3e19426a2",
+      "name": "GEORGE BRUCE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8137809586,
+      "longitude": -73.957055147,
+      "buildingId": "1059688",
+      "address": "518 WEST 125 STREET"
+    },
+    {
+      "id": "1e7b03d615f7e8d0cdbacec9d851b4bf",
+      "name": "RIDGEWOOD",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7051794633,
+      "longitude": -73.9025728831,
+      "buildingId": "4083512",
+      "address": "2012 MADISON STREET"
+    },
+    {
+      "id": "1eb372bf506d6952df43b15aec920e7c",
+      "name": "WEST NEW BRIGHTON LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.6345164124,
+      "longitude": -74.1148186532,
+      "buildingId": "5004936",
+      "address": "976 CASTLETON AVENUE"
+    },
+    {
+      "id": "1f17a2b85addc7978f0fcece057f4ef7",
+      "name": "NORTH FOREST PARK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7111946188,
+      "longitude": -73.8536733063,
+      "buildingId": "4076687",
+      "address": "98-27 METROPOLITAN AVENUE"
+    },
+    {
+      "id": "2232149c08d35cccc85205d8cecf9db5",
+      "name": "MARINERS HARBOR LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.6346879217,
+      "longitude": -74.1666104137,
+      "buildingId": "5109138",
+      "address": "206 SOUTH AVENUE"
+    },
+    {
+      "id": "236183dcfecc8d0ae3528d0ca05f7622",
+      "name": "WAKEFIELD LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8911059186,
+      "longitude": -73.8595242442,
+      "buildingId": "2063175",
+      "address": "4100 LOWERRE PLACE"
+    },
+    {
+      "id": "238830045f7fec917afba635e4c868ff",
+      "name": "ALLERTON LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8668098528,
+      "longitude": -73.8632252325,
+      "buildingId": "2053752",
+      "address": "2740 BARNES AVENUE"
+    },
+    {
+      "id": "23ae2ab0daa02c135876a4c613e81125",
+      "name": "ARVERNE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.5931527914,
+      "longitude": -73.7840411494,
+      "buildingId": "4301922",
+      "address": "312 BEACH 54 STREET"
+    },
+    {
+      "id": "247e317f36abd76002161eba32a24826",
+      "name": "CORONA",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7508986537,
+      "longitude": -73.8619816466,
+      "buildingId": "4044596",
+      "address": "38-23 104 STREET"
+    },
+    {
+      "id": "24a091dc4d37748f8d20c8fbf4799b7d",
+      "name": "NORTH HILLS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7592535927,
+      "longitude": -73.7318305949,
+      "buildingId": "4171760",
+      "address": "57-04 MARATHON PARKWAY"
+    },
+    {
+      "id": "264b7f8f8a579c5347016fd3aaf03b15",
+      "name": "FLATLANDS LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6197818309,
+      "longitude": -73.9332116024,
+      "buildingId": "3219626",
+      "address": "2065 FLATBUSH AVENUE"
+    },
+    {
+      "id": "281ed1b58917038a2ca8afb34eee5097",
+      "name": "FLATBUSH LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.651891,
+      "longitude": -73.958256,
+      "buildingId": "3116706",
+      "address": null
+    },
+    {
+      "id": "2ae4447cf0f2e4763b554fe7f16581df",
+      "name": "ASTORIA",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7723888184,
+      "longitude": -73.928723913,
+      "buildingId": "4006113",
+      "address": "14-01 ASTORIA BOULEVARD"
+    },
+    {
+      "id": "2c8cc67ce4e6c79f80d06dc0d521d8b9",
+      "name": "WOODSIDE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7453493823,
+      "longitude": -73.909799047,
+      "buildingId": "4030847",
+      "address": "54-22 SKILLMAN AVENUE"
+    },
+    {
+      "id": "2d562a3c6f43d5346a2a0a0f94f751a3",
+      "name": "WEST FARMS LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8446817203,
+      "longitude": -73.8830469968,
+      "buildingId": "2013151",
+      "address": "2085 HONEYWELL AVENUE"
+    },
+    {
+      "id": "30aae3a8c9b3eaae63c36361eda495e7",
+      "name": "STAVROS NIARCHOS FOUNDATION LIBRARY (SNFL)",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.751786218,
+      "longitude": -73.981528094,
+      "buildingId": "1017602",
+      "address": "455 FIFTH AVENUE"
+    },
+    {
+      "id": "33287cda7c7d99a02fcd26724d69300d",
+      "name": "BROWNSVILLE LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.671469,
+      "longitude": -73.9085913,
+      "buildingId": "3080669",
+      "address": null
+    },
+    {
+      "id": "3385bf98f721fb0ee9683edb1a59a23d",
+      "name": "THROG'S NECK LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8229078273,
+      "longitude": -73.8190903284,
+      "buildingId": "2077131",
+      "address": "3025 CROSS BRONX EXPRESSWAY"
+    },
+    {
+      "id": "3474af1c39cf86d85b6109e992d37cbf",
+      "name": "GREENPOINT LIBRARY AND ENVIRONMENTAL EDUCATION CENTER",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.726063,
+      "longitude": -73.950631,
+      "buildingId": "3426639",
+      "address": null
+    },
+    {
+      "id": "3583d175adfc7409c2c9e95a69a7dc21",
+      "name": "ST. GEORGE LIBRARY CENTER",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.6417663771,
+      "longitude": -74.0766483057,
+      "buildingId": "5000030",
+      "address": "5 CENTRAL AVENUE"
+    },
+    {
+      "id": "361b5dfe9b89cea512bc67979c2d284c",
+      "name": "CLARENDON LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6357517462,
+      "longitude": -73.9476281097,
+      "buildingId": "3327822",
+      "address": "2035 NOSTRAND AVENUE"
+    },
+    {
+      "id": "36ca16c9a9d91bd90eb53ace85d58908",
+      "name": "HUNTERS POINT",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7452871485,
+      "longitude": -73.9580246382,
+      "buildingId": "4594151",
+      "address": "47-40 CENTER BOULEVARD"
+    },
+    {
+      "id": "38c9399e1af0f4a08ef042ebdd958fa8",
+      "name": "CORTELYOU LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.640844,
+      "longitude": -73.965968,
+      "buildingId": "3118362",
+      "address": null
+    },
+    {
+      "id": "3920ee68e11373aa6c5c07ff8baefd23",
+      "name": "HAMILTON GRANGE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8257199642,
+      "longitude": -73.9479989652,
+      "buildingId": "1061938",
+      "address": "503 WEST 145 STREET"
+    },
+    {
+      "id": "3a55e205bd4a9e7992c2f308ff9b68c3",
+      "name": "MELROSE LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8265945209,
+      "longitude": -73.9175815519,
+      "buildingId": "2001950",
+      "address": "910 MORRIS AVENUE"
+    },
+    {
+      "id": "3ad4b6a9eb25bd4f282791fd9f8d85f9",
+      "name": "ELMHURST",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7385177879,
+      "longitude": -73.8768709659,
+      "buildingId": "4590789",
+      "address": "86-07 BROADWAY"
+    },
+    {
+      "id": "3c2a37f3f3e8d57778910826b2ecca04",
+      "name": "STAPLETON LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.6261052855,
+      "longitude": -74.0778438305,
+      "buildingId": "5013792",
+      "address": "132 CANAL STREET"
+    },
+    {
+      "id": "3ccc892d61c2745d02f1de9a698e48af",
+      "name": "BRIGHTON BEACH LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.5761748007,
+      "longitude": -73.9667463596,
+      "buildingId": "3245028",
+      "address": "16 BRIGHTON FIRST ROAD"
+    },
+    {
+      "id": "3d18b534d686c37da2aea0e7e4548e23",
+      "name": "FORT WASHINGTON LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8478914839,
+      "longitude": -73.9338513837,
+      "buildingId": "1063632",
+      "address": "535 WEST 179 STREET"
+    },
+    {
+      "id": "3d3f893e57902717aab9d240ae69bcc2",
+      "name": "OTTENDORFER LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7289238078,
+      "longitude": -73.9877835862,
+      "buildingId": "1079841",
+      "address": "135 SECOND AVENUE"
+    },
+    {
+      "id": "3d9b5196db6329d2eaba964d0ef12244",
+      "name": "YORKVILLE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.773613766,
+      "longitude": -73.9564079993,
+      "buildingId": "1044180",
+      "address": "222 EAST 79 STREET"
+    },
+    {
+      "id": "413023d0776169213c20e63d58c3ff35",
+      "name": "THE NEW YORK PUBLIC LIBRARY FOR THE PERFORMING ARTS",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7731553,
+      "longitude": -73.9849449,
+      "buildingId": "1081022",
+      "address": null
+    },
+    {
+      "id": "4211bf0dccbffaff367d5382931e3ba3",
+      "name": "SPRING CREEK LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6532637,
+      "longitude": -73.8859641,
+      "buildingId": "3098071",
+      "address": null
+    },
+    {
+      "id": "4222cbaa9d1a52faa5569cd395772ace",
+      "name": "EAST ELMHURST",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.762426376,
+      "longitude": -73.8738728564,
+      "buildingId": "4437122",
+      "address": "95-06 ASTORIA BOULEVARD"
+    },
+    {
+      "id": "4230d4e5cb8252c60a8d3bd0167764f5",
+      "name": "WOODLAWN HEIGHTS LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.9004468341,
+      "longitude": -73.8679486582,
+      "buildingId": "2019288",
+      "address": "4355 KATONAH AVENUE"
+    },
+    {
+      "id": "439d37ec9e01ec3d1eb6fc238f76aec4",
+      "name": "PORT RICHMOND LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.6375933559,
+      "longitude": -74.1311058353,
+      "buildingId": "5023763",
+      "address": "75 BENNETT STREET"
+    },
+    {
+      "id": "4730fd961a79fd05047089be52b5f7d0",
+      "name": "REGO PARK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7273227692,
+      "longitude": -73.8645065694,
+      "buildingId": "4072812",
+      "address": "91-41 63 DRIVE"
+    },
+    {
+      "id": "497687da0afcbc04b816edaac77f5cd5",
+      "name": "FOREST HILLS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7221495973,
+      "longitude": -73.8430473293,
+      "buildingId": "4052345",
+      "address": "108-19 71 AVENUE"
+    },
+    {
+      "id": "4a241334f5de230291220a27606d56fa",
+      "name": "COUNTEE CULLEN LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8147630429,
+      "longitude": -73.9412063303,
+      "buildingId": "1058275",
+      "address": "104 WEST 136 STREET"
+    },
+    {
+      "id": "4a45556b3fdf640415385d501204e650",
+      "name": "EAST FLATBUSH LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6557127372,
+      "longitude": -73.914939804,
+      "buildingId": "3103597",
+      "address": "9612 CHURCH AVENUE"
+    },
+    {
+      "id": "4aa679eaeaff324f424d549d42a86d74",
+      "name": "WOODHAVEN",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6945535275,
+      "longitude": -73.8614418098,
+      "buildingId": "4181578",
+      "address": "85-41 FOREST PARKWAY"
+    },
+    {
+      "id": "4c0e0398476b5abe2c2cb16159fb0b8a",
+      "name": "MOTT HAVEN LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8116357791,
+      "longitude": -73.9243762205,
+      "buildingId": "2000744",
+      "address": "321 EAST 140 STREET"
+    },
+    {
+      "id": "4dff6715bba742f6d2cd9780c8c8df6a",
+      "name": "MORNINGSIDE HEIGHTS LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8061335178,
+      "longitude": -73.9646714553,
+      "buildingId": "1057018",
+      "address": "2900 BROADWAY"
+    },
+    {
+      "id": "4ef7549ea636d64430a7590f4de5f1f9",
+      "name": "MITCHELL-LINDEN",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.769143933,
+      "longitude": -73.8269749843,
+      "buildingId": "4535108",
+      "address": "31-32 UNION STREET"
+    },
+    {
+      "id": "51782162f92f276e5b1f0ccb098206c9",
+      "name": "BEDFORD LIBRARY LEARNING CENTER",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6818255657,
+      "longitude": -73.9561679472,
+      "buildingId": "3057384",
+      "address": "496 FRANKLIN AVENUE"
+    },
+    {
+      "id": "52396f3077e250df8dca482d22edb62f",
+      "name": "ADAMS STREET LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.7041441536,
+      "longitude": -73.9879956505,
+      "buildingId": "3329396",
+      "address": "9 ADAMS STREET"
+    },
+    {
+      "id": "529a78f91d446522046a121e93f796e8",
+      "name": "SCHOMBURG CENTER FOR RESEARCH IN BLACK CULTURE",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8144,
+      "longitude": -73.941,
+      "buildingId": "1058276",
+      "address": null
+    },
+    {
+      "id": "52efad1ea64a98120eecc1d013d63832",
+      "name": "SOUTH OZONE PARK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6747842807,
+      "longitude": -73.8092635671,
+      "buildingId": "4254814",
+      "address": "128-16 ROCKAWAY BOULEVARD"
+    },
+    {
+      "id": "54e3a919e5ea7a1eaa9ba729d9fbd9c7",
+      "name": "SUNSET PARK LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6459314704,
+      "longitude": -74.0136541247,
+      "buildingId": "3013507",
+      "address": "5108 FOURTH AVENUE"
+    },
+    {
+      "id": "5513fbfeaf0d0c736e53a7ad9c769a23",
+      "name": "RUGBY LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6486412879,
+      "longitude": -73.9303828979,
+      "buildingId": "3103730",
+      "address": "1000 UTICA AVENUE"
+    },
+    {
+      "id": "57611a33c42955afa4b29add9a2788a2",
+      "name": "TERENCE CARDINAL COOKE-CATHEDRAL LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7568632215,
+      "longitude": -73.9726363406,
+      "buildingId": "1036451",
+      "address": "560 LEXINGTON AVENUE"
+    },
+    {
+      "id": "58c05b67e09aa179a858bc7301551203",
+      "name": "NEW DORP LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.5719398183,
+      "longitude": -74.1119584585,
+      "buildingId": "5052750",
+      "address": "309 NEW DORP LANE"
+    },
+    {
+      "id": "5a5ec2dd023b06756324be57c66f9ce9",
+      "name": "BRIARWOOD",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7100418825,
+      "longitude": -73.8194588476,
+      "buildingId": "4206518",
+      "address": "85-12 MAIN STREET"
+    },
+    {
+      "id": "5ad8b68e57686b852d766cff3004f926",
+      "name": "TREMONT LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8460528369,
+      "longitude": -73.898347751,
+      "buildingId": "2009573",
+      "address": "1866 WASHINGTON AVENUE"
+    },
+    {
+      "id": "5bf16ed7f9ca7eb22c6cca4b4dacab2b",
+      "name": "SOUTH HOLLIS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7070198089,
+      "longitude": -73.7537969644,
+      "buildingId": "4442263",
+      "address": "204-01 HOLLIS AVENUE"
+    },
+    {
+      "id": "5c0c9a02dfd39ff37ade397d200972f3",
+      "name": "ROSEDALE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.659971775,
+      "longitude": -73.7399084708,
+      "buildingId": "4287999",
+      "address": "144-20 243 STREET"
+    },
+    {
+      "id": "5cacfeebafe3aa570e8801c08de0dcba",
+      "name": "TEEN TECH CENTER AT THE ANNEX",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.7046234707,
+      "longitude": -73.9878336501,
+      "buildingId": "3413929",
+      "address": "1 JOHN STREET"
+    },
+    {
+      "id": "5cd56fba44846deb250f45e59c8332b1",
+      "name": "SPUYTEN DUYVIL LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8862807253,
+      "longitude": -73.9146784376,
+      "buildingId": "2085867",
+      "address": "650 WEST 235 STREET"
+    },
+    {
+      "id": "5d80002be33c91d7ef81b8bd61c7f517",
+      "name": "WESTCHESTER SQUARE LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8411198984,
+      "longitude": -73.8466191218,
+      "buildingId": "2041911",
+      "address": "2521 GLEBE AVENUE"
+    },
+    {
+      "id": "5e107a8691bd5260eb3e5f18bd9d62c8",
+      "name": "LONG ISLAND CITY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7578222905,
+      "longitude": -73.9393047269,
+      "buildingId": "4463561",
+      "address": "37-44 21 STREET"
+    },
+    {
+      "id": "5e390df8e9820dc314a2658598f27b62",
+      "name": "WALT WHITMAN LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6944941379,
+      "longitude": -73.9777371602,
+      "buildingId": "3058036",
+      "address": "93 SAINT EDWARDS STREET"
+    },
+    {
+      "id": "5f712739e9d0d040ce8acf7725953a74",
+      "name": "VAN CORTLANDT LIBRARY, ARLINE SCHWARZMAN BUILDING",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8836360487,
+      "longitude": -73.8944885204,
+      "buildingId": "2116521",
+      "address": "3882 CANNON PLACE"
+    },
+    {
+      "id": "6011ab9825262c85e7922e6b103f14e2",
+      "name": "PARKCHESTER LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8337678169,
+      "longitude": -73.8583561777,
+      "buildingId": "2028890",
+      "address": "1985 WESTCHESTER AVENUE"
+    },
+    {
+      "id": "61f9d318fc837d2e4dcdf8c1119f2bdf",
+      "name": "KINGSBRIDGE LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8807292781,
+      "longitude": -73.9077085056,
+      "buildingId": "2119474",
+      "address": "291 WEST 231 STREET"
+    },
+    {
+      "id": "62637f3f67fddb6d57c92413e94dbf3b",
+      "name": "EASTERN PARKWAY LEARNING CENTER",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6684861,
+      "longitude": -73.93364,
+      "buildingId": "3037543",
+      "address": "1044 EASTERN PARKWAY - 2ND FLOOR BROOKLYN, NY 11213"
+    },
+    {
+      "id": "62b0c40ce8078208edbe35bf7f77a41a",
+      "name": "SOUTH JAMAICA",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6956384216,
+      "longitude": -73.7901788532,
+      "buildingId": "4539786",
+      "address": "108-41 GUY R BREWER BOULEVARD"
+    },
+    {
+      "id": "6323997ff723f6eea1fac65bd0994d7f",
+      "name": "STEPHEN A. SCHWARZMAN BUILDING",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7534887,
+      "longitude": -73.9808774,
+      "buildingId": null,
+      "address": null
+    },
+    {
+      "id": "64137089e6a55419967bf8b4d55f41f4",
+      "name": "LAURELTON",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6769600184,
+      "longitude": -73.7456697821,
+      "buildingId": "4281443",
+      "address": "134-26 225 STREET"
+    },
+    {
+      "id": "649854be7f563a9f724df0a963fbc23e",
+      "name": "EASTERN PARKWAY LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6684863,
+      "longitude": -73.9336735,
+      "buildingId": "3037543",
+      "address": null
+    },
+    {
+      "id": "64a4d7a6a341b1e5c406013a37d82bb5",
+      "name": "PARK SLOPE LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6682222211,
+      "longitude": -73.9834260381,
+      "buildingId": "3022144",
+      "address": "431 6 AVENUE"
+    },
+    {
+      "id": "653bd101fb910a43ed9bae29729f948f",
+      "name": "SEASIDE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.5793964366,
+      "longitude": -73.8377353189,
+      "buildingId": "4304786",
+      "address": "116-15 ROCKAWAY BEACH BOULEVARD"
+    },
+    {
+      "id": "66284cf527b45819781565ea645f4240",
+      "name": "NEW UTRECHT LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6080187,
+      "longitude": -74.0033411,
+      "buildingId": "3165745",
+      "address": null
+    },
+    {
+      "id": "67764ba9980827e4ab45efcb9ba1450b",
+      "name": "SOUTH BEACH LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.5958101382,
+      "longitude": -74.0630280987,
+      "buildingId": "5129317",
+      "address": "41 FATHER CAPODANNO BOULEVARD"
+    },
+    {
+      "id": "693e924ddfac47d83dd88ead481a580b",
+      "name": "PELHAM PARKWAY-VAN NEST LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8548839042,
+      "longitude": -73.8641466562,
+      "buildingId": "2049427",
+      "address": "2147 BARNES AVENUE"
+    },
+    {
+      "id": "6a3376847be73dc6190d69fc6b1b4baf",
+      "name": "BROADWAY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7585341544,
+      "longitude": -73.9186254787,
+      "buildingId": "4011018",
+      "address": "40-20 BROADWAY"
+    },
+    {
+      "id": "6b0e15c24b65934f099e4b983554bb31",
+      "name": "PENINSULA",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.5858465557,
+      "longitude": -73.816060445,
+      "buildingId": "4303629",
+      "address": "92-25 ROCKAWAY BEACH BOULEVARD"
+    },
+    {
+      "id": "6bcc0473289142db923dcf28ba1602ca",
+      "name": "WASHINGTON IRVING LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6975031,
+      "longitude": -73.9122378,
+      "buildingId": "3076852",
+      "address": "360 IRVING AVE. (AT WOODBINE ST.) BROOKLYN, NY 11237"
+    },
+    {
+      "id": "6cf4c3064982a8e30f161319e2ca6d2d",
+      "name": "HAMILTON FISH PARK LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7193762137,
+      "longitude": -73.9796208845,
+      "buildingId": "1004070",
+      "address": "415 EAST HOUSTON STREET"
+    },
+    {
+      "id": "6eb31f516c420aedd08fa053e8f552e3",
+      "name": "POMONOK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7330412514,
+      "longitude": -73.8098803354,
+      "buildingId": "4438294",
+      "address": "158-21 JEWEL AVENUE"
+    },
+    {
+      "id": "702313a7935fa64dfa88e4a7a12efb61",
+      "name": "MACOMB'S BRIDGE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8253749522,
+      "longitude": -73.935513889,
+      "buildingId": "1060197",
+      "address": "2633 ADAM CLAYTON POWELL JR BOULEVARD"
+    },
+    {
+      "id": "71246fc08b528402bee8b81e928afbad",
+      "name": "CANARSIE LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6422167,
+      "longitude": -73.8995607,
+      "buildingId": null,
+      "address": null
+    },
+    {
+      "id": "717971c38bd27bb381c8b3fd594c1433",
+      "name": "MOSHOLU LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8743910426,
+      "longitude": -73.8783950702,
+      "buildingId": "2018123",
+      "address": "285 EAST 205 STREET"
+    },
+    {
+      "id": "7372d26dd0b0ab45ca0bb5f860ed05c9",
+      "name": "HUGUENOT PARK LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.5340657775,
+      "longitude": -74.1932367146,
+      "buildingId": "5083401",
+      "address": "830 HUGUENOT AVENUE"
+    },
+    {
+      "id": "7514e4e3ab2647ab150eebcc55f0fa80",
+      "name": "TODT HILL-WESTERLEIGH LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.6095828089,
+      "longitude": -74.1484992097,
+      "buildingId": "5035398",
+      "address": "2550 VICTORY BOULEVARD"
+    },
+    {
+      "id": "7543d9539bab4f3033401839b86edbd5",
+      "name": "ROCHDALE VILLAGE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.672884247,
+      "longitude": -73.7705879439,
+      "buildingId": "4270057",
+      "address": "169-09 137 AVENUE"
+    },
+    {
+      "id": "75c69c33f53a998990c45587c5bf8fc1",
+      "name": "MCKINLEY PARK LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.629178,
+      "longitude": -74.01188,
+      "buildingId": "3143032",
+      "address": "6802 FORT HAMILTON PKWY (AT 68TH ST.) BROOKLYN, NY 11219"
+    },
+    {
+      "id": "7729bd161464d46386b115db7f369a31",
+      "name": "GREAT KILLS LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.5524320334,
+      "longitude": -74.1511120698,
+      "buildingId": "5070285",
+      "address": "56 GIFFORDS LANE"
+    },
+    {
+      "id": "7a4c83ca6bac6ae7a44a7225992aad52",
+      "name": "CONEY ISLAND LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.5767651,
+      "longitude": -73.9860791,
+      "buildingId": "3189001",
+      "address": "1901 MERMAID AVE. (NEAR W. 19TH ST.) BROOKLYN, NY 11224"
+    },
+    {
+      "id": "7bb83076843517e6390b3d1124d6150f",
+      "name": "WEBSTER LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7706620178,
+      "longitude": -73.9513514661,
+      "buildingId": "1045991",
+      "address": "1465 YORK AVENUE"
+    },
+    {
+      "id": "7bf96e154025c8e7c0c4ed3990173bf2",
+      "name": "EPIPHANY LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7380871422,
+      "longitude": -73.9820542068,
+      "buildingId": "1019661",
+      "address": "228 EAST 23 STREET"
+    },
+    {
+      "id": "7dca3ea1ff5d3f183b03367da6b683f1",
+      "name": "CROWN HEIGHTS LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6611981,
+      "longitude": -73.9481517,
+      "buildingId": "3106505",
+      "address": null
+    },
+    {
+      "id": "7ebd35d614226315c5a3d49b3e680723",
+      "name": "HUNTS POINT LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8186939668,
+      "longitude": -73.8941383912,
+      "buildingId": "2005755",
+      "address": "877 SOUTHERN BOULEVARD"
+    },
+    {
+      "id": "7f56119c3c7c8e50f5cdef7f716ce421",
+      "name": "RED HOOK POP-UP LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6776575074,
+      "longitude": -74.0128955441,
+      "buildingId": "3008583",
+      "address": "362 VAN BRUNT STREET"
+    },
+    {
+      "id": "7f802160d6986af063f695685c0e2f8a",
+      "name": "OZONE PARK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6808665675,
+      "longitude": -73.8464879909,
+      "buildingId": "4189526",
+      "address": "92-24 ROCKAWAY BOULEVARD"
+    },
+    {
+      "id": "7f852afc1b23b84ef4dcc56926d4a762",
+      "name": "BLOOMINGDALE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7959276435,
+      "longitude": -73.9678504972,
+      "buildingId": "1055906",
+      "address": "150 WEST 100 STREET"
+    },
+    {
+      "id": "7fa06308ea830f26e865390afe3fb4a5",
+      "name": "BRONX LIBRARY CENTER",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.863002937,
+      "longitude": -73.8945096133,
+      "buildingId": "2116006",
+      "address": "310 EAST KINGSBRIDGE ROAD"
+    },
+    {
+      "id": "8497a170a89bf93d417cc67f74fb58c2",
+      "name": "MIDWOOD LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.625907,
+      "longitude": -73.9604005,
+      "buildingId": "3179706",
+      "address": null
+    },
+    {
+      "id": "856bef58695ffb392825bcb2ab9b8425",
+      "name": "LEFRAK CITY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7374406134,
+      "longitude": -73.8615730327,
+      "buildingId": "4047321",
+      "address": "98-30 57 AVENUE"
+    },
+    {
+      "id": "8727e2a7a0725736cdf83e214d3d4fd7",
+      "name": "KINGS HIGHWAY LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6102600375,
+      "longitude": -73.9531124404,
+      "buildingId": "3182576",
+      "address": "2115 OCEAN AVENUE"
+    },
+    {
+      "id": "879f883aee3323b32a891c7f37d61eb1",
+      "name": "WILLIAMSBURGH LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.7069143,
+      "longitude": -73.9575883,
+      "buildingId": "3060090",
+      "address": null
+    },
+    {
+      "id": "88035e9952cf46e6d1ecbb1a34adb848",
+      "name": "HARRY BELAFONTE 115TH STREET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8029849152,
+      "longitude": -73.9535318979,
+      "buildingId": "1055236",
+      "address": "203 WEST 115 STREET"
+    },
+    {
+      "id": "896a48d6b2fa69aba71244c4929fdf0a",
+      "name": "ST. AGNES LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7848,
+      "longitude": -73.9773,
+      "buildingId": null,
+      "address": null
+    },
+    {
+      "id": "89bb408780182dce657a03c9b718121b",
+      "name": "HOLLIS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7201787776,
+      "longitude": -73.7623046296,
+      "buildingId": "4224387",
+      "address": "202-05 HILLSIDE AVENUE"
+    },
+    {
+      "id": "89e38b3ba004744901e2bc776f8783ce",
+      "name": "HUDSON PARK LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7299118488,
+      "longitude": -74.005321376,
+      "buildingId": "1009760",
+      "address": "66 LEROY STREET"
+    },
+    {
+      "id": "8b5205f087b5719f34eb1c2b285d0490",
+      "name": "ULMER PARK LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.5926124,
+      "longitude": -73.9886502,
+      "buildingId": "3186777",
+      "address": null
+    },
+    {
+      "id": "8d0bd764a53202a46d6f459f07ced99f",
+      "name": "NEW LOTS LEARNING CENTER",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6651154,
+      "longitude": -73.8861478,
+      "buildingId": "3090726",
+      "address": null
+    },
+    {
+      "id": "8e136daad715941af77a599cc1acd480",
+      "name": "POPPENHUSEN",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7862559375,
+      "longitude": -73.8460103965,
+      "buildingId": "4097863",
+      "address": "121-23 14 AVENUE"
+    },
+    {
+      "id": "8f54e248244a2642e1e2703615191f39",
+      "name": "BAYSIDE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7601339324,
+      "longitude": -73.768362149,
+      "buildingId": "4157389",
+      "address": "214-20 NORTHERN BOULEVARD"
+    },
+    {
+      "id": "923406b0d8f3bc0379297fd29b5865f1",
+      "name": "WASHINGTON HEIGHTS LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8345288781,
+      "longitude": -73.9396637646,
+      "buildingId": "1062551",
+      "address": "1000 ST NICHOLAS AVENUE"
+    },
+    {
+      "id": "93485e8580f3e08b302a057e0e52a160",
+      "name": "RICHMOND HILL",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7007752539,
+      "longitude": -73.8316263391,
+      "buildingId": "4193458",
+      "address": "118-14 HILLSIDE AVENUE"
+    },
+    {
+      "id": "94485dc6480ce8258b7bb2db1e4df42d",
+      "name": "BATTERY PARK CITY LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7156379103,
+      "longitude": -74.01613199,
+      "buildingId": "1087518",
+      "address": "175 NORTH END AVENUE"
+    },
+    {
+      "id": "9681eb17981e7b0be56df2d1410cfbcb",
+      "name": "SOUNDVIEW LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.818715778,
+      "longitude": -73.8628905385,
+      "buildingId": "2021838",
+      "address": "660 SOUNDVIEW AVENUE"
+    },
+    {
+      "id": "970671df21b4eae2be004394fb1ae6a3",
+      "name": "CENTRAL LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6722468777,
+      "longitude": -73.9681108345,
+      "buildingId": "3029665",
+      "address": "10 GRAND ARMY PLAZA"
+    },
+    {
+      "id": "9709d58ea9b5baf045e6d7672ce83e58",
+      "name": "GLEN OAKS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7451449545,
+      "longitude": -73.7148458951,
+      "buildingId": "4177530",
+      "address": "256-04 UNION TURNPIKE"
+    },
+    {
+      "id": "9a306601f42b0f14fe1430b01ff0d93e",
+      "name": "RIVERDALE LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.9037177326,
+      "longitude": -73.9027434441,
+      "buildingId": "2084790",
+      "address": "5540 MOSHOLU AVENUE"
+    },
+    {
+      "id": "9adcf696a8a7a8026da5195272ae8221",
+      "name": "PELHAM BAY LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8442982997,
+      "longitude": -73.8278852129,
+      "buildingId": "2074963",
+      "address": "3060 MIDDLETOWN ROAD"
+    },
+    {
+      "id": "9bd95ef12d4546cedaa7b39002d0cf26",
+      "name": "HILLCREST",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7292611568,
+      "longitude": -73.7819066512,
+      "buildingId": "4155032",
+      "address": "187-05 UNION TURNPIKE"
+    },
+    {
+      "id": "9c34ac86af977bbb9be0b34635ea56d9",
+      "name": "HIGHLAWN LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6056973232,
+      "longitude": -73.9862317806,
+      "buildingId": "3175253",
+      "address": "1664 WEST 13 STREET"
+    },
+    {
+      "id": "9d43356b875ea17ae06094fc70c64bc7",
+      "name": "58TH STREET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7622404059,
+      "longitude": -73.969325187,
+      "buildingId": "1037165",
+      "address": "127 EAST 58 STREET"
+    },
+    {
+      "id": "9ee8be07f907ca448e981b1997caca31",
+      "name": "CENTRAL LIBRARY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7078052723,
+      "longitude": -73.7946441704,
+      "buildingId": "4209635",
+      "address": "89-11 MERRICK BOULEVARD"
+    },
+    {
+      "id": "a019a82fc37d567c3be212bdf4dc1ee7",
+      "name": "NEW LOTS LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6651154,
+      "longitude": -73.8861478,
+      "buildingId": "3090726",
+      "address": null
+    },
+    {
+      "id": "a11f01ac1f7c0ac089c6661012c7572a",
+      "name": "KIPS BAY LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7438367887,
+      "longitude": -73.9799354737,
+      "buildingId": "1018325",
+      "address": "446 THIRD AVENUE"
+    },
+    {
+      "id": "a1dcb669020b66e36c8fb3fad14fd958",
+      "name": "GERRITSEN BEACH LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.5913763189,
+      "longitude": -73.9239623621,
+      "buildingId": "3343823",
+      "address": "2808 GERRITSEN AVENUE"
+    },
+    {
+      "id": "a36d89c436fb146cb22ebc31aad009fc",
+      "name": "67TH STREET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7649198159,
+      "longitude": -73.9595509675,
+      "buildingId": "1044749",
+      "address": "328 EAST 67 STREET"
+    },
+    {
+      "id": "a4f1eed1eef75b46b1d69b2dda94344c",
+      "name": "CHATHAM SQUARE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.713337378,
+      "longitude": -73.9964915185,
+      "buildingId": "1003425",
+      "address": "33 EAST BROADWAY"
+    },
+    {
+      "id": "a7b982dc4ec30238a61baeddef4dbae4",
+      "name": "ST. ALBANS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.692534076,
+      "longitude": -73.7601095876,
+      "buildingId": "4238275",
+      "address": "191-05 LINDEN BOULEVARD"
+    },
+    {
+      "id": "a9c12e501b332c82a0a1bcf8a524c6fa",
+      "name": "CASTLE HILL LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8266161307,
+      "longitude": -73.8501808487,
+      "buildingId": "2022944",
+      "address": "947 CASTLE HILL AVENUE"
+    },
+    {
+      "id": "aac228ca754138338e855489cb94bec5",
+      "name": "LANGSTON HUGHES",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7576399329,
+      "longitude": -73.8681396185,
+      "buildingId": "4437193",
+      "address": "100-01 NORTHERN BOULEVARD"
+    },
+    {
+      "id": "abe8d49f4539afc3b3410913867a23e1",
+      "name": "TOTTENVILLE LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.50953858,
+      "longitude": -74.2441067062,
+      "buildingId": "5088113",
+      "address": "7430 AMBOY ROAD"
+    },
+    {
+      "id": "adab66cfeb78bb35689bb93ef08c7c6a",
+      "name": "PAERDEGAT LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6325973,
+      "longitude": -73.9199539,
+      "buildingId": "3214944",
+      "address": null
+    },
+    {
+      "id": "aedf914eb45626c8aae5f64c10def66d",
+      "name": "MIDDLE VILLAGE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7129505319,
+      "longitude": -73.8808662699,
+      "buildingId": "4312065",
+      "address": "72-31 METROPOLITAN AVENUE"
+    },
+    {
+      "id": "af8acfbc8cd3eaaa0e82395a8267c28c",
+      "name": "KINGS BAY LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.5947871,
+      "longitude": -73.9411462,
+      "buildingId": "3202630",
+      "address": "3650 NOSTRAND AVE. (NEAR AVE. W) BROOKLYN, NY 11229"
+    },
+    {
+      "id": "b0ff74d1ce1165b148b545ba811cdce7",
+      "name": "SEWARD PARK LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7144623913,
+      "longitude": -73.9885294832,
+      "buildingId": "1004053",
+      "address": "192 EAST BROADWAY"
+    },
+    {
+      "id": "b144192f59ca2c82202a2f258e9dc134",
+      "name": "HARLEM LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8061988843,
+      "longitude": -73.9433023724,
+      "buildingId": "1053460",
+      "address": "9 WEST 124 STREET"
+    },
+    {
+      "id": "b374e2b2fc5e74face18dc76be6a8465",
+      "name": "WOODSTOCK LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8206484685,
+      "longitude": -73.9046295224,
+      "buildingId": "2004700",
+      "address": "761 EAST 160 STREET"
+    },
+    {
+      "id": "b39dc0b1ea61169ae55ad37f112a602e",
+      "name": "CARROLL GARDENS POP-UP LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6861307275,
+      "longitude": -73.9947612172,
+      "buildingId": "3003535",
+      "address": "250 BALTIC STREET"
+    },
+    {
+      "id": "b3df3a9708327cd901d785517e576463",
+      "name": "JEROME PARK LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8690449509,
+      "longitude": -73.9012159947,
+      "buildingId": "2015263",
+      "address": "118 EAMES PLACE"
+    },
+    {
+      "id": "b43dccbd9814ff1239d213c864d3395d",
+      "name": "FRANCIS MARTIN LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8574404243,
+      "longitude": -73.9092811598,
+      "buildingId": "2014579",
+      "address": "2150 UNIVERSITY AVENUE"
+    },
+    {
+      "id": "b643f9b12afe956b928b4bca162dc75f",
+      "name": "BEDFORD LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6818255657,
+      "longitude": -73.9561679472,
+      "buildingId": "3057384",
+      "address": "496 FRANKLIN AVENUE"
+    },
+    {
+      "id": "b67e32b84461dd0548dbdcdd49cd2f00",
+      "name": "HOMECREST LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.5952409159,
+      "longitude": -73.9606033658,
+      "buildingId": "3200560",
+      "address": "2525 CONEY ISLAND AVENUE"
+    },
+    {
+      "id": "b7334766444ef108bc25e6e2b7514582",
+      "name": "SUNNYSIDE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7408121251,
+      "longitude": -73.9216709311,
+      "buildingId": "4002111",
+      "address": "43-06 GREENPOINT AVENUE"
+    },
+    {
+      "id": "b7eeee1cd88e865720db28d56ff2cd7a",
+      "name": "CAMBRIA HEIGHTS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6957447119,
+      "longitude": -73.7411365589,
+      "buildingId": "4536041",
+      "address": "218-13 LINDEN BOULEVARD"
+    },
+    {
+      "id": "bac970d8b84a1ac4462bb7f20b498908",
+      "name": "BUSHWICK LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.7045623725,
+      "longitude": -73.9396258899,
+      "buildingId": "3071470",
+      "address": "340 BUSHWICK AVENUE"
+    },
+    {
+      "id": "bae4cb35049e3a3982846a7607a30791",
+      "name": "BREEZY POINT MOBILE LIBRARY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.5612103891,
+      "longitude": -73.9136750428,
+      "buildingId": "4533653",
+      "address": "17 WEST MARKET STREET"
+    },
+    {
+      "id": "bb239c41457bc85fad90cf81c2ad92cc",
+      "name": "BELLEROSE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7351667229,
+      "longitude": -73.717097882,
+      "buildingId": "4175514",
+      "address": "250-06 HILLSIDE AVENUE"
+    },
+    {
+      "id": "bc177d69b0e7e1a675b305ff83c6e1d5",
+      "name": "WINDSOR PARK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7344965851,
+      "longitude": -73.7556862796,
+      "buildingId": "4164306",
+      "address": "79-50 BELL BOULEVARD"
+    },
+    {
+      "id": "be471d75711054798c0809ae6f5b3dd9",
+      "name": "MILL BASIN LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6199454,
+      "longitude": -73.9169226,
+      "buildingId": "3235910",
+      "address": "2385 RALPH AVE (NEAR AVE N) BROOKLYN, NY 11234"
+    },
+    {
+      "id": "c08dd14dff03a8b9ccb6b7940fd2de48",
+      "name": "BROOKLYN HEIGHTS LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6956853672,
+      "longitude": -73.9914394426,
+      "buildingId": "3421378",
+      "address": "286 CADMAN PLAZA WEST"
+    },
+    {
+      "id": "c11c39e1eeb8ee91370a4e27dd2c3030",
+      "name": "KENSINGTON LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6312737121,
+      "longitude": -73.9754231938,
+      "buildingId": "3416544",
+      "address": "4207 18 AVENUE"
+    },
+    {
+      "id": "c12faf93843b1de4f8b8b375dfee8da2",
+      "name": "JAMAICA BAY LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.634485,
+      "longitude": -73.889271,
+      "buildingId": "3234514",
+      "address": null
+    },
+    {
+      "id": "c18d839498dc3af0900202dae69c1ecc",
+      "name": "JACKSON HEIGHTS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7502099137,
+      "longitude": -73.8850699833,
+      "buildingId": "4029693",
+      "address": "35-51 81 STREET"
+    },
+    {
+      "id": "c2f22d3ece1503075e368ff3fd1ba930",
+      "name": "FAR ROCKAWAY TEEN LIBRARY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6025047902,
+      "longitude": -73.753560108,
+      "buildingId": "4588563",
+      "address": "20-02 CORNAGA AVENUE"
+    },
+    {
+      "id": "c8544d24008d60fd46791492ec23f966",
+      "name": "RYDER LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6159201257,
+      "longitude": -73.9760429331,
+      "buildingId": "3172049",
+      "address": "5902 23 AVENUE"
+    },
+    {
+      "id": "c9506d55349780f435c7762fefff62b3",
+      "name": "MASPETH",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7269828871,
+      "longitude": -73.8930855172,
+      "buildingId": "4308052",
+      "address": "69-70 GRAND AVENUE"
+    },
+    {
+      "id": "ce3e26314b2ed8a7bd743ab9140504aa",
+      "name": "GRAVESEND LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.5906025,
+      "longitude": -73.9717539,
+      "buildingId": "3194486",
+      "address": null
+    },
+    {
+      "id": "ce59412278939c254bc351dac52645ff",
+      "name": "STEINWAY",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7768223709,
+      "longitude": -73.9094206937,
+      "buildingId": "4016923",
+      "address": "21-45 31 STREET"
+    },
+    {
+      "id": "d0d861d53c42f5959816c470d7edb315",
+      "name": "MARCY LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6916309,
+      "longitude": -73.9512645,
+      "buildingId": "3049472",
+      "address": null
+    },
+    {
+      "id": "d0f9f64536e8ad6862fa85219ce739c3",
+      "name": "ROOSEVELT ISLAND LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7607768231,
+      "longitude": -73.950545452,
+      "buildingId": "1083215",
+      "address": "504 MAIN STREET"
+    },
+    {
+      "id": "d18a235b145df3cc0cf5784fe3b04593",
+      "name": "CLASON'S POINT LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8299994088,
+      "longitude": -73.8750270357,
+      "buildingId": "2025381",
+      "address": "1215 MORRISON AVENUE"
+    },
+    {
+      "id": "d43a18e107abff5a6164579a5381cf64",
+      "name": "FLUSHING",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7577906006,
+      "longitude": -73.828877909,
+      "buildingId": "4114282",
+      "address": "41-17 MAIN STREET"
+    },
+    {
+      "id": "d676796ff4f28e191aba6ce7f6dc080d",
+      "name": "EAST FLUSHING",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7575534883,
+      "longitude": -73.7843067323,
+      "buildingId": "4124564",
+      "address": "196-36 NORTHERN BOULEVARD"
+    },
+    {
+      "id": "d6dc72c0c749b16e91851b52cc256d14",
+      "name": "ARLINGTON LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6806631,
+      "longitude": -73.8873421,
+      "buildingId": "3087001",
+      "address": null
+    },
+    {
+      "id": "d7b6a850541d90d0f27a92bb7cb2d031",
+      "name": "BAYCHESTER LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8702860682,
+      "longitude": -73.8286119331,
+      "buildingId": "2097466",
+      "address": "2049 ASCH LOOP NORTH"
+    },
+    {
+      "id": "d981bc27de6e0dd423aa46b0362a0c22",
+      "name": "MUHLENBERG LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7445200015,
+      "longitude": -73.995961283,
+      "buildingId": "1014150",
+      "address": "209 WEST 23 STREET"
+    },
+    {
+      "id": "d9cf3116e074431edffa31e522158e25",
+      "name": "CITY ISLAND LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8477591237,
+      "longitude": -73.7864096459,
+      "buildingId": "2122890",
+      "address": "320 CITY ISLAND AVENUE"
+    },
+    {
+      "id": "dd8c229c6ba501084f0fcee8361acbd5",
+      "name": "WINDSOR TERRACE LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6487264875,
+      "longitude": -73.9767581941,
+      "buildingId": "3124000",
+      "address": "160 EAST 5 STREET"
+    },
+    {
+      "id": "de1e828b7f0c16b0f7cda8f9b58c0387",
+      "name": "53RD STREET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7608259705,
+      "longitude": -73.9773472093,
+      "buildingId": "1089376",
+      "address": "18 WEST 53 STREET"
+    },
+    {
+      "id": "df4caf21ed676838ad34d2018f8b20ba",
+      "name": "BROWER PARK LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6744909815,
+      "longitude": -73.9440049534,
+      "buildingId": "3031049",
+      "address": "155 BROOKLYN AVENUE"
+    },
+    {
+      "id": "e31111812ca778f03c5e70e5faadd7cb",
+      "name": "AGUILAR LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.794187916,
+      "longitude": -73.9434695702,
+      "buildingId": "1052167",
+      "address": "174 EAST 110 STREET"
+    },
+    {
+      "id": "e4139913406b8bdf4626a7d12bce79a4",
+      "name": "QUEENSBORO HILL",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7429391024,
+      "longitude": -73.8251737728,
+      "buildingId": "4140176",
+      "address": "60-05 MAIN STREET"
+    },
+    {
+      "id": "e4f6f7986c136e0d74ffbb4cb725e51f",
+      "name": "JEFFERSON MARKET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7346129327,
+      "longitude": -73.9991683476,
+      "buildingId": "1082668",
+      "address": "425 AVENUE OF THE AMERICAS"
+    },
+    {
+      "id": "e5dc16e45a49c1f198513ef6fa41f215",
+      "name": "MORRIS PARK LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8480693405,
+      "longitude": -73.8569779971,
+      "buildingId": "2045398",
+      "address": "985 MORRIS PARK AVENUE"
+    },
+    {
+      "id": "e6372bc7973503e781d63c6d98d8fac3",
+      "name": "COLUMBUS LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7649400611,
+      "longitude": -73.9912114486,
+      "buildingId": "1026706",
+      "address": "742 10 AVENUE"
+    },
+    {
+      "id": "e6da6cf4063e2e4a10770100c1cca62a",
+      "name": "CENTRAL LIBRARY LEARNING CENTER",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6722468777,
+      "longitude": -73.9681108345,
+      "buildingId": "3029665",
+      "address": "10 GRAND ARMY PLAZA"
+    },
+    {
+      "id": "e712c6bcc023d57adefd02a3b76948bd",
+      "name": "CLINTON HILL LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6873829949,
+      "longitude": -73.9660318897,
+      "buildingId": "3055495",
+      "address": "380 WASHINGTON AVENUE"
+    },
+    {
+      "id": "e881710c633de4f891591fd806b0b1a9",
+      "name": "RAVENSWOOD",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7605127784,
+      "longitude": -73.9366608937,
+      "buildingId": "4430693",
+      "address": "35-32 21 STREET"
+    },
+    {
+      "id": "e99e623effd50be94c01940ce9038f69",
+      "name": "SEDGWICK LIBRARY",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8495022562,
+      "longitude": -73.9175828714,
+      "buildingId": "2100281",
+      "address": "1701 DR MARTIN LUTHER KING JR BLVD"
+    },
+    {
+      "id": "e9af454dd8d5e239a1027e70e6aa249b",
+      "name": "BELMONT LIBRARY AND ENRICO FERMI CULTURAL CENTER",
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8543523252,
+      "longitude": -73.8878943674,
+      "buildingId": "2012129",
+      "address": "610 EAST 186 STREET"
+    },
+    {
+      "id": "e9ff0c907d0746ac46b8f56af137dbdb",
+      "name": "PACIFIC LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.683449,
+      "longitude": -73.978549,
+      "buildingId": "3018376",
+      "address": null
+    },
+    {
+      "id": "eaf0d2b6f328adf71b3caadf496ef1a8",
+      "name": "96TH STREET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7859659338,
+      "longitude": -73.951809729,
+      "buildingId": "1048501",
+      "address": "112 EAST 96 STREET"
+    },
+    {
+      "id": "eb43596b7587fbf445ce2fd78f1afbbb",
+      "name": "RIVERSIDE LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.7742585422,
+      "longitude": -73.9842560499,
+      "buildingId": "1091073",
+      "address": "127 AMSTERDAM AVENUE"
+    },
+    {
+      "id": "eb60390bf9e3ac0e288472720d921311",
+      "name": "QUEENSBRIDGE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7551799661,
+      "longitude": -73.9443055025,
+      "buildingId": "4595582",
+      "address": "10-43 41 AVENUE"
+    },
+    {
+      "id": "eba7a58f8edf922eff6bf7c8114fddc4",
+      "name": "FORT HAMILTON LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6164102983,
+      "longitude": -74.0313966261,
+      "buildingId": "3155499",
+      "address": "9424 FOURTH AVENUE"
+    },
+    {
+      "id": "eec118768e15a5e03d3354abda7b00da",
+      "name": "125TH STREET LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.8030267103,
+      "longitude": -73.9348530293,
+      "buildingId": "1054674",
+      "address": "224 EAST 125 STREET"
+    },
+    {
+      "id": "f2bc99e0432afd4c8a3f9591fce05687",
+      "name": "CENTER FOR BROOKLYN HISTORY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.694799624,
+      "longitude": -73.9924132662,
+      "buildingId": "3002006",
+      "address": "128 PIERREPONT STREET"
+    },
+    {
+      "id": "f373d308be3cabf2ae128397ec88299e",
+      "name": "QUEENS VILLAGE",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7198929945,
+      "longitude": -73.7390468024,
+      "buildingId": "4226761",
+      "address": "94-11 217 STREET"
+    },
+    {
+      "id": "f42012efff7096542739b70fe7ca1e80",
+      "name": "DOUGLASTON/LITTLE NECK",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7682299949,
+      "longitude": -73.7382355256,
+      "buildingId": "4169275",
+      "address": "249-01 NORTHERN BOULEVARD"
+    },
+    {
+      "id": "f5d108e6ba1b15a088abc91d26fae19b",
+      "name": "DONGAN HILLS LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.5904031548,
+      "longitude": -74.1011398288,
+      "buildingId": "5022895",
+      "address": "1617 RICHMOND ROAD"
+    },
+    {
+      "id": "f773a83959c4644af086daa62c0bf725",
+      "name": "LEFFERTS",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.6869096925,
+      "longitude": -73.8248405908,
+      "buildingId": "4203685",
+      "address": "103-34 LEFFERTS BOULEVARD"
+    },
+    {
+      "id": "fa9c9c6a843b8f8f19ee5b47e78409e0",
+      "name": "ANDREW HEISKELL BRAILLE AND TALKING BOOK LIBRARY",
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.740474945,
+      "longitude": -73.9933540835,
+      "buildingId": "1076145",
+      "address": "40 WEST 20 STREET"
+    },
+    {
+      "id": "fb34a2830552addb2321b94e0eb9d385",
+      "name": "LIBRARY FOR ARTS & CULTURE",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6860429094,
+      "longitude": -73.9784017621,
+      "buildingId": "3428715",
+      "address": "10 LAFAYETTE AVENUE"
+    },
+    {
+      "id": "fc1937affe9840293e6b5e72755ce177",
+      "name": "BAY RIDGE LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6336068,
+      "longitude": -74.0295073,
+      "buildingId": "3147279",
+      "address": null
+    },
+    {
+      "id": "fd87cf0f77f086066ba18a63bcbf83bd",
+      "name": "COURT SQUARE (FUTURE HOME)",
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "source": "qpl_libraries",
+      "latitude": 40.7449221705,
+      "longitude": -73.9456659757,
+      "buildingId": "4596913",
+      "address": "22-44 JACKSON AVENUE"
+    },
+    {
+      "id": "fe3efe0365330942f665f659420c7ac9",
+      "name": "DEKALB LIBRARY",
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "source": "bpl_libraries",
+      "latitude": 40.6947857,
+      "longitude": -73.9284044,
+      "buildingId": "3073751",
+      "address": null
+    },
+    {
+      "id": "ff7e25654588a2c2b3a2ec994b8ec1c7",
+      "name": "CHARLESTON LIBRARY",
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "source": "nypl_libraries",
+      "latitude": 40.5310478142,
+      "longitude": -74.2322919294,
+      "buildingId": "5171789",
+      "address": "225 BRICKTOWN WAY"
+    }
+  ],
+  "markers": [
+    {
+      "id": "0272db2a815f38d52de5a70bb9181fca",
+      "name": "HOWARD BEACH",
+      "latitude": 40.6638125681,
+      "longitude": -73.8418005525,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "0272db2a815f38d52de5a70bb9181fca"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "02923b42067a8b3790486a4763d785f5",
+      "name": "FRESH MEADOWS",
+      "latitude": 40.7415593826,
+      "longitude": -73.7822681507,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "02923b42067a8b3790486a4763d785f5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "02cb698f33a96d5ab6deb0cb9df019c1",
+      "name": "GLENDALE",
+      "latitude": 40.70258055,
+      "longitude": -73.8757991131,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "02cb698f33a96d5ab6deb0cb9df019c1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "03c6d733eefe179d405351b9ccc899ca",
+      "name": "MORRISANIA LIBRARY",
+      "latitude": 40.8312720847,
+      "longitude": -73.9017895369,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "03c6d733eefe179d405351b9ccc899ca"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "043a663af03b0d70d0a3f7831ef1aefd",
+      "name": "TOMPKINS SQUARE LIBRARY",
+      "latitude": 40.7273097844,
+      "longitude": -73.9804114104,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "043a663af03b0d70d0a3f7831ef1aefd"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "05601de94006cc0b5ec99e025c6bfe0b",
+      "name": "GRAND CONCOURSE LIBRARY",
+      "latitude": 40.8440100646,
+      "longitude": -73.9100923152,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "05601de94006cc0b5ec99e025c6bfe0b"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "057d26a803e341d91bdb735afd961e30",
+      "name": "KEW GARDENS HILLS",
+      "latitude": 40.7259407866,
+      "longitude": -73.8207482989,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "057d26a803e341d91bdb735afd961e30"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "06994ae1765308adf812985cb2204b7d",
+      "name": "MAPLETON LIBRARY",
+      "latitude": 40.6230710774,
+      "longitude": -73.9894435491,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "06994ae1765308adf812985cb2204b7d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "0809656e340a82528569fc986db14658",
+      "name": "SHEEPSHEAD BAY LIBRARY",
+      "latitude": 40.587008637,
+      "longitude": -73.9554293531,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "0809656e340a82528569fc986db14658"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "08172fb3a315dd5fa26a6cc37b0a6743",
+      "name": "BAISLEY PARK",
+      "latitude": 40.6803224258,
+      "longitude": -73.7916806295,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "08172fb3a315dd5fa26a6cc37b0a6743"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "0a1b6e5a0b3f8fa0c38c6a910916b2f3",
+      "name": "CYPRESS HILLS LIBRARY",
+      "latitude": 40.6726465,
+      "longitude": -73.8740892,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "0a1b6e5a0b3f8fa0c38c6a910916b2f3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "0ad7841a37579731c647d893439e431e",
+      "name": "FAR ROCKAWAY",
+      "latitude": 40.6043336419,
+      "longitude": -73.7524660745,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "0ad7841a37579731c647d893439e431e"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "0ddf3f7fd6063f6f89642e76e3c68f56",
+      "name": "HIGH BRIDGE LIBRARY",
+      "latitude": 40.8379673359,
+      "longitude": -73.9235452658,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "0ddf3f7fd6063f6f89642e76e3c68f56"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "0e18d5f24d7aada30769753cf69849c8",
+      "name": "BAY TERRACE",
+      "latitude": 40.7825359852,
+      "longitude": -73.7770147104,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "0e18d5f24d7aada30769753cf69849c8"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "0f70705af2d8110f7757f193ee996491",
+      "name": "RICHMONDTOWN LIBRARY",
+      "latitude": 40.5665436598,
+      "longitude": -74.1385500645,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "0f70705af2d8110f7757f193ee996491"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "10c0c3484af97dbdbd519ac043dd6448",
+      "name": "EDENWALD LIBRARY",
+      "latitude": 40.8889011106,
+      "longitude": -73.840834064,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "10c0c3484af97dbdbd519ac043dd6448"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "11227fa7d859b1c64029c0a3c92b4911",
+      "name": "EASTCHESTER LIBRARY",
+      "latitude": 40.8701459976,
+      "longitude": -73.8450655401,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "11227fa7d859b1c64029c0a3c92b4911"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "12f9ad95f1a7100bbe3ae67f2da79089",
+      "name": "AUBURNDALE",
+      "latitude": 40.7737590241,
+      "longitude": -73.7963502396,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "12f9ad95f1a7100bbe3ae67f2da79089"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "13087f1014cb4ae22b84af82d279a681",
+      "name": "LEONARD LIBRARY",
+      "latitude": 40.713637,
+      "longitude": -73.947968,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "13087f1014cb4ae22b84af82d279a681"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "13522ee484728cf90b296e5706502f14",
+      "name": "DYKER LIBRARY",
+      "latitude": 40.6163154589,
+      "longitude": -74.0119900831,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "13522ee484728cf90b296e5706502f14"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "144c91d88e55a62205c5cc9d22c95752",
+      "name": "MULBERRY STREET LIBRARY",
+      "latitude": 40.7240742796,
+      "longitude": -73.9957236719,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "144c91d88e55a62205c5cc9d22c95752"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "146745b995f7db41ff9738ef021e27a3",
+      "name": "BROAD CHANNEL",
+      "latitude": 40.6007401106,
+      "longitude": -73.8200529934,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "146745b995f7db41ff9738ef021e27a3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "14a0a05fcb5e1354be00d97b9bdf112e",
+      "name": "WHITESTONE",
+      "latitude": 40.7885379249,
+      "longitude": -73.8107190561,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "14a0a05fcb5e1354be00d97b9bdf112e"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "152b4ea25001f26454e5f99aa07f8d64",
+      "name": "STONE AVENUE LIBRARY",
+      "latitude": 40.6644731187,
+      "longitude": -73.9052186164,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "152b4ea25001f26454e5f99aa07f8d64"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "16c43157ad1d08974acb24533d982f8d",
+      "name": "MACON LIBRARY",
+      "latitude": 40.6830369,
+      "longitude": -73.9348376,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "16c43157ad1d08974acb24533d982f8d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "16f77463d54e81fc6320bcc00cfc239c",
+      "name": "INWOOD LIBRARY–JOSEPH AND SHEILA ROSENBLATT BUILDING",
+      "latitude": 40.8657251083,
+      "longitude": -73.9257199072,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "16f77463d54e81fc6320bcc00cfc239c"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1796ef48f88daa663ce954b67b58aa47",
+      "name": "SARATOGA LIBRARY",
+      "latitude": 40.684789,
+      "longitude": -73.915177,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "1796ef48f88daa663ce954b67b58aa47"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1948ba31c21bacc79ecc2578210bfeb2",
+      "name": "MCGOLDRICK",
+      "latitude": 40.7637546941,
+      "longitude": -73.8098346667,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "1948ba31c21bacc79ecc2578210bfeb2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1b2d01dbabaa19954081aa7950433960",
+      "name": "NEW AMSTERDAM LIBRARY",
+      "latitude": 40.7136065315,
+      "longitude": -74.0078659267,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "1b2d01dbabaa19954081aa7950433960"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1b93bf18b98a19a8f00758b5528a2e78",
+      "name": "BOROUGH PARK LIBRARY",
+      "latitude": 40.638856,
+      "longitude": -73.989018,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "1b93bf18b98a19a8f00758b5528a2e78"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1e61ab24f52d4baa3dbda1d3e19426a2",
+      "name": "GEORGE BRUCE LIBRARY",
+      "latitude": 40.8137809586,
+      "longitude": -73.957055147,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "1e61ab24f52d4baa3dbda1d3e19426a2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1e7b03d615f7e8d0cdbacec9d851b4bf",
+      "name": "RIDGEWOOD",
+      "latitude": 40.7051794633,
+      "longitude": -73.9025728831,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "1e7b03d615f7e8d0cdbacec9d851b4bf"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1eb372bf506d6952df43b15aec920e7c",
+      "name": "WEST NEW BRIGHTON LIBRARY",
+      "latitude": 40.6345164124,
+      "longitude": -74.1148186532,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "1eb372bf506d6952df43b15aec920e7c"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "1f17a2b85addc7978f0fcece057f4ef7",
+      "name": "NORTH FOREST PARK",
+      "latitude": 40.7111946188,
+      "longitude": -73.8536733063,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "1f17a2b85addc7978f0fcece057f4ef7"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "2232149c08d35cccc85205d8cecf9db5",
+      "name": "MARINERS HARBOR LIBRARY",
+      "latitude": 40.6346879217,
+      "longitude": -74.1666104137,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "2232149c08d35cccc85205d8cecf9db5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "236183dcfecc8d0ae3528d0ca05f7622",
+      "name": "WAKEFIELD LIBRARY",
+      "latitude": 40.8911059186,
+      "longitude": -73.8595242442,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "236183dcfecc8d0ae3528d0ca05f7622"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "238830045f7fec917afba635e4c868ff",
+      "name": "ALLERTON LIBRARY",
+      "latitude": 40.8668098528,
+      "longitude": -73.8632252325,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "238830045f7fec917afba635e4c868ff"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "23ae2ab0daa02c135876a4c613e81125",
+      "name": "ARVERNE",
+      "latitude": 40.5931527914,
+      "longitude": -73.7840411494,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "23ae2ab0daa02c135876a4c613e81125"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "247e317f36abd76002161eba32a24826",
+      "name": "CORONA",
+      "latitude": 40.7508986537,
+      "longitude": -73.8619816466,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "247e317f36abd76002161eba32a24826"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "24a091dc4d37748f8d20c8fbf4799b7d",
+      "name": "NORTH HILLS",
+      "latitude": 40.7592535927,
+      "longitude": -73.7318305949,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "24a091dc4d37748f8d20c8fbf4799b7d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "264b7f8f8a579c5347016fd3aaf03b15",
+      "name": "FLATLANDS LIBRARY",
+      "latitude": 40.6197818309,
+      "longitude": -73.9332116024,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "264b7f8f8a579c5347016fd3aaf03b15"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "2ae4447cf0f2e4763b554fe7f16581df",
+      "name": "ASTORIA",
+      "latitude": 40.7723888184,
+      "longitude": -73.928723913,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "2ae4447cf0f2e4763b554fe7f16581df"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "2c8cc67ce4e6c79f80d06dc0d521d8b9",
+      "name": "WOODSIDE",
+      "latitude": 40.7453493823,
+      "longitude": -73.909799047,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "2c8cc67ce4e6c79f80d06dc0d521d8b9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "2d562a3c6f43d5346a2a0a0f94f751a3",
+      "name": "WEST FARMS LIBRARY",
+      "latitude": 40.8446817203,
+      "longitude": -73.8830469968,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "2d562a3c6f43d5346a2a0a0f94f751a3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "30aae3a8c9b3eaae63c36361eda495e7",
+      "name": "STAVROS NIARCHOS FOUNDATION LIBRARY (SNFL)",
+      "latitude": 40.751786218,
+      "longitude": -73.981528094,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "30aae3a8c9b3eaae63c36361eda495e7"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "33287cda7c7d99a02fcd26724d69300d",
+      "name": "BROWNSVILLE LIBRARY",
+      "latitude": 40.671469,
+      "longitude": -73.9085913,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "33287cda7c7d99a02fcd26724d69300d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3385bf98f721fb0ee9683edb1a59a23d",
+      "name": "THROG'S NECK LIBRARY",
+      "latitude": 40.8229078273,
+      "longitude": -73.8190903284,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3385bf98f721fb0ee9683edb1a59a23d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3474af1c39cf86d85b6109e992d37cbf",
+      "name": "GREENPOINT LIBRARY AND ENVIRONMENTAL EDUCATION CENTER",
+      "latitude": 40.726063,
+      "longitude": -73.950631,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "3474af1c39cf86d85b6109e992d37cbf"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3583d175adfc7409c2c9e95a69a7dc21",
+      "name": "ST. GEORGE LIBRARY CENTER",
+      "latitude": 40.6417663771,
+      "longitude": -74.0766483057,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3583d175adfc7409c2c9e95a69a7dc21"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "361b5dfe9b89cea512bc67979c2d284c",
+      "name": "CLARENDON LIBRARY",
+      "latitude": 40.6357517462,
+      "longitude": -73.9476281097,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "361b5dfe9b89cea512bc67979c2d284c"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "36ca16c9a9d91bd90eb53ace85d58908",
+      "name": "HUNTERS POINT",
+      "latitude": 40.7452871485,
+      "longitude": -73.9580246382,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "36ca16c9a9d91bd90eb53ace85d58908"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "38c9399e1af0f4a08ef042ebdd958fa8",
+      "name": "CORTELYOU LIBRARY",
+      "latitude": 40.640844,
+      "longitude": -73.965968,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "38c9399e1af0f4a08ef042ebdd958fa8"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3920ee68e11373aa6c5c07ff8baefd23",
+      "name": "HAMILTON GRANGE LIBRARY",
+      "latitude": 40.8257199642,
+      "longitude": -73.9479989652,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3920ee68e11373aa6c5c07ff8baefd23"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3a55e205bd4a9e7992c2f308ff9b68c3",
+      "name": "MELROSE LIBRARY",
+      "latitude": 40.8265945209,
+      "longitude": -73.9175815519,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3a55e205bd4a9e7992c2f308ff9b68c3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3ad4b6a9eb25bd4f282791fd9f8d85f9",
+      "name": "ELMHURST",
+      "latitude": 40.7385177879,
+      "longitude": -73.8768709659,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "3ad4b6a9eb25bd4f282791fd9f8d85f9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3c2a37f3f3e8d57778910826b2ecca04",
+      "name": "STAPLETON LIBRARY",
+      "latitude": 40.6261052855,
+      "longitude": -74.0778438305,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3c2a37f3f3e8d57778910826b2ecca04"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3ccc892d61c2745d02f1de9a698e48af",
+      "name": "BRIGHTON BEACH LIBRARY",
+      "latitude": 40.5761748007,
+      "longitude": -73.9667463596,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "3ccc892d61c2745d02f1de9a698e48af"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3d18b534d686c37da2aea0e7e4548e23",
+      "name": "FORT WASHINGTON LIBRARY",
+      "latitude": 40.8478914839,
+      "longitude": -73.9338513837,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3d18b534d686c37da2aea0e7e4548e23"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3d3f893e57902717aab9d240ae69bcc2",
+      "name": "OTTENDORFER LIBRARY",
+      "latitude": 40.7289238078,
+      "longitude": -73.9877835862,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3d3f893e57902717aab9d240ae69bcc2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "3d9b5196db6329d2eaba964d0ef12244",
+      "name": "YORKVILLE LIBRARY",
+      "latitude": 40.773613766,
+      "longitude": -73.9564079993,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "3d9b5196db6329d2eaba964d0ef12244"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "413023d0776169213c20e63d58c3ff35",
+      "name": "THE NEW YORK PUBLIC LIBRARY FOR THE PERFORMING ARTS",
+      "latitude": 40.7731553,
+      "longitude": -73.9849449,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "413023d0776169213c20e63d58c3ff35"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4211bf0dccbffaff367d5382931e3ba3",
+      "name": "SPRING CREEK LIBRARY",
+      "latitude": 40.6532637,
+      "longitude": -73.8859641,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "4211bf0dccbffaff367d5382931e3ba3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4222cbaa9d1a52faa5569cd395772ace",
+      "name": "EAST ELMHURST",
+      "latitude": 40.762426376,
+      "longitude": -73.8738728564,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "4222cbaa9d1a52faa5569cd395772ace"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4230d4e5cb8252c60a8d3bd0167764f5",
+      "name": "WOODLAWN HEIGHTS LIBRARY",
+      "latitude": 40.9004468341,
+      "longitude": -73.8679486582,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "4230d4e5cb8252c60a8d3bd0167764f5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "439d37ec9e01ec3d1eb6fc238f76aec4",
+      "name": "PORT RICHMOND LIBRARY",
+      "latitude": 40.6375933559,
+      "longitude": -74.1311058353,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "439d37ec9e01ec3d1eb6fc238f76aec4"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4730fd961a79fd05047089be52b5f7d0",
+      "name": "REGO PARK",
+      "latitude": 40.7273227692,
+      "longitude": -73.8645065694,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "4730fd961a79fd05047089be52b5f7d0"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "497687da0afcbc04b816edaac77f5cd5",
+      "name": "FOREST HILLS",
+      "latitude": 40.7221495973,
+      "longitude": -73.8430473293,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "497687da0afcbc04b816edaac77f5cd5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4a241334f5de230291220a27606d56fa",
+      "name": "COUNTEE CULLEN LIBRARY",
+      "latitude": 40.8147630429,
+      "longitude": -73.9412063303,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "4a241334f5de230291220a27606d56fa"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4a45556b3fdf640415385d501204e650",
+      "name": "EAST FLATBUSH LIBRARY",
+      "latitude": 40.6557127372,
+      "longitude": -73.914939804,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "4a45556b3fdf640415385d501204e650"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4aa679eaeaff324f424d549d42a86d74",
+      "name": "WOODHAVEN",
+      "latitude": 40.6945535275,
+      "longitude": -73.8614418098,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "4aa679eaeaff324f424d549d42a86d74"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4c0e0398476b5abe2c2cb16159fb0b8a",
+      "name": "MOTT HAVEN LIBRARY",
+      "latitude": 40.8116357791,
+      "longitude": -73.9243762205,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "4c0e0398476b5abe2c2cb16159fb0b8a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4dff6715bba742f6d2cd9780c8c8df6a",
+      "name": "MORNINGSIDE HEIGHTS LIBRARY",
+      "latitude": 40.8061335178,
+      "longitude": -73.9646714553,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "4dff6715bba742f6d2cd9780c8c8df6a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "4ef7549ea636d64430a7590f4de5f1f9",
+      "name": "MITCHELL-LINDEN",
+      "latitude": 40.769143933,
+      "longitude": -73.8269749843,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "4ef7549ea636d64430a7590f4de5f1f9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "52396f3077e250df8dca482d22edb62f",
+      "name": "ADAMS STREET LIBRARY",
+      "latitude": 40.7041441536,
+      "longitude": -73.9879956505,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "52396f3077e250df8dca482d22edb62f"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "529a78f91d446522046a121e93f796e8",
+      "name": "SCHOMBURG CENTER FOR RESEARCH IN BLACK CULTURE",
+      "latitude": 40.8144,
+      "longitude": -73.941,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "529a78f91d446522046a121e93f796e8"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "52efad1ea64a98120eecc1d013d63832",
+      "name": "SOUTH OZONE PARK",
+      "latitude": 40.6747842807,
+      "longitude": -73.8092635671,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "52efad1ea64a98120eecc1d013d63832"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "54e3a919e5ea7a1eaa9ba729d9fbd9c7",
+      "name": "SUNSET PARK LIBRARY",
+      "latitude": 40.6459314704,
+      "longitude": -74.0136541247,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "54e3a919e5ea7a1eaa9ba729d9fbd9c7"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5513fbfeaf0d0c736e53a7ad9c769a23",
+      "name": "RUGBY LIBRARY",
+      "latitude": 40.6486412879,
+      "longitude": -73.9303828979,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "5513fbfeaf0d0c736e53a7ad9c769a23"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "57611a33c42955afa4b29add9a2788a2",
+      "name": "TERENCE CARDINAL COOKE-CATHEDRAL LIBRARY",
+      "latitude": 40.7568632215,
+      "longitude": -73.9726363406,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "57611a33c42955afa4b29add9a2788a2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "58c05b67e09aa179a858bc7301551203",
+      "name": "NEW DORP LIBRARY",
+      "latitude": 40.5719398183,
+      "longitude": -74.1119584585,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "58c05b67e09aa179a858bc7301551203"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5a5ec2dd023b06756324be57c66f9ce9",
+      "name": "BRIARWOOD",
+      "latitude": 40.7100418825,
+      "longitude": -73.8194588476,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "5a5ec2dd023b06756324be57c66f9ce9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5ad8b68e57686b852d766cff3004f926",
+      "name": "TREMONT LIBRARY",
+      "latitude": 40.8460528369,
+      "longitude": -73.898347751,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "5ad8b68e57686b852d766cff3004f926"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5bf16ed7f9ca7eb22c6cca4b4dacab2b",
+      "name": "SOUTH HOLLIS",
+      "latitude": 40.7070198089,
+      "longitude": -73.7537969644,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "5bf16ed7f9ca7eb22c6cca4b4dacab2b"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5c0c9a02dfd39ff37ade397d200972f3",
+      "name": "ROSEDALE",
+      "latitude": 40.659971775,
+      "longitude": -73.7399084708,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "5c0c9a02dfd39ff37ade397d200972f3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5cacfeebafe3aa570e8801c08de0dcba",
+      "name": "TEEN TECH CENTER AT THE ANNEX",
+      "latitude": 40.7046234707,
+      "longitude": -73.9878336501,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "5cacfeebafe3aa570e8801c08de0dcba"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5cd56fba44846deb250f45e59c8332b1",
+      "name": "SPUYTEN DUYVIL LIBRARY",
+      "latitude": 40.8862807253,
+      "longitude": -73.9146784376,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "5cd56fba44846deb250f45e59c8332b1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5d80002be33c91d7ef81b8bd61c7f517",
+      "name": "WESTCHESTER SQUARE LIBRARY",
+      "latitude": 40.8411198984,
+      "longitude": -73.8466191218,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "5d80002be33c91d7ef81b8bd61c7f517"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5e107a8691bd5260eb3e5f18bd9d62c8",
+      "name": "LONG ISLAND CITY",
+      "latitude": 40.7578222905,
+      "longitude": -73.9393047269,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "5e107a8691bd5260eb3e5f18bd9d62c8"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5e390df8e9820dc314a2658598f27b62",
+      "name": "WALT WHITMAN LIBRARY",
+      "latitude": 40.6944941379,
+      "longitude": -73.9777371602,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "5e390df8e9820dc314a2658598f27b62"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "5f712739e9d0d040ce8acf7725953a74",
+      "name": "VAN CORTLANDT LIBRARY, ARLINE SCHWARZMAN BUILDING",
+      "latitude": 40.8836360487,
+      "longitude": -73.8944885204,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "5f712739e9d0d040ce8acf7725953a74"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "6011ab9825262c85e7922e6b103f14e2",
+      "name": "PARKCHESTER LIBRARY",
+      "latitude": 40.8337678169,
+      "longitude": -73.8583561777,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "6011ab9825262c85e7922e6b103f14e2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "61f9d318fc837d2e4dcdf8c1119f2bdf",
+      "name": "KINGSBRIDGE LIBRARY",
+      "latitude": 40.8807292781,
+      "longitude": -73.9077085056,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "61f9d318fc837d2e4dcdf8c1119f2bdf"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "62b0c40ce8078208edbe35bf7f77a41a",
+      "name": "SOUTH JAMAICA",
+      "latitude": 40.6956384216,
+      "longitude": -73.7901788532,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "62b0c40ce8078208edbe35bf7f77a41a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "6323997ff723f6eea1fac65bd0994d7f",
+      "name": "STEPHEN A. SCHWARZMAN BUILDING",
+      "latitude": 40.7534887,
+      "longitude": -73.9808774,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "6323997ff723f6eea1fac65bd0994d7f"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "64137089e6a55419967bf8b4d55f41f4",
+      "name": "LAURELTON",
+      "latitude": 40.6769600184,
+      "longitude": -73.7456697821,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "64137089e6a55419967bf8b4d55f41f4"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "64a4d7a6a341b1e5c406013a37d82bb5",
+      "name": "PARK SLOPE LIBRARY",
+      "latitude": 40.6682222211,
+      "longitude": -73.9834260381,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "64a4d7a6a341b1e5c406013a37d82bb5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "653bd101fb910a43ed9bae29729f948f",
+      "name": "SEASIDE",
+      "latitude": 40.5793964366,
+      "longitude": -73.8377353189,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "653bd101fb910a43ed9bae29729f948f"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "66284cf527b45819781565ea645f4240",
+      "name": "NEW UTRECHT LIBRARY",
+      "latitude": 40.6080187,
+      "longitude": -74.0033411,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "66284cf527b45819781565ea645f4240"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "67764ba9980827e4ab45efcb9ba1450b",
+      "name": "SOUTH BEACH LIBRARY",
+      "latitude": 40.5958101382,
+      "longitude": -74.0630280987,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "67764ba9980827e4ab45efcb9ba1450b"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "693e924ddfac47d83dd88ead481a580b",
+      "name": "PELHAM PARKWAY-VAN NEST LIBRARY",
+      "latitude": 40.8548839042,
+      "longitude": -73.8641466562,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "693e924ddfac47d83dd88ead481a580b"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "6a3376847be73dc6190d69fc6b1b4baf",
+      "name": "BROADWAY",
+      "latitude": 40.7585341544,
+      "longitude": -73.9186254787,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "6a3376847be73dc6190d69fc6b1b4baf"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "6b0e15c24b65934f099e4b983554bb31",
+      "name": "PENINSULA",
+      "latitude": 40.5858465557,
+      "longitude": -73.816060445,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "6b0e15c24b65934f099e4b983554bb31"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "6bcc0473289142db923dcf28ba1602ca",
+      "name": "WASHINGTON IRVING LIBRARY",
+      "latitude": 40.6975031,
+      "longitude": -73.9122378,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "6bcc0473289142db923dcf28ba1602ca"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "6cf4c3064982a8e30f161319e2ca6d2d",
+      "name": "HAMILTON FISH PARK LIBRARY",
+      "latitude": 40.7193762137,
+      "longitude": -73.9796208845,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "6cf4c3064982a8e30f161319e2ca6d2d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "6eb31f516c420aedd08fa053e8f552e3",
+      "name": "POMONOK",
+      "latitude": 40.7330412514,
+      "longitude": -73.8098803354,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "6eb31f516c420aedd08fa053e8f552e3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "702313a7935fa64dfa88e4a7a12efb61",
+      "name": "MACOMB'S BRIDGE LIBRARY",
+      "latitude": 40.8253749522,
+      "longitude": -73.935513889,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "702313a7935fa64dfa88e4a7a12efb61"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "71246fc08b528402bee8b81e928afbad",
+      "name": "CANARSIE LIBRARY",
+      "latitude": 40.6422167,
+      "longitude": -73.8995607,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "71246fc08b528402bee8b81e928afbad"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "717971c38bd27bb381c8b3fd594c1433",
+      "name": "MOSHOLU LIBRARY",
+      "latitude": 40.8743910426,
+      "longitude": -73.8783950702,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "717971c38bd27bb381c8b3fd594c1433"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7372d26dd0b0ab45ca0bb5f860ed05c9",
+      "name": "HUGUENOT PARK LIBRARY",
+      "latitude": 40.5340657775,
+      "longitude": -74.1932367146,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7372d26dd0b0ab45ca0bb5f860ed05c9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7514e4e3ab2647ab150eebcc55f0fa80",
+      "name": "TODT HILL-WESTERLEIGH LIBRARY",
+      "latitude": 40.6095828089,
+      "longitude": -74.1484992097,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7514e4e3ab2647ab150eebcc55f0fa80"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7543d9539bab4f3033401839b86edbd5",
+      "name": "ROCHDALE VILLAGE",
+      "latitude": 40.672884247,
+      "longitude": -73.7705879439,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "7543d9539bab4f3033401839b86edbd5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "75c69c33f53a998990c45587c5bf8fc1",
+      "name": "MCKINLEY PARK LIBRARY",
+      "latitude": 40.629178,
+      "longitude": -74.01188,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "75c69c33f53a998990c45587c5bf8fc1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7729bd161464d46386b115db7f369a31",
+      "name": "GREAT KILLS LIBRARY",
+      "latitude": 40.5524320334,
+      "longitude": -74.1511120698,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7729bd161464d46386b115db7f369a31"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7a4c83ca6bac6ae7a44a7225992aad52",
+      "name": "CONEY ISLAND LIBRARY",
+      "latitude": 40.5767651,
+      "longitude": -73.9860791,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "7a4c83ca6bac6ae7a44a7225992aad52"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7bb83076843517e6390b3d1124d6150f",
+      "name": "WEBSTER LIBRARY",
+      "latitude": 40.7706620178,
+      "longitude": -73.9513514661,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7bb83076843517e6390b3d1124d6150f"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7bf96e154025c8e7c0c4ed3990173bf2",
+      "name": "EPIPHANY LIBRARY",
+      "latitude": 40.7380871422,
+      "longitude": -73.9820542068,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7bf96e154025c8e7c0c4ed3990173bf2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7dca3ea1ff5d3f183b03367da6b683f1",
+      "name": "CROWN HEIGHTS LIBRARY",
+      "latitude": 40.6611981,
+      "longitude": -73.9481517,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "7dca3ea1ff5d3f183b03367da6b683f1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7ebd35d614226315c5a3d49b3e680723",
+      "name": "HUNTS POINT LIBRARY",
+      "latitude": 40.8186939668,
+      "longitude": -73.8941383912,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7ebd35d614226315c5a3d49b3e680723"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7f56119c3c7c8e50f5cdef7f716ce421",
+      "name": "RED HOOK POP-UP LIBRARY",
+      "latitude": 40.6776575074,
+      "longitude": -74.0128955441,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "7f56119c3c7c8e50f5cdef7f716ce421"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7f802160d6986af063f695685c0e2f8a",
+      "name": "OZONE PARK",
+      "latitude": 40.6808665675,
+      "longitude": -73.8464879909,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "7f802160d6986af063f695685c0e2f8a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7f852afc1b23b84ef4dcc56926d4a762",
+      "name": "BLOOMINGDALE LIBRARY",
+      "latitude": 40.7959276435,
+      "longitude": -73.9678504972,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7f852afc1b23b84ef4dcc56926d4a762"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "7fa06308ea830f26e865390afe3fb4a5",
+      "name": "BRONX LIBRARY CENTER",
+      "latitude": 40.863002937,
+      "longitude": -73.8945096133,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "7fa06308ea830f26e865390afe3fb4a5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "8497a170a89bf93d417cc67f74fb58c2",
+      "name": "MIDWOOD LIBRARY",
+      "latitude": 40.625907,
+      "longitude": -73.9604005,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "8497a170a89bf93d417cc67f74fb58c2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "856bef58695ffb392825bcb2ab9b8425",
+      "name": "LEFRAK CITY",
+      "latitude": 40.7374406134,
+      "longitude": -73.8615730327,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "856bef58695ffb392825bcb2ab9b8425"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "8727e2a7a0725736cdf83e214d3d4fd7",
+      "name": "KINGS HIGHWAY LIBRARY",
+      "latitude": 40.6102600375,
+      "longitude": -73.9531124404,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "8727e2a7a0725736cdf83e214d3d4fd7"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "879f883aee3323b32a891c7f37d61eb1",
+      "name": "WILLIAMSBURGH LIBRARY",
+      "latitude": 40.7069143,
+      "longitude": -73.9575883,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "879f883aee3323b32a891c7f37d61eb1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "88035e9952cf46e6d1ecbb1a34adb848",
+      "name": "HARRY BELAFONTE 115TH STREET LIBRARY",
+      "latitude": 40.8029849152,
+      "longitude": -73.9535318979,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "88035e9952cf46e6d1ecbb1a34adb848"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "896a48d6b2fa69aba71244c4929fdf0a",
+      "name": "ST. AGNES LIBRARY",
+      "latitude": 40.7848,
+      "longitude": -73.9773,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "896a48d6b2fa69aba71244c4929fdf0a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "89bb408780182dce657a03c9b718121b",
+      "name": "HOLLIS",
+      "latitude": 40.7201787776,
+      "longitude": -73.7623046296,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "89bb408780182dce657a03c9b718121b"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "89e38b3ba004744901e2bc776f8783ce",
+      "name": "HUDSON PARK LIBRARY",
+      "latitude": 40.7299118488,
+      "longitude": -74.005321376,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "89e38b3ba004744901e2bc776f8783ce"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "8b5205f087b5719f34eb1c2b285d0490",
+      "name": "ULMER PARK LIBRARY",
+      "latitude": 40.5926124,
+      "longitude": -73.9886502,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "8b5205f087b5719f34eb1c2b285d0490"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "8e136daad715941af77a599cc1acd480",
+      "name": "POPPENHUSEN",
+      "latitude": 40.7862559375,
+      "longitude": -73.8460103965,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "8e136daad715941af77a599cc1acd480"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "8f54e248244a2642e1e2703615191f39",
+      "name": "BAYSIDE",
+      "latitude": 40.7601339324,
+      "longitude": -73.768362149,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "8f54e248244a2642e1e2703615191f39"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "923406b0d8f3bc0379297fd29b5865f1",
+      "name": "WASHINGTON HEIGHTS LIBRARY",
+      "latitude": 40.8345288781,
+      "longitude": -73.9396637646,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "923406b0d8f3bc0379297fd29b5865f1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "93485e8580f3e08b302a057e0e52a160",
+      "name": "RICHMOND HILL",
+      "latitude": 40.7007752539,
+      "longitude": -73.8316263391,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "93485e8580f3e08b302a057e0e52a160"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "94485dc6480ce8258b7bb2db1e4df42d",
+      "name": "BATTERY PARK CITY LIBRARY",
+      "latitude": 40.7156379103,
+      "longitude": -74.01613199,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "94485dc6480ce8258b7bb2db1e4df42d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9681eb17981e7b0be56df2d1410cfbcb",
+      "name": "SOUNDVIEW LIBRARY",
+      "latitude": 40.818715778,
+      "longitude": -73.8628905385,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "9681eb17981e7b0be56df2d1410cfbcb"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9709d58ea9b5baf045e6d7672ce83e58",
+      "name": "GLEN OAKS",
+      "latitude": 40.7451449545,
+      "longitude": -73.7148458951,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "9709d58ea9b5baf045e6d7672ce83e58"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9a306601f42b0f14fe1430b01ff0d93e",
+      "name": "RIVERDALE LIBRARY",
+      "latitude": 40.9037177326,
+      "longitude": -73.9027434441,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "9a306601f42b0f14fe1430b01ff0d93e"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9adcf696a8a7a8026da5195272ae8221",
+      "name": "PELHAM BAY LIBRARY",
+      "latitude": 40.8442982997,
+      "longitude": -73.8278852129,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "9adcf696a8a7a8026da5195272ae8221"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9bd95ef12d4546cedaa7b39002d0cf26",
+      "name": "HILLCREST",
+      "latitude": 40.7292611568,
+      "longitude": -73.7819066512,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "9bd95ef12d4546cedaa7b39002d0cf26"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9c34ac86af977bbb9be0b34635ea56d9",
+      "name": "HIGHLAWN LIBRARY",
+      "latitude": 40.6056973232,
+      "longitude": -73.9862317806,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "9c34ac86af977bbb9be0b34635ea56d9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9d43356b875ea17ae06094fc70c64bc7",
+      "name": "58TH STREET LIBRARY",
+      "latitude": 40.7622404059,
+      "longitude": -73.969325187,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "9d43356b875ea17ae06094fc70c64bc7"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "9ee8be07f907ca448e981b1997caca31",
+      "name": "CENTRAL LIBRARY",
+      "latitude": 40.7078052723,
+      "longitude": -73.7946441704,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "9ee8be07f907ca448e981b1997caca31"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "a11f01ac1f7c0ac089c6661012c7572a",
+      "name": "KIPS BAY LIBRARY",
+      "latitude": 40.7438367887,
+      "longitude": -73.9799354737,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "a11f01ac1f7c0ac089c6661012c7572a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "a1dcb669020b66e36c8fb3fad14fd958",
+      "name": "GERRITSEN BEACH LIBRARY",
+      "latitude": 40.5913763189,
+      "longitude": -73.9239623621,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "a1dcb669020b66e36c8fb3fad14fd958"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "a36d89c436fb146cb22ebc31aad009fc",
+      "name": "67TH STREET LIBRARY",
+      "latitude": 40.7649198159,
+      "longitude": -73.9595509675,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "a36d89c436fb146cb22ebc31aad009fc"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "a4f1eed1eef75b46b1d69b2dda94344c",
+      "name": "CHATHAM SQUARE LIBRARY",
+      "latitude": 40.713337378,
+      "longitude": -73.9964915185,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "a4f1eed1eef75b46b1d69b2dda94344c"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "a7b982dc4ec30238a61baeddef4dbae4",
+      "name": "ST. ALBANS",
+      "latitude": 40.692534076,
+      "longitude": -73.7601095876,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "a7b982dc4ec30238a61baeddef4dbae4"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "a9c12e501b332c82a0a1bcf8a524c6fa",
+      "name": "CASTLE HILL LIBRARY",
+      "latitude": 40.8266161307,
+      "longitude": -73.8501808487,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "a9c12e501b332c82a0a1bcf8a524c6fa"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "aac228ca754138338e855489cb94bec5",
+      "name": "LANGSTON HUGHES",
+      "latitude": 40.7576399329,
+      "longitude": -73.8681396185,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "aac228ca754138338e855489cb94bec5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "abe8d49f4539afc3b3410913867a23e1",
+      "name": "TOTTENVILLE LIBRARY",
+      "latitude": 40.50953858,
+      "longitude": -74.2441067062,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "abe8d49f4539afc3b3410913867a23e1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "adab66cfeb78bb35689bb93ef08c7c6a",
+      "name": "PAERDEGAT LIBRARY",
+      "latitude": 40.6325973,
+      "longitude": -73.9199539,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "adab66cfeb78bb35689bb93ef08c7c6a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "aedf914eb45626c8aae5f64c10def66d",
+      "name": "MIDDLE VILLAGE",
+      "latitude": 40.7129505319,
+      "longitude": -73.8808662699,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "aedf914eb45626c8aae5f64c10def66d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "af8acfbc8cd3eaaa0e82395a8267c28c",
+      "name": "KINGS BAY LIBRARY",
+      "latitude": 40.5947871,
+      "longitude": -73.9411462,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "af8acfbc8cd3eaaa0e82395a8267c28c"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b0ff74d1ce1165b148b545ba811cdce7",
+      "name": "SEWARD PARK LIBRARY",
+      "latitude": 40.7144623913,
+      "longitude": -73.9885294832,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "b0ff74d1ce1165b148b545ba811cdce7"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b144192f59ca2c82202a2f258e9dc134",
+      "name": "HARLEM LIBRARY",
+      "latitude": 40.8061988843,
+      "longitude": -73.9433023724,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "b144192f59ca2c82202a2f258e9dc134"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b374e2b2fc5e74face18dc76be6a8465",
+      "name": "WOODSTOCK LIBRARY",
+      "latitude": 40.8206484685,
+      "longitude": -73.9046295224,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "b374e2b2fc5e74face18dc76be6a8465"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b39dc0b1ea61169ae55ad37f112a602e",
+      "name": "CARROLL GARDENS POP-UP LIBRARY",
+      "latitude": 40.6861307275,
+      "longitude": -73.9947612172,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "b39dc0b1ea61169ae55ad37f112a602e"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b3df3a9708327cd901d785517e576463",
+      "name": "JEROME PARK LIBRARY",
+      "latitude": 40.8690449509,
+      "longitude": -73.9012159947,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "b3df3a9708327cd901d785517e576463"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b43dccbd9814ff1239d213c864d3395d",
+      "name": "FRANCIS MARTIN LIBRARY",
+      "latitude": 40.8574404243,
+      "longitude": -73.9092811598,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "b43dccbd9814ff1239d213c864d3395d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b67e32b84461dd0548dbdcdd49cd2f00",
+      "name": "HOMECREST LIBRARY",
+      "latitude": 40.5952409159,
+      "longitude": -73.9606033658,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "b67e32b84461dd0548dbdcdd49cd2f00"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b7334766444ef108bc25e6e2b7514582",
+      "name": "SUNNYSIDE",
+      "latitude": 40.7408121251,
+      "longitude": -73.9216709311,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "b7334766444ef108bc25e6e2b7514582"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "b7eeee1cd88e865720db28d56ff2cd7a",
+      "name": "CAMBRIA HEIGHTS",
+      "latitude": 40.6957447119,
+      "longitude": -73.7411365589,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "b7eeee1cd88e865720db28d56ff2cd7a"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "bac970d8b84a1ac4462bb7f20b498908",
+      "name": "BUSHWICK LIBRARY",
+      "latitude": 40.7045623725,
+      "longitude": -73.9396258899,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "bac970d8b84a1ac4462bb7f20b498908"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "bae4cb35049e3a3982846a7607a30791",
+      "name": "BREEZY POINT MOBILE LIBRARY",
+      "latitude": 40.5612103891,
+      "longitude": -73.9136750428,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "bae4cb35049e3a3982846a7607a30791"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "bb239c41457bc85fad90cf81c2ad92cc",
+      "name": "BELLEROSE",
+      "latitude": 40.7351667229,
+      "longitude": -73.717097882,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "bb239c41457bc85fad90cf81c2ad92cc"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "bc177d69b0e7e1a675b305ff83c6e1d5",
+      "name": "WINDSOR PARK",
+      "latitude": 40.7344965851,
+      "longitude": -73.7556862796,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "bc177d69b0e7e1a675b305ff83c6e1d5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "be471d75711054798c0809ae6f5b3dd9",
+      "name": "MILL BASIN LIBRARY",
+      "latitude": 40.6199454,
+      "longitude": -73.9169226,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "be471d75711054798c0809ae6f5b3dd9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "bedford",
+      "name": "Bedford Library",
+      "latitude": 40.6818255657,
+      "longitude": -73.9561679472,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "51782162f92f276e5b1f0ccb098206c9",
+        "b643f9b12afe956b928b4bca162dc75f"
+      ],
+      "evidence": [
+        "https://www.bklynlibrary.org/adult-learning/learning-centers"
+      ]
+    },
+    {
+      "id": "c08dd14dff03a8b9ccb6b7940fd2de48",
+      "name": "BROOKLYN HEIGHTS LIBRARY",
+      "latitude": 40.6956853672,
+      "longitude": -73.9914394426,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "c08dd14dff03a8b9ccb6b7940fd2de48"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "c11c39e1eeb8ee91370a4e27dd2c3030",
+      "name": "KENSINGTON LIBRARY",
+      "latitude": 40.6312737121,
+      "longitude": -73.9754231938,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "c11c39e1eeb8ee91370a4e27dd2c3030"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "c12faf93843b1de4f8b8b375dfee8da2",
+      "name": "JAMAICA BAY LIBRARY",
+      "latitude": 40.634485,
+      "longitude": -73.889271,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "c12faf93843b1de4f8b8b375dfee8da2"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "c18d839498dc3af0900202dae69c1ecc",
+      "name": "JACKSON HEIGHTS",
+      "latitude": 40.7502099137,
+      "longitude": -73.8850699833,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "c18d839498dc3af0900202dae69c1ecc"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "c2f22d3ece1503075e368ff3fd1ba930",
+      "name": "FAR ROCKAWAY TEEN LIBRARY",
+      "latitude": 40.6025047902,
+      "longitude": -73.753560108,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "c2f22d3ece1503075e368ff3fd1ba930"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "c8544d24008d60fd46791492ec23f966",
+      "name": "RYDER LIBRARY",
+      "latitude": 40.6159201257,
+      "longitude": -73.9760429331,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "c8544d24008d60fd46791492ec23f966"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "c9506d55349780f435c7762fefff62b3",
+      "name": "MASPETH",
+      "latitude": 40.7269828871,
+      "longitude": -73.8930855172,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "c9506d55349780f435c7762fefff62b3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "ce3e26314b2ed8a7bd743ab9140504aa",
+      "name": "GRAVESEND LIBRARY",
+      "latitude": 40.5906025,
+      "longitude": -73.9717539,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "ce3e26314b2ed8a7bd743ab9140504aa"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "ce59412278939c254bc351dac52645ff",
+      "name": "STEINWAY",
+      "latitude": 40.7768223709,
+      "longitude": -73.9094206937,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "ce59412278939c254bc351dac52645ff"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "central",
+      "name": "Central Library",
+      "latitude": 40.6722468777,
+      "longitude": -73.9681108345,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "970671df21b4eae2be004394fb1ae6a3",
+        "e6da6cf4063e2e4a10770100c1cca62a"
+      ],
+      "evidence": [
+        "https://www.bklynlibrary.org/adult-learning/learning-centers"
+      ]
+    },
+    {
+      "id": "d0d861d53c42f5959816c470d7edb315",
+      "name": "MARCY LIBRARY",
+      "latitude": 40.6916309,
+      "longitude": -73.9512645,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "d0d861d53c42f5959816c470d7edb315"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d0f9f64536e8ad6862fa85219ce739c3",
+      "name": "ROOSEVELT ISLAND LIBRARY",
+      "latitude": 40.7607768231,
+      "longitude": -73.950545452,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "d0f9f64536e8ad6862fa85219ce739c3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d18a235b145df3cc0cf5784fe3b04593",
+      "name": "CLASON'S POINT LIBRARY",
+      "latitude": 40.8299994088,
+      "longitude": -73.8750270357,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "d18a235b145df3cc0cf5784fe3b04593"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d43a18e107abff5a6164579a5381cf64",
+      "name": "FLUSHING",
+      "latitude": 40.7577906006,
+      "longitude": -73.828877909,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "d43a18e107abff5a6164579a5381cf64"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d676796ff4f28e191aba6ce7f6dc080d",
+      "name": "EAST FLUSHING",
+      "latitude": 40.7575534883,
+      "longitude": -73.7843067323,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "d676796ff4f28e191aba6ce7f6dc080d"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d6dc72c0c749b16e91851b52cc256d14",
+      "name": "ARLINGTON LIBRARY",
+      "latitude": 40.6806631,
+      "longitude": -73.8873421,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "d6dc72c0c749b16e91851b52cc256d14"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d7b6a850541d90d0f27a92bb7cb2d031",
+      "name": "BAYCHESTER LIBRARY",
+      "latitude": 40.8702860682,
+      "longitude": -73.8286119331,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "d7b6a850541d90d0f27a92bb7cb2d031"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d981bc27de6e0dd423aa46b0362a0c22",
+      "name": "MUHLENBERG LIBRARY",
+      "latitude": 40.7445200015,
+      "longitude": -73.995961283,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "d981bc27de6e0dd423aa46b0362a0c22"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "d9cf3116e074431edffa31e522158e25",
+      "name": "CITY ISLAND LIBRARY",
+      "latitude": 40.8477591237,
+      "longitude": -73.7864096459,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "d9cf3116e074431edffa31e522158e25"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "dd8c229c6ba501084f0fcee8361acbd5",
+      "name": "WINDSOR TERRACE LIBRARY",
+      "latitude": 40.6487264875,
+      "longitude": -73.9767581941,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "dd8c229c6ba501084f0fcee8361acbd5"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "de1e828b7f0c16b0f7cda8f9b58c0387",
+      "name": "53RD STREET LIBRARY",
+      "latitude": 40.7608259705,
+      "longitude": -73.9773472093,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "de1e828b7f0c16b0f7cda8f9b58c0387"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "df4caf21ed676838ad34d2018f8b20ba",
+      "name": "BROWER PARK LIBRARY",
+      "latitude": 40.6744909815,
+      "longitude": -73.9440049534,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "df4caf21ed676838ad34d2018f8b20ba"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e31111812ca778f03c5e70e5faadd7cb",
+      "name": "AGUILAR LIBRARY",
+      "latitude": 40.794187916,
+      "longitude": -73.9434695702,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "e31111812ca778f03c5e70e5faadd7cb"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e4139913406b8bdf4626a7d12bce79a4",
+      "name": "QUEENSBORO HILL",
+      "latitude": 40.7429391024,
+      "longitude": -73.8251737728,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "e4139913406b8bdf4626a7d12bce79a4"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e4f6f7986c136e0d74ffbb4cb725e51f",
+      "name": "JEFFERSON MARKET LIBRARY",
+      "latitude": 40.7346129327,
+      "longitude": -73.9991683476,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "e4f6f7986c136e0d74ffbb4cb725e51f"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e5dc16e45a49c1f198513ef6fa41f215",
+      "name": "MORRIS PARK LIBRARY",
+      "latitude": 40.8480693405,
+      "longitude": -73.8569779971,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "e5dc16e45a49c1f198513ef6fa41f215"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e6372bc7973503e781d63c6d98d8fac3",
+      "name": "COLUMBUS LIBRARY",
+      "latitude": 40.7649400611,
+      "longitude": -73.9912114486,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "e6372bc7973503e781d63c6d98d8fac3"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e712c6bcc023d57adefd02a3b76948bd",
+      "name": "CLINTON HILL LIBRARY",
+      "latitude": 40.6873829949,
+      "longitude": -73.9660318897,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "e712c6bcc023d57adefd02a3b76948bd"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e881710c633de4f891591fd806b0b1a9",
+      "name": "RAVENSWOOD",
+      "latitude": 40.7605127784,
+      "longitude": -73.9366608937,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "e881710c633de4f891591fd806b0b1a9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e99e623effd50be94c01940ce9038f69",
+      "name": "SEDGWICK LIBRARY",
+      "latitude": 40.8495022562,
+      "longitude": -73.9175828714,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "e99e623effd50be94c01940ce9038f69"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e9af454dd8d5e239a1027e70e6aa249b",
+      "name": "BELMONT LIBRARY AND ENRICO FERMI CULTURAL CENTER",
+      "latitude": 40.8543523252,
+      "longitude": -73.8878943674,
+      "borough": "BRONX",
+      "system": "New York Public Library",
+      "memberIds": [
+        "e9af454dd8d5e239a1027e70e6aa249b"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "e9ff0c907d0746ac46b8f56af137dbdb",
+      "name": "PACIFIC LIBRARY",
+      "latitude": 40.683449,
+      "longitude": -73.978549,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "e9ff0c907d0746ac46b8f56af137dbdb"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "eaf0d2b6f328adf71b3caadf496ef1a8",
+      "name": "96TH STREET LIBRARY",
+      "latitude": 40.7859659338,
+      "longitude": -73.951809729,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "eaf0d2b6f328adf71b3caadf496ef1a8"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "eastern-parkway",
+      "name": "Eastern Parkway Library",
+      "latitude": 40.6684863,
+      "longitude": -73.9336735,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "62637f3f67fddb6d57c92413e94dbf3b",
+        "649854be7f563a9f724df0a963fbc23e"
+      ],
+      "evidence": [
+        "https://www.bklynlibrary.org/adult-learning/learning-centers"
+      ]
+    },
+    {
+      "id": "eb43596b7587fbf445ce2fd78f1afbbb",
+      "name": "RIVERSIDE LIBRARY",
+      "latitude": 40.7742585422,
+      "longitude": -73.9842560499,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "eb43596b7587fbf445ce2fd78f1afbbb"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "eb60390bf9e3ac0e288472720d921311",
+      "name": "QUEENSBRIDGE",
+      "latitude": 40.7551799661,
+      "longitude": -73.9443055025,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "eb60390bf9e3ac0e288472720d921311"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "eba7a58f8edf922eff6bf7c8114fddc4",
+      "name": "FORT HAMILTON LIBRARY",
+      "latitude": 40.6164102983,
+      "longitude": -74.0313966261,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "eba7a58f8edf922eff6bf7c8114fddc4"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "eec118768e15a5e03d3354abda7b00da",
+      "name": "125TH STREET LIBRARY",
+      "latitude": 40.8030267103,
+      "longitude": -73.9348530293,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "eec118768e15a5e03d3354abda7b00da"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "f2bc99e0432afd4c8a3f9591fce05687",
+      "name": "CENTER FOR BROOKLYN HISTORY",
+      "latitude": 40.694799624,
+      "longitude": -73.9924132662,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "f2bc99e0432afd4c8a3f9591fce05687"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "f373d308be3cabf2ae128397ec88299e",
+      "name": "QUEENS VILLAGE",
+      "latitude": 40.7198929945,
+      "longitude": -73.7390468024,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "f373d308be3cabf2ae128397ec88299e"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "f42012efff7096542739b70fe7ca1e80",
+      "name": "DOUGLASTON/LITTLE NECK",
+      "latitude": 40.7682299949,
+      "longitude": -73.7382355256,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "f42012efff7096542739b70fe7ca1e80"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "f5d108e6ba1b15a088abc91d26fae19b",
+      "name": "DONGAN HILLS LIBRARY",
+      "latitude": 40.5904031548,
+      "longitude": -74.1011398288,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "f5d108e6ba1b15a088abc91d26fae19b"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "f773a83959c4644af086daa62c0bf725",
+      "name": "LEFFERTS",
+      "latitude": 40.6869096925,
+      "longitude": -73.8248405908,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "f773a83959c4644af086daa62c0bf725"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "fa9c9c6a843b8f8f19ee5b47e78409e0",
+      "name": "ANDREW HEISKELL BRAILLE AND TALKING BOOK LIBRARY",
+      "latitude": 40.740474945,
+      "longitude": -73.9933540835,
+      "borough": "MANHATTAN",
+      "system": "New York Public Library",
+      "memberIds": [
+        "fa9c9c6a843b8f8f19ee5b47e78409e0"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "fb34a2830552addb2321b94e0eb9d385",
+      "name": "LIBRARY FOR ARTS & CULTURE",
+      "latitude": 40.6860429094,
+      "longitude": -73.9784017621,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "fb34a2830552addb2321b94e0eb9d385"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "fc1937affe9840293e6b5e72755ce177",
+      "name": "BAY RIDGE LIBRARY",
+      "latitude": 40.6336068,
+      "longitude": -74.0295073,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "fc1937affe9840293e6b5e72755ce177"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "fd87cf0f77f086066ba18a63bcbf83bd",
+      "name": "COURT SQUARE (FUTURE HOME)",
+      "latitude": 40.7449221705,
+      "longitude": -73.9456659757,
+      "borough": "QUEENS",
+      "system": "Queens Public Library",
+      "memberIds": [
+        "fd87cf0f77f086066ba18a63bcbf83bd"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "fe3efe0365330942f665f659420c7ac9",
+      "name": "DEKALB LIBRARY",
+      "latitude": 40.6947857,
+      "longitude": -73.9284044,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "fe3efe0365330942f665f659420c7ac9"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "ff7e25654588a2c2b3a2ec994b8ec1c7",
+      "name": "CHARLESTON LIBRARY",
+      "latitude": 40.5310478142,
+      "longitude": -74.2322919294,
+      "borough": "STATEN ISLAND",
+      "system": "New York Public Library",
+      "memberIds": [
+        "ff7e25654588a2c2b3a2ec994b8ec1c7"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "flatbush",
+      "name": "Flatbush Library",
+      "latitude": 40.651891,
+      "longitude": -73.958256,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "1b5f19ba9293b1171b520d2ce197f0fb",
+        "281ed1b58917038a2ca8afb34eee5097"
+      ],
+      "evidence": [
+        "https://www.bklynlibrary.org/adult-learning/learning-centers"
+      ]
+    },
+    {
+      "id": "new-lots",
+      "name": "New Lots Library",
+      "latitude": 40.6651154,
+      "longitude": -73.8861478,
+      "borough": "BROOKLYN",
+      "system": "Brooklyn Public Library",
+      "memberIds": [
+        "8d0bd764a53202a46d6f459f07ced99f",
+        "a019a82fc37d567c3be212bdf4dc1ee7"
+      ],
+      "evidence": [
+        "https://www.bklynlibrary.org/adult-learning/learning-centers"
+      ]
+    }
+  ],
+  "snapshot": "FacDB 26v1 (June 2026)",
+  "retrievedAt": "2026-10-03T18:08:49.341603+00:00",
+  "rawSha256": "643779fd1e535ddbff18955d790c31369f157c71e8e3e71493c2267ef2b223c1"
+}

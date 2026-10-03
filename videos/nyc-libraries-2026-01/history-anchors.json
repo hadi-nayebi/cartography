@@ -1,0 +1,34 @@
+[
+  {
+    "year": 1895,
+    "claim": "The Astor and Lenox libraries and Tilden Trust combined to form the New York Public Library.",
+    "source": "https://www.nypl.org/125/timeline",
+    "publisher": "New York Public Library",
+    "role": "institutional origin",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "year": 1896,
+    "claim": "Brooklyn Public Library was established in 1896.",
+    "source": "https://www.bklynlibrary.org/125",
+    "publisher": "Brooklyn Public Library",
+    "role": "institutional origin",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "year": 1896,
+    "claim": "Queens Public Library describes itself as an independent nonprofit founded in 1896.",
+    "source": "https://hiphop50.queenslibrary.org/venue/queens-public-library/",
+    "publisher": "Queens Public Library",
+    "role": "institutional origin; do not reuse historical page branch counts as current",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "year": 1898,
+    "claim": "The five-borough City of Greater New York was formed on January 1, 1898.",
+    "source": "https://archaeology.cityofnewyork.us/collection/nyc-timeline/consolidation-of-the-five-borough-city",
+    "publisher": "NYC Landmarks Preservation Commission",
+    "role": "local civic context; dates alone do not prove why library governance stayed separate",
+    "retrieved": "2026-10-03"
+  }
+]

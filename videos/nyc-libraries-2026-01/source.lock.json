@@ -1,0 +1,10 @@
+{
+  "renderSourceCommit": "42df262530ca4dd3857cc958724c21007bd63244",
+  "composition": "LibraryStory",
+  "inputs": {
+    "surface/remotion/src/LibraryStory.tsx": "ad1ad609c5ec49904ece12b3de4043e58415ac1ed25ff7e3107fd800ba7f21bf",
+    "surface/remotion/src/Root.tsx": "cde6f837e19fdf8f64091f010a8fafd930303d4891e8613345b01593c37b4337",
+    "surface/remotion/public/data/nyc-libraries/visuals.json": "0cecba9b6ce9be2471359237884d7ebe4685320e07e7106fee035e3a8bfff1dc",
+    "surface/remotion/public/audio/nyc-library-score.wav": "13268e99c18c6bdb5cfd4d5b507ad74aba565700f8641b0c6744c23c5d69ef6b"
+  }
+}

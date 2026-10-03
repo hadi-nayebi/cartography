@@ -26,6 +26,7 @@ jobs:
           pipeline/community/*.test.mjs
           pipeline/operations/*.test.mjs
           pipeline/public/*.test.mjs
+          pipeline/publish/*.test.mjs
           pipeline/subscribers/*.test.mjs
       - name: Validate repository production records
         shell: bash

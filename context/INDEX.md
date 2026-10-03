@@ -33,6 +33,8 @@ When implementation, website copy, or a Discussion conflicts with a
 | Participation | [PARTICIPATION.md](PARTICIPATION.md) | How can people help, what is not active yet, and which rules remain open? |
 
 The [production brief](PRODUCTION-BRIEF.md) is the entry point for any city topic.
+The [production model](PRODUCTION-MODEL.md) explains reproducible story records,
+geographic comparisons, weekly selection and learning between releases.
 
 The [GLOSSARY.md](GLOSSARY.md) is the index of named terms. Each term has one
 canonical home in one of the three clusters.

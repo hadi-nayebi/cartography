@@ -14,26 +14,28 @@
  * owner-locked Crime Cartography destination. Legacy shared-token files are
  * never accepted.
  */
-import { readFile, writeFile, stat } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { createReadStream } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createYoutubeDestinationAuth } from "../auth/youtube-destination-auth.mjs";
+import { uploadPrivacy, validateVideoSlug, verifyUploadRender } from "./upload-preflight.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const slug = process.argv[2];
-const makePublic = process.argv.includes("--public");
 if (!slug) { console.error("usage: node pipeline/publish/upload-youtube.mjs <slug> [--public]"); process.exit(1); }
+validateVideoSlug(slug);
+const privacyStatus = uploadPrivacy(process.argv.slice(3));
 
 const dir = join(ROOT, "videos", slug);
 const meta = JSON.parse(await readFile(join(dir, "youtube.json"), "utf8"));
 const lock = JSON.parse(await readFile(join(dir, "render.lock.json"), "utf8"));
-const mp4 = join(dir, lock.output);
-const size = (await stat(mp4)).size;
 if (meta.videoId) {
   console.error(`✗ ${slug} already has videoId ${meta.videoId} (${meta.url}) — refusing to double-upload.`);
   process.exit(1);
 }
+// Check the actual bytes before obtaining credentials or creating an upload.
+const {file: mp4, size} = await verifyUploadRender(dir, lock);
 
 // Fail closed unless the exact token used for this mutation is the active,
 // channel-scoped token and resolves to the owner-locked destination.
@@ -52,7 +54,7 @@ const body = {
     categoryId: meta.categoryId ?? "27",
   },
   status: {
-    privacyStatus: makePublic ? "public" : (meta.privacyStatus ?? "private"),
+    privacyStatus,
     selfDeclaredMadeForKids: false,
   },
 };
@@ -88,6 +90,7 @@ const url = `https://youtu.be/${vid.id}`;
 meta.videoId = vid.id;
 meta.url = url;
 meta.uploadedAt = new Date().toISOString();
+meta.privacyStatus = privacyStatus;
 meta.status = body.status.privacyStatus === "public" ? "published" : "uploaded-private";
 await writeFile(join(dir, "youtube.json"), JSON.stringify(meta, null, 2));
 console.log(`✓ uploaded: ${url} (${meta.status})`);

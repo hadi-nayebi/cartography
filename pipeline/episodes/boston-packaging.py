@@ -4,6 +4,7 @@ Run from any directory with Python 3 and Pillow installed. No stock crime imager
 """
 from pathlib import Path
 import json
+import shutil
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -84,6 +85,7 @@ text(d,(65,415),"FBI INDEX CRIMES",34)
 text(d,(65,485),"1989 → 2015",46)
 text(d,(65,620),"40 YEARS OF CHANGE",32)
 im.save(OUT/"selected-map-number.jpg",quality=94)
+shutil.copyfile(OUT/"selected-map-number.jpg", OUT.parent/"thumbnail.jpg")
 
 sheet=Image.new('RGB',(960,600),'#eef0f0')
 sd=ImageDraw.Draw(sheet)

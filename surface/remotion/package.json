@@ -1,10 +1,10 @@
 {
   "name": "crime-cartography-surface",
   "version": "1.0.0",
-  "description": "Remotion renderer of record for Crime Cartography — deterministic animated crime-map videos from sourced data.",
+  "description": "Cartography renderer: deterministic crime-data examples for city visualization stories.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hadi-nayebi/crime-cartography.git",
+    "url": "https://github.com/hadi-nayebi/cartography.git",
     "directory": "surface/remotion"
   },
   "license": "MIT",

@@ -68,7 +68,7 @@ export function createYoutubeDestinationAuth({
       ? { channel_id: expectedChannelId, source: "environment" }
       : await connections.destination();
     if (!CHANNEL_ID.test(locked?.channel_id ?? "")) {
-      throw new Error("Crime Cartography upload destination is not explicitly locked");
+      throw new Error("Cartography upload destination is not explicitly locked");
     }
 
     const active = await connections.active();
@@ -85,7 +85,7 @@ export function createYoutubeDestinationAuth({
     const channel = await resolveChannel(accessToken);
     if (channel.id !== active.connection.channel_id || channel.id !== locked.channel_id) {
       throw new Error(
-        `resolved YouTube identity ${channel.id} does not match the active and locked Crime Cartography destination`,
+        `resolved YouTube identity ${channel.id} does not match the active and locked Cartography destination`,
       );
     }
     return {

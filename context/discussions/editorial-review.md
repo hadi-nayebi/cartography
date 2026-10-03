@@ -1,6 +1,6 @@
 # Define the content and release standard
 
-This room defines what a Crime Cartography video must give its viewer before a
+This room defines what a Cartography video must give its viewer before a
 human manager may release it. The goal is not merely accurate charts or
 attention. The video should be engaging, useful, memorable, and responsible.
 

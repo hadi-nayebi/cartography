@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest! This project turns **sourced** crime data into honest,
+Thanks for your interest! This project turns **sourced** city data into honest,
 reproducible animated map videos. The bar for contributions is the same as the
 bar for the videos: **every number on screen must be traceable to a real,
 citable source — never fabricated.**
@@ -12,9 +12,17 @@ positions, no invented counts. If only aggregate data exists, visualize it
 honestly (counts / choropleth / density disclosed as density) or defer it. Keep
 the on-screen source credit intact. See the [Principles](README.md#principles).
 
-## Add a city
+## Propose a city story
 
-This is the most valuable contribution. It's a contained, documented job:
+Start with the [production brief](context/PRODUCTION-BRIEF.md): a useful city
+question, reliable measures, a geographic view, suitable charts, and sourced
+annotations. Existing crime examples provide code to inspect, not a template
+that every topic must follow. New topic adapters need their own data semantics
+and validation.
+
+## Add a crime-data example
+
+For another dataset compatible with the existing crime example schema:
 
 1. Read [`wiki/Add-a-City.md`](wiki/Add-a-City.md).
 2. Find an open, sourced dataset; write a fetch adapter in `pipeline/sources/`.

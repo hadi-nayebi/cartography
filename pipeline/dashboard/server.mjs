@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Crime Cartography production studio — the operations dashboard.
+ * Cartography production studio — the operations dashboard.
  *
  *   node pipeline/dashboard/server.mjs   →  http://localhost:4400
  *   (installed as systemd user service crime-studio.service — always on)
@@ -401,7 +401,7 @@ async function pulse() {
     experiment_video: {
       label: "experiment video",
       last: mtimeOf(introManifest),
-      msg: "Crime Cartography intro manifest in Hadosh Video Studio",
+      msg: "Cartography intro manifest in Hadosh Video Studio",
     },
     questions: {
       label: "questions",
@@ -523,7 +523,7 @@ async function saveRemakeReview(slug, body) {
     selected_for_test: body.selected_for_test === true,
     owner_notes: ownerNotes,
     updated_at: updatedAt,
-    by: "Hadi via local Crime Cartography studio",
+    by: "Hadi via local Cartography studio",
   };
   await atomicWriteJson(REMAKE_REVIEWS, state);
   await appendFeedback(GLOBAL_FEEDBACK, {
@@ -828,11 +828,11 @@ async function doPublish(slug, p) {
   if (!(await accessToken())) return [401, { error: "YouTube not connected — authorize the channel first" }];
   const configured = await configuredDestination();
   if (!configured?.channel_id) {
-    return [412, { error: "dedicated Crime Cartography channel is not locked; connect it, verify the resolved identity, and explicitly lock that channel as the upload destination" }];
+    return [412, { error: "dedicated Cartography channel is not locked; connect it, verify the resolved identity, and explicitly lock that channel as the upload destination" }];
   }
   const destination = await authStatus();
   if (!destination.destinationMatches) {
-    return [412, { error: `connected YouTube identity (${destination.channel?.title ?? "unknown"}) is not the configured Crime Cartography destination` }];
+    return [412, { error: `connected YouTube identity (${destination.channel?.title ?? "unknown"}) is not the configured Cartography destination` }];
   }
   // Nothing publishes outside a playlist (each format is a playlist) — check
   // BEFORE the upload so we never strand a video without one.

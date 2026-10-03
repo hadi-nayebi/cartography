@@ -1,6 +1,6 @@
 # Participation, governance, and value
 
-Part of the [Crime Cartography shared context](INDEX.md).
+Part of the [Cartography shared context](INDEX.md).
 
 Status: **public working design**. Nothing in this file is an employment offer,
 contest, ownership grant, compensation promise, or active redemption program.
@@ -145,3 +145,11 @@ The project currently needs public and owner input on:
 - reserve, distributable-surplus, cap, and overflow rules;
 - public-list versus economic-cohort eligibility;
 - retention, feedback rights, confidentiality, and participant exit.
+
+## Contribute to a city story
+
+Suggest a city question, share a reliable public dataset, identify a measurement
+limit, or propose a sourced event that helps viewers interpret the timeline.
+Local knowledge is useful when it can be checked and connected to the question.
+Use project discussion for these contributions; release and economic authority
+remain as defined above.

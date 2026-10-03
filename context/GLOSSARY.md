@@ -1,6 +1,6 @@
 # Glossary
 
-This is the public index of Crime Cartography terms. Full definitions have one
+This is the public index of Cartography terms. Full definitions have one
 home in the three shared-context clusters; this file does not create alternate
 definitions.
 
@@ -10,11 +10,11 @@ Status tags follow [INDEX.md](INDEX.md).
 
 | Term | Status | Short meaning | Canonical home |
 |---|---|---|---|
-| Crime Cartography | `[consolidated]` | The first public case for agentic production, human editorial work, useful factual media, and collective fair-value governance. | [Project](PROJECT.md#the-project-consolidated) |
+| Cartography | `[consolidated]` | City data stories combining maps, suitable charts, sourced context, and human editorial judgment. | [Project](PROJECT.md#the-project-consolidated) |
 | Agentic production harness | `[consolidated]` | The LLM-operated production medium that performs repeatable research, data, visual, assembly, and routing work under human control. | [Project](PROJECT.md#1-agentic-production-plus-human-taste) |
 | Human editorial layer | `[consolidated]` | People who add revision-specific taste, context, skepticism, common sense, moral judgment, and release accountability. | [Project](PROJECT.md#1-agentic-production-plus-human-taste) |
 | Inherited reference cut | `[consolidated]` | One of the twenty EarthOne-era renders retained only as remake input. | [Project](PROJECT.md#what-is-true-now-consolidated) |
-| Dedicated remake | `[consolidated]` | A new Crime Cartography render that passes the current editorial and release test. | [Editorial](EDITORIAL.md#release-test-consolidated) |
+| Dedicated remake | `[consolidated]` | A new Cartography render that passes the current editorial and release test. | [Editorial](EDITORIAL.md#release-test-consolidated) |
 | Factual memory | `[consolidated]` | A durable viewer understanding of time, place, and meaning rather than isolated facts. | [Editorial](EDITORIAL.md#viewer-promise-consolidated) |
 | Context anchor | `[consolidated]` | A sourced event or transition used for orientation without unsupported causal implication. | [Editorial](EDITORIAL.md#context-anchor-consolidated) |
 | Release approval | `[consolidated]` | Revision-bound human authorization for exact rendered bytes. | [Editorial](EDITORIAL.md#release-test-consolidated) |

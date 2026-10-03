@@ -1,6 +1,6 @@
 # Launch the public project and first dedicated remakes
 
-Crime Cartography will begin publishing without waiting for a project-subscriber
+Cartography will begin publishing without waiting for a project-subscriber
 threshold. Hadi is the editor for the introduction and first remade pilots.
 
 ## What is settled

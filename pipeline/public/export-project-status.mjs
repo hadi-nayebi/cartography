@@ -21,7 +21,7 @@ const discussions = JSON.parse(
 const publicStatus = {
   schema_version: "1.0.0",
   project_id: "crime-cartography",
-  name: "Crime Cartography",
+  name: "Cartography",
   stage: "public-design",
   generated_at: new Date().toISOString(),
   production: {
@@ -37,9 +37,9 @@ const publicStatus = {
   operating_tracks: {
     release: {
       status: "active",
-      mode: "Hadi edits and approves the introduction and first remade test videos",
+      mode: "Hadi edits and approves each city story",
       waits_for_project_subscribers: false,
-      next: "Launch the introduction and website, then release one or two remade tests",
+      next: "Select a city question and complete its production brief before a new video",
     },
     community_editorial: {
       status: "preparing",
@@ -58,7 +58,7 @@ const publicStatus = {
     id: "public-design",
     label: "Creator-led launch and public project design",
     status: "active",
-    next: "Introduction and two human-approved pilot remakes",
+    next: "A topic-specific city story and human review",
     next_event: "Live Q&A plus Project Update #2 after two approved pilots and 30 substantive contributions across at least three expertise lanes",
   },
   roadmap: [
@@ -72,8 +72,8 @@ const publicStatus = {
     {
       id: "intro-pilots",
       status: "next",
-      label: "Introduction and first remade releases",
-      evidence: "Introduction plus two dedicated-channel remakes receive human approval",
+      label: "First city stories",
+      evidence: "Topic-specific city stories receive human approval",
       discussion_url: discussions.launch.url,
     },
     {
@@ -110,13 +110,13 @@ const publicStatus = {
     "Comment on public drafts and remade test videos",
     "Propose sourced historical context for charts",
     "Help design the later editorial email workflow",
-    "Legal, tax, privacy, crime-data, journalism, accessibility, security, and reliability experts can challenge the relevant public review thread"
+    "Legal, tax, privacy, city-data, journalism, accessibility, security, and reliability experts can challenge the relevant public review thread"
   ],
   links: {
-    repository: "https://github.com/hadi-nayebi/crime-cartography",
-    project_page: "https://hadi-nayebi.github.io/projects/crime-cartography.html",
-    channel: "https://www.youtube.com/@CrimeCartography",
-    discussions: "https://github.com/hadi-nayebi/crime-cartography/discussions"
+    repository: "https://github.com/hadi-nayebi/cartography",
+    project_page: "https://hadi-nayebi.github.io/projects/cartography.html",
+    channel: "https://www.youtube.com/channel/UCF5WqNzZSFJuuboFVJdE_vw",
+    discussions: "https://github.com/hadi-nayebi/cartography/discussions"
   }
 };
 

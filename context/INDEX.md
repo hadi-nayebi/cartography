@@ -1,8 +1,8 @@
-# Crime Cartography shared context
+# Cartography shared context
 
-Version: **0.1.0**
+Version: **0.2.0**
 
-This directory is the canonical shared language for Crime Cartography. It
+This directory is the canonical shared language for Cartography. It
 defines what the project is, what it is trying to produce, how people can
 participate, and which parts are settled or still open.
 
@@ -29,8 +29,10 @@ When implementation, website copy, or a Discussion conflicts with a
 | Cluster | Canonical file | What it answers |
 |---|---|---|
 | Project | [PROJECT.md](PROJECT.md) | What are we building, what is true now, and what happens next? |
-| Editorial | [EDITORIAL.md](EDITORIAL.md) | What makes a Crime Cartography video engaging, useful, and safe to release? |
+| Editorial | [EDITORIAL.md](EDITORIAL.md) | What makes a Cartography video engaging, useful, and safe to release? |
 | Participation | [PARTICIPATION.md](PARTICIPATION.md) | How can people help, what is not active yet, and which rules remain open? |
+
+The [production brief](PRODUCTION-BRIEF.md) is the entry point for any city topic.
 
 The [GLOSSARY.md](GLOSSARY.md) is the index of named terms. Each term has one
 canonical home in one of the three clusters.

@@ -2,7 +2,7 @@
 
 Status: **public deployment design v0.1; not a provisioned server**
 
-Crime Cartography is designed to run its private production machinery on one
+Cartography is designed to run its private production machinery on one
 small VPS while the public site remains static and the mailbox remains the
 primary participant interface.
 

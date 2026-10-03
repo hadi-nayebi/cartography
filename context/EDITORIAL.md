@@ -1,10 +1,10 @@
 # Editorial system
 
-Part of the [Crime Cartography shared context](INDEX.md).
+Part of the [Cartography shared context](INDEX.md).
 
 ## Viewer promise `[consolidated]`
 
-After approximately five minutes, a viewer should retain three things:
+Each video should leave the viewer with three things; duration follows the story:
 
 1. **Time** — the defensible long arc and any important change in measurement.
 2. **Place** — how the recent pattern is distributed at the source's honest
@@ -63,7 +63,25 @@ three better questions:
 The contribution is not “make the chart prettier.” It is a traceable correction
 that makes the video both more engaging and more useful.
 
-## Three-part video architecture `[draft]`
+## Choose the views for the question `[consolidated]`
+
+Every video includes a map that contributes geographic understanding. Choose
+its form from the data: point maps for supported locations, choropleths for
+comparable area measures, or heat maps for defensible density. Never imply
+precise locations from area totals. Pair it with a line chart for change, a
+histogram for a distribution, bars for comparisons, or another justified view.
+A histogram is not a synonym for a time-series chart. Explain units, denominators,
+boundaries, coverage, and changing definitions before comparing them.
+
+Each sequence answers a viewer question and adds a finding, comparison, or
+context anchor. Avoid long stretches where only the date or number changes.
+Introduce one focal idea at a time, give labels enough reading time, and leave
+room around the data. Historical examples inform the design; they do not fix
+the duration, chart mix, visual style, or order of a new story.
+
+Use the [production brief](PRODUCTION-BRIEF.md) before sourcing or rendering.
+
+## A possible story structure `[draft]`
 
 ### 1. Read the long arc
 
@@ -95,8 +113,14 @@ It contains:
 - why it helps orientation; and
 - whether it affects the data measure or is context only.
 
+Place anchors at relevant moments throughout the story, not only in a closing
+card. Record the source date, the intended screen interval, and the reading
+time. Distinguish historical orientation from a change in how data was counted.
+Do not fill an annotation quota: omit an event that does not help interpret the
+question. Check simultaneous labels against chart marks and narration.
+
 A nearby event is not automatically a cause. Causal language requires causal
-evidence.
+evidence. Unverified explanations must not become on-screen facts.
 
 ## Release test `[consolidated]`
 

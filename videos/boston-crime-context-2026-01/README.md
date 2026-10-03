@@ -1,6 +1,8 @@
 # Boston · Forty Years of Change
 
-A five-and-a-half-minute story: an annual histogram reveals Boston’s long arc,
+[Watch the published film: Boston Crime: 40 Years of Change, Mapped](https://youtu.be/M43NgcR3nJ4)
+
+A six-minute story: an annual histogram reveals Boston’s long arc,
 then an animated district map and monthly chart explore the recent pattern.
 Timed annotations connect the data to useful historical context and local findings.
 The source snapshot was retrieved July 12, 2026; the annual chart ends in 2025
@@ -42,7 +44,7 @@ node pipeline/validate.mjs boston-ma
 node pipeline/episodes/build-boston-review.mjs
 cd surface/remotion
 npm ci
-npx remotion render src/index.ts CrimeStory ../../videos/boston-crime-context-2026-01/out/review-v3.mp4 --props=../../videos/boston-crime-context-2026-01/config.json --codec=h264 --concurrency=4
+npx remotion render src/index.ts CrimeStory ../../videos/boston-crime-context-2026-01/out/review-v4.mp4 --props=../../videos/boston-crime-context-2026-01/config.json --codec=h264 --concurrency=4
 ```
 
 The builder reads the committed normalized snapshot, checks caption-critical
@@ -50,16 +52,16 @@ figures, records input checksums in `story-data.json`, and stages the story in
 Remotion's public folder. An updated source must pass those checks or the copy
 must be reviewed. Geometry comes from the same source district boundaries.
 
-`music-v2.mp3` contains five and a half minutes of the existing Boston Stable Audio
-Open score, encoded at 160 kbps and retained here for reproduction. The builder
-stages that exact file; the composition lowers its level and applies fades.
+`music-v4.mp3` contains the existing Boston Stable Audio Open score stretched
+from 330 to 360 seconds without changing pitch. The builder stages that file; the composition lowers its level and applies fades.
 See [audio generation documentation](../../pipeline/audio/README.md) for the
 original source/tooling and license. No narration is present in this caption-led
 version.
 
 `render.lock.json` identifies the rendered bytes; `qa.json` records what was
 actually checked. Human acceptance and publication remain separate from a
-successful build. No YouTube URL is claimed until an upload receipt exists.
+successful build. The published v4 was accepted on October 3, 2026;
+`youtube.json` records the confirmed listing and exact approved upload hash.
 
 ## Boston context
 
@@ -71,7 +73,7 @@ The 1993 finding shows that the decline preceded Operation Ceasefire.
 
 - [MassDOT: the Big Dig tunnels and bridges](https://www.mass.gov/info-details/the-big-dig-tunnels-and-bridges).
 
-## Review v2 encoded repair
+## Historical review v2 encoded repair
 
 The first full revision2 encode used source90f454b. Encoded QA found the redundant
 `/mo` label overlapping the monthly axis’s top tick. The source component now
@@ -90,7 +92,7 @@ A fresh render from the corrected component does not need this patch. It produce
 a new artifact requiring its own hash and review.
 
 
-## Review v3
+## Historical review v3
 
 The same story now uses short cards connected to their exact annual bars. The
 measurement-boundary label yields while those cards are visible. Encoded review
@@ -100,14 +102,14 @@ The closing total is explicitly labeled as the source archive.
 
 The delivered 330-second candidate combines unchanged frames 0–4889 from source
 8f8e45a with rerendered frames 4890–9899 from f332cab. The original continuous
-audio is preserved. `render.lock.json` records each segment and the final hash;
+audio is preserved. `reviews/review-v3.lock.json` records each segment and the final hash;
 a complete render from f332cab reproduces the corrected visual design. A final
 H.264 encode uses CRF20, maxrate1000k and bufsize2000k, followed by faststart remux.
 
 Verification covers a full decode, exact duration/frame count, timeline samples
 and every annotation entrance/hold/exit, with full-size critical checks and
 640px landscape sheets. These are sampled checks, not frame-by-frame human
-playback. Human editorial acceptance and listening remain pending.
+playback. This older candidate was superseded by accepted v4.
 
 Reusable checks from this iteration: inspect the measurement boundary with an
 active historical card, inspect the final monthly readout near the right edge,
@@ -139,3 +141,12 @@ Verification includes the actual encoded flip, four illustration scenes, all
 annotation entrance/hold/exit samples, and a pixel comparison of frozen frame1755
 and resumed frame2655. Human review must assess whether the new storytelling
 works; technical checks cannot settle that judgment.
+
+## Published version
+
+Version 4 was accepted and published on October 3, 2026. The uploaded file is
+SHA-256 `080020741ba801a6dc6e3b28cbd45c77a545e86758a03afd48c0d302225cb648`.
+The source film is 360 seconds; YouTube reports the processed listing as 6:01.
+The public listing, title and description are recorded in `youtube.json`.
+The channel currently uses a generated thumbnail because custom-thumbnail
+permission was denied. No audience-retention result is claimed yet.

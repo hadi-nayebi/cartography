@@ -28,6 +28,12 @@ Start with the [project definition](context/PROJECT.md),
 See the [Cartography project page](https://hadi-nayebi.github.io/projects/cartography.html)
 for an introduction and ways to contribute.
 
+## Published films
+
+- [Boston Crime: 40 Years of Change, Mapped](https://youtu.be/M43NgcR3nJ4) —
+  a six-minute citywide timeline, silent Operation Ceasefire interlude, and recent
+  police-district comparison. [Sources, reproduction and release record](videos/boston-crime-context-2026-01/).
+
 ## Crime examples
 
 The repository contains 20 sourced city crime examples. Their adapters,

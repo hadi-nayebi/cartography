@@ -11,8 +11,9 @@ test("builds one privacy-safe remake record for every city", async () => {
     generatedAt: "2026-07-23T00:00:00.000Z",
   });
   assert.equal(ledger.cities.length, 20);
+  assert.equal(ledger.cities.some((city) => city.slug === "boston-crime-context-2026-01"), false);
   assert.deepEqual(ledger.destination, {
-    project_channel: "Crime Cartography",
+    project_channel: "Cartography",
     other_channels_in_scope: [],
   });
   assert.equal(ledger.cities.every((city) => city.blockers.includes("needs-owner-remake-notes")), true);

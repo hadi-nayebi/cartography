@@ -46,7 +46,9 @@ export async function buildRemakeLedger({root, generatedAt = new Date().toISOStr
       readJson(join(videoDirectory, "youtube.json"), {}),
       readJson(join(videoDirectory, "render.lock.json")),
     ]);
-    if (!config) continue;
+    // This ledger describes the inherited city cuts, not later story editions.
+    // Editions retain their own render and QA records under videos/<story-id>.
+    if (!config || config.sourceDataset) continue;
 
     const span = spanOf(trend);
     const anchors = config.contextAnchors ?? [];
@@ -124,7 +126,7 @@ export async function buildRemakeLedger({root, generatedAt = new Date().toISOStr
     contract_id: contract.contract_id,
     editorial_north_star: "experiment/EDITORIAL-NORTH-STAR.md",
     destination: {
-      project_channel: "Crime Cartography",
+      project_channel: "Cartography",
       other_channels_in_scope: [],
     },
     test_release_recommendation: {
